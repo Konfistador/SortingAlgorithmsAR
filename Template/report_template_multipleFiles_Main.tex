@@ -1,0 +1,68 @@
+\documentclass[]{report}
+\renewcommand\thesection{\arabic{section}}%for page numbering in arabics
+\usepackage{graphicx,tabularx}%for figures and tables
+\usepackage[utf8]{inputenc} %allows special characters such as ä, ö, ỳ
+\usepackage[english]{babel}  %set the language to English
+\usepackage[margin=1.5in]{geometry} %change page margins 
+\usepackage{sectsty}%section headers
+\allsectionsfont{\sffamily\large}
+\subsectionfont{\sffamily\normalsize}
+\linespread{1.2}% line distance
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{caption}%use for captions on tables
+%use this exact command. The style and bibliographystyle has to be authoryear (Havard). The sorting is nyt: name, year, title so that the bibliography is sorted alphabetically. firstinits=true shortens the names: Albert Einstein -> A. Einstein
+\usepackage[backend=bibtex,style=authoryear,bibstyle=authoryear,sorting=nyt,firstinits=true]{biblatex}
+\setlength\parindent{0pt}%include this so that your paragraphs don't indent automatically
+\addbibresource{report.bib} %this attaches your bib-file, your bibliography (must be in the same folder)
+\usepackage[compact]{titlesec}%include title formatting package
+
+% Title Page
+\title{Title here}
+\author{Pietje Puk and Piet Pukje}
+\date{December 15th 2019 \\Module: SEAR \\Venlo, Limburg, Netherlands}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is the abstract.
+\pagenumbering{roman}
+\end{abstract}
+
+\tableofcontents
+\setcounter{page}{3}
+%\listoffigures %UNCOMMENT IF YOU HAVE FIGURES
+%\listoftables %UNCOMMENT IF YOU HAVE TABLES
+\pagebreak
+\pagenumbering{arabic}	
+	
+\include{report_template_multipleFiles_Introduction} 
+\include{report_template_multipleFiles_Methods} 
+\end{document}
+	
+	
+\printbibliography[title=References]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}          
