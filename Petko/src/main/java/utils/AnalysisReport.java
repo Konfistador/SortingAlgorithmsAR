@@ -23,4 +23,16 @@ public class AnalysisReport {
                 ", sizeOfCollection=" + sizeOfCollection +
                 '}';
     }
+
+    public Class getSorterTested() {
+        return sorterTested;
+    }
+
+    public Duration getTimeComplexity() {
+        return timeComplexity;
+    }
+
+    public int getSizeOfCollection() {
+        return sizeOfCollection;
+    }
 }
