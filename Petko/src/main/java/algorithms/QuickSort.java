@@ -1,11 +1,11 @@
 package algorithms;
 
-@Deprecated
-// Throws an ArrayIndexOutOfBoundaries.
+
 public class QuickSort implements Algorithm {
+
     @Override
     public void execute(int[] inputCollection) {
-        quickSort(inputCollection,inputCollection[0],inputCollection[inputCollection.length - 1]);
+        quickSort(inputCollection,0,inputCollection.length -1);
     }
 
     static void swap(int[] arr, int i, int j) {
