@@ -5,6 +5,7 @@ import com.opencsv.CSVWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 public class ReportWizard {
 
@@ -26,6 +27,19 @@ public class ReportWizard {
                 String.valueOf(reportToBeSaved.getSizeOfCollection())
         };
         csvWriter.writeNext(dataRecord);
+        csvWriter.close();
+    }
+
+    public void saveReports(List<AnalysisReport> reports) throws IOException{
+        String[] dataRecord = new String[3];
+
+        for(AnalysisReport report: reports){
+            dataRecord[0] = report.getSorterTested().getSimpleName();
+            dataRecord[1] = String.valueOf(report.getTimeComplexity().toNanos());
+            dataRecord[2] = String.valueOf(report.getSizeOfCollection());
+
+            csvWriter.writeNext(dataRecord);
+        }
         csvWriter.close();
     }
 }
