@@ -81,11 +81,11 @@ public class AlgorithmTester {
         LARGE(7,Math.pow(3, 7)),
         EXTRA_LARGE(8,Math.pow(3, 8)),
         BROAD(9,Math.pow(3, 9)),
-        EXTENSIVE(10,Math.pow(3, 10)),
-        GIANT(11,Math.pow(3, 11)),
-        GIGANTIC(12,Math.pow(3, 12)),
-        SPACIOUS(13,Math.pow(3, 13)),
-        IMMENSE(14,Math.pow(3, 14));
+        EXTENSIVE(10,Math.pow(3, 10));
+//        GIANT(11,Math.pow(3, 11)),
+//        GIGANTIC(12,Math.pow(3, 12)),
+//        SPACIOUS(13,Math.pow(3, 13)),
+//        IMMENSE(14,Math.pow(3, 14));
 
 
         public final int sizeChartPosition;
