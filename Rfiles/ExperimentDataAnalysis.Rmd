@@ -1,0 +1,40 @@
+---
+title: "Sorting Algorithms Experiment Data Analysis"
+author: "Mino Karadzhov,Kestutis Dikinis"
+date: "12/8/2021"
+output: html_document
+---
+
+Importing the required libraries + including a penalty for the scientific numbers.
+```{r}
+library(tidyverse)
+options(scipen = 999)
+```
+
+
+```{r}
+performanceData <- read.csv("../ExperimentResults/analysisReport.csv")
+
+```
+
+
+##Visualising the Results of our Experiments on a GGPlot
+###Using geom_point + color aesthetic
+```{r}
+performanceData %>%
+  ggplot(mapping = aes(x= CollectionSize, y = TimeComplexity, color = Sorter)) +
+  geom_point() + geom_smooth()
+```
+### Using geom_point + alpha aesthetic
+```{r}
+performanceData %>%
+  ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, shape = Sorter)) +
+  geom_point() + geom_smooth()
+```
+## Using facets
+```{r}
+performanceData %>% 
+  ggplot(mapping = aes(x = CollectionSize, y= TimeComplexity)) +
+  facet_wrap(~Sorter, nrow=2)
+```
+
