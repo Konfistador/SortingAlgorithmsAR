@@ -72,20 +72,24 @@ public class AlgorithmTester {
 
     public enum CollectionSize {
 
-        EXTRA_EXTRA_SMALL(1,Math.pow(3, 1)),
-        EXTRA_SMALL(2,Math.pow(3, 2)),
-        SMALL(3,Math.pow(3, 3)),
-        MEDIUM_SMALL(4,Math.pow(3, 4)),
-        MEDIUM(5,Math.pow(3, 5)),
-        MEDIUM_LARGE(6,Math.pow(3, 6)),
-        LARGE(7,Math.pow(3, 7)),
-        EXTRA_LARGE(8,Math.pow(3, 8)),
-        BROAD(9,Math.pow(3, 9)),
-        EXTENSIVE(10,Math.pow(3, 10));
-//        GIANT(11,Math.pow(3, 11)),
-//        GIGANTIC(12,Math.pow(3, 12)),
-//        SPACIOUS(13,Math.pow(3, 13)),
-//        IMMENSE(14,Math.pow(3, 14));
+        EXTRA_EXTRA_SMALL(1,Math.pow(2, 1)),
+        EXTRA_SMALL(2,Math.pow(2, 2)),
+        SMALL(3,Math.pow(2, 3)),
+        MEDIUM_SMALL(4,Math.pow(2, 4)),
+        MEDIUM(5,Math.pow(2, 5)),
+        MEDIUM_LARGE(6,Math.pow(2, 6)),
+        LARGE(7,Math.pow(2, 7)),
+        EXTRA_LARGE(8,Math.pow(2, 8)),
+        BROAD(9,Math.pow(2, 9)),
+        EXTENSIVE(10,Math.pow(2, 10)),
+        GIANT(11,Math.pow(2, 11)),
+        GIGANTIC(12,Math.pow(2, 12)),
+        SPACIOUS(13,Math.pow(2, 13)),
+        IMMENSE(14,Math.pow(2, 14)),
+        HYPER(15, Math.pow(2,15)),
+        JUMBO(16,Math.pow(2,16)),
+        COSMIC(17, Math.pow(2,17)),
+        ASTRONOMICAL(18,Math.pow(2,18));
 
 
         public final int sizeChartPosition;
