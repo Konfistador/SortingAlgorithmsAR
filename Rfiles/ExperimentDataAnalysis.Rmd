@@ -38,8 +38,7 @@ performanceData %>%
 ```{r}
 extendedPerformanceData %>%
   ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, color = Sorter)) +
-  geom_point() + geom_smooth()
-```
+  geom_point() + geom_smooth()```
 1. Split the Heap And Quick + Bubble and Select
 2. Try barChart.
 3. hardware monitoring.
