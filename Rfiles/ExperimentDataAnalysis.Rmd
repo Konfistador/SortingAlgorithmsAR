@@ -14,27 +14,36 @@ options(scipen = 999)
 
 ```{r}
 performanceData <- read.csv("../ExperimentResults/analysisReport.csv")
-
+extendedPerformanceData <- read.csv("../ExperimentResults/base2Results.csv")
 ```
 
 
 ##Visualising the Results of our Experiments on a GGPlot
-###Using geom_point + color aesthetic
+NB: This visualisation uses the growth with base 3.
+### Using base 2 growth of Collections.
+####Using geom_point + color aesthetic
 ```{r}
 performanceData %>%
   ggplot(mapping = aes(x= CollectionSize, y = TimeComplexity, color = Sorter)) +
   geom_point() + geom_smooth()
 ```
-### Using geom_point + alpha aesthetic
+#### Using geom_point + alpha aesthetic
 ```{r}
 performanceData %>%
   ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, shape = Sorter)) +
   geom_point() + geom_smooth()
 ```
-## Using facets
+### Using base 2 for ColectionSize growth.
+#### Using geom_point + geom_smooth and color aesthetic.
 ```{r}
-performanceData %>% 
-  ggplot(mapping = aes(x = CollectionSize, y= TimeComplexity)) +
-  facet_wrap(~Sorter, nrow=2)
+extendedPerformanceData %>%
+  ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, color = Sorter)) +
+  geom_point() + geom_smooth()
 ```
+1. Split the Heap And Quick + Bubble and Select
+2. Try barChart.
+3. hardware monitoring.
+4. Structure the Research question better.
+  NB: Include "Why is Time Complexity important" 
+  
 
