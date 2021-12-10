@@ -27,22 +27,51 @@ performanceData %>%
   ggplot(mapping = aes(x= CollectionSize, y = TimeComplexity, color = Sorter)) +
   geom_point() + geom_smooth()
 ```
-#### Using geom_point + alpha aesthetic
+#### Separated visualisation on efficent sorters (HeapSort and QuickSort)
 ```{r}
-performanceData %>%
-  ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, shape = Sorter)) +
+extendedPerformanceData %>%
+  filter(Sorter == "QuickSort" | Sorter == "HeapSort") %>%
+  ggplot(mapping = aes(x=CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() + geom_smooth()
 ```
+#### Separated Visualisation on the slow sorters(SelectionSort, BogoSort)
+```{r}
+performanceData %>%
+  filter(Sorter == "SelectionSort" | Sorter == "BubbleSort") %>%
+  ggplot(mapping = aes(x = CollectionSize, y = TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth()
+```
+
 ### Using base 2 for ColectionSize growth.
 #### Using geom_point + geom_smooth and color aesthetic.
 ```{r}
 extendedPerformanceData %>%
   ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, color = Sorter)) +
-  geom_point() + geom_smooth()```
+  geom_point() + geom_smooth()
+```
+####Separated view of the efficent sorters(HeapSort + QuickSort) 
+```{r}
+extendedPerformanceData %>%
+  filter(Sorter == "QuickSort" | Sorter == "HeapSort") %>%
+  ggplot(mapping = aes(x=CollectionSize, y = TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth()
+```
+```{r}
+extendedPerformanceData %>%
+  filter(Sorter == "BubbleSort" | Sorter == "SelectionSort") %>%
+  ggplot(mapping = aes(x = CollectionSize, y = TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth()
+```
+
+
 1. Split the Heap And Quick + Bubble and Select
 2. Try barChart.
 3. hardware monitoring.
 4. Structure the Research question better.
   NB: Include "Why is Time Complexity important" 
+  5 We might want to change the TimeComplexity unit from nano to milisecond.
   
 

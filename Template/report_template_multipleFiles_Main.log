@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  9 DEC 2021 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  9 DEC 2021 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report_template_singleFile.tex
-(./report_template_singleFile.tex
+**report_template_multipleFiles_Main.tex
+(./report_template_multipleFiles_Main.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/report.cls
@@ -453,8 +453,10 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
 (biblatex)                Setting 'uniquename=init' on input line 25.
 
-(./report_template_singleFile.aux)
-\openout1 = `report_template_singleFile.aux'.
+(./report_template_multipleFiles_Main.aux
+(./report_template_multipleFiles_Introduction.aux)
+(./report_template_multipleFiles_Methods.aux))
+\openout1 = `report_template_multipleFiles_Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -550,64 +552,75 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `report_template_singleFile-blx.bib'.
+\openout3 = `report_template_multipleFiles_Main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'report_template_singleFile.bbl' found.
+Package biblatex Info: ... file 'report_template_multipleFiles_Main.bbl' found.
 
-(./report_template_singleFile.bbl)
+
+(./report_template_multipleFiles_Main.bbl)
 Package biblatex Info: Reference section=0 on input line 25.
 Package biblatex Info: Reference segment=0 on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 26.
  [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1] (./
-report_template_singleFile.toc
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
+(./report_template_multipleFiles_Main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 4.
 )
 \tf@toc=\write4
-\openout4 = `report_template_singleFile.toc'.
+\openout4 = `report_template_multipleFiles_Main.toc'.
 
  [3
 
 ]
-(./report_template_singleFile.lof)
-\tf@lof=\write5
-\openout5 = `report_template_singleFile.lof'.
+\openout2 = `report_template_multipleFiles_Introduction.aux'.
 
- [4
 
-] [1] [2] [3]
-(./report_template_singleFile.aux)
-Package logreq Info: Writing requests to 'report_template_singleFile.run.xml'.
-\openout1 = `report_template_singleFile.run.xml'.
+(./report_template_multipleFiles_Introduction.tex) [1
+
+]
+\openout2 = `report_template_multipleFiles_Methods.aux'.
+
+
+(./report_template_multipleFiles_Methods.tex) [2
+
+
+]
+(./report_template_multipleFiles_Main.aux
+(./report_template_multipleFiles_Introduction.aux)
+(./report_template_multipleFiles_Methods.aux))
+Package logreq Info: Writing requests to 'report_template_multipleFiles_Main.ru
+n.xml'.
+\openout1 = `report_template_multipleFiles_Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11721 strings out of 480608
- 215771 string characters out of 5903629
- 893819 words of memory out of 5000000
- 27493 multiletter control sequences out of 15000+600000
- 538375 words of font info for 44 fonts, out of 8000000 for 9000
+ 11733 strings out of 480608
+ 216690 string characters out of 5903629
+ 772955 words of memory out of 5000000
+ 27494 multiletter control sequences out of 15000+600000
+ 537774 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,42p,1151b,1657s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,42p,1159b,1657s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on report_template_singleFile.pdf (7 pages, 68297 bytes).
+Output written on report_template_multipleFiles_Main.pdf (5 pages, 64667 bytes)
+.
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

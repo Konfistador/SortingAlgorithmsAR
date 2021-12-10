@@ -89,7 +89,8 @@ public class AlgorithmTester {
         HYPER(15, Math.pow(2,15)),
         JUMBO(16,Math.pow(2,16)),
         COSMIC(17, Math.pow(2,17)),
-        ASTRONOMICAL(18,Math.pow(2,18));
+        ASTRONOMICAL(18,Math.pow(2,18)),
+        ENORMOUS(19, Math.pow(2,19));
 
 
         public final int sizeChartPosition;
