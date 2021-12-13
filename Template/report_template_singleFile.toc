@@ -3,10 +3,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Some subsection}{1}%
+\contentsline {subsection}{\numberline {1.1}Context and Background}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Methods}{1}%
+\contentsline {subsection}{\numberline {1.2}Hypothesis, Problems and Considerations}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Time Complexity and the importance of it.}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Factors, operating on Time Complexity.}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Different methods of approaching our Research question.}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Methodology}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Working Implemntation of our Algorithms.}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Developing and using our experimental environment.}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Results}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Discussion}{3}%
+\contentsline {subsection}{\numberline {3.1}Experimental Results}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Discussion}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Interpretation}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Considerations}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Evaluations}{4}%
