@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Methodology}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Working Implemntation of our Algorithms.}{2}%
+\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Developing and using our experimental environment.}{3}%
 \defcounter {refsection}{0}\relax 
@@ -35,4 +35,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Considerations}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Evaluations}{6}%
+\contentsline {subsubsection}{\numberline {4.2.1}Limitations of the Empirical type of Analysis}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}Limitations of the Collection Size}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Evaluations}{7}%
