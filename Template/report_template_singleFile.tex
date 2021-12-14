@@ -109,7 +109,7 @@ After conducting the Emperical Analysis, 72 datapoints were generated. The same 
 	\caption[Figure 3.1:]{Overall view of the Experimental results.}
 	\label{fig:resultsoverallview}
 \end{figure}
-
+\newpage
 As we can clearly see from the above diagram, the relationship between Time Complexity and Collection Size differes between each one of the Sorters. In addition to this, we can easily identify a sharp growth of BubbleSort and SelectionSort time complexities, when the Collection size becomes more than 20 000 elements. On the other hand, looking at the QuickSort and HeapSort, we can easily observe a relationship, which can be described as similliar to Constant Time Complexity.
 Taking the above into account, we can easily identify 2 sub-groups of sorters - One, where  TimeComplexity appears to be constant and One, where we can clearly see a Time Complexity growth, similliar to a Linear Growth.\\
 Since the two sub-groups are vastly contrasting on the Overall view, this may be a reason why we are missing certain patterns on our visualisation.
@@ -117,11 +117,20 @@ Since the two sub-groups are vastly contrasting on the Overall view, this may be
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{OverviewOfConstantTimeComplexityAlgorithms}
-	\caption[Figure 3.2]{Focused view on the Constant Time Complexity sub-group.}
+	\caption[Figure 3.2]{Focused view on the sub-group with lower time complexity.}
 	\label{fig:overviewofconstanttimecomplexityalgorithms}
 \end{figure}
-
 \newpage	
+After creating a separate visualisation for the sub-group with lower Time Complexity, we can see more regarding the growth of Time Complexity, as the overlapping on the overal view did not provide a high level of detail. From the focuesed view, we clearly see that the Sorter with the lowest Time Complexity is the QuickSort, which is being followed by the other member of the sub-group - HeapSort. In addition to this, we can spot a rapid growth in the TImeComplexity, where the CollectionSize is between 0 and 10 000. The same growth appears to be substantially bigger in the observations, that include HeapSort.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{FocusedViewOnBigTimeComplexity}
+	\caption[Figure 3]{Focused view on the sub-group with higher time complexity}
+	\label{fig:focusedviewonbigtimecomplexity}
+\end{figure}
+\newpage
+Taking a focused look at the sub-group with higher time complexity, we can see that both of the sorters have a similar growth of Time Complexity, that leaves BubbleSort with slightly higher value of Complexity. The Growth here is similliar to a linear one and closer to the one that can be viewed on the Overall results view.
 \section{Discussion}
 - Small intro on the purpouse of the section here.
 \subsection{Interpretation}
