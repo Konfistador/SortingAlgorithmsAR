@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -604,17 +604,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [4
 
-] [1] [2] [3]
+] [1] [2] [3] [4]
 (./report_template_singleFile.aux)
 Package logreq Info: Writing requests to 'report_template_singleFile.run.xml'.
 \openout1 = `report_template_singleFile.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12185 strings out of 480608
- 222582 string characters out of 5903629
+ 12186 strings out of 480608
+ 222597 string characters out of 5903629
  778835 words of memory out of 5000000
- 27950 multiletter control sequences out of 15000+600000
+ 27951 multiletter control sequences out of 15000+600000
  538375 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,42p,1151b,1657s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -626,10 +626,10 @@ r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report_template_singleFile.pdf (7 pages, 103194 bytes).
+Output written on report_template_singleFile.pdf (8 pages, 106310 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -73,12 +73,15 @@ The overall goal is to gain an output, which allows data analysis on the covaria
 	Each Algorithm is used to perform 18 different observations. Each Observation requires the algorithm to sort an unsorted collection of a fixed size. The size of the unordered collection grows with each following observation. The first observation of each algorithm starts with performing a sorting on a Collection with a number of elements of 2, whereas the last(18th) observation provides the Algorithm with an unsorted collection of 262144 elements. The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. \\
 	Petko actively uses the Java.time integrated libray, in order to measure the Duration of time between the start and end of the sorting process. That is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
 	\begin{algorithmic}
-		\State $startPoint \gets Instant.now$
-		\
-	\end{algorithmic}
-		Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
+		\State $startPoint \gets Instant.now()$
+		\State $sort()$
+		\State $endPoint \gets Instant.now()$
+		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
+		\end{algorithmic} 
+		 Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
 		\subsection{Data Analysis and Visualisation}
-\section{Results}
+		Petko's output file provides a great base for conducting Data Analysis on the results of the observations. By doing this, it is possible to identify and study certain patterns in the covariation between Time Complexity and Size of Collection. The same output file was imported into R and the findings were visualised, thanks to the tidyverse library.
+		\section{Results}
 - Small intro on the section here
 \subsection{Experimental Results}
 \newpage	

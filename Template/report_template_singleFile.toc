@@ -21,14 +21,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Results}{2}%
+\contentsline {section}{\numberline {3}Results}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Experimental Results}{2}%
+\contentsline {subsection}{\numberline {3.1}Experimental Results}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Discussion}{3}%
+\contentsline {section}{\numberline {4}Discussion}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Interpretation}{3}%
+\contentsline {subsection}{\numberline {4.1}Interpretation}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Considerations}{3}%
+\contentsline {subsection}{\numberline {4.2}Considerations}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Evaluations}{3}%
+\contentsline {subsection}{\numberline {4.3}Evaluations}{4}%
