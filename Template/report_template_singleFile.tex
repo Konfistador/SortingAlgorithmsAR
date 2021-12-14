@@ -48,26 +48,27 @@ This is the abstract. We are going to write this one at the end.
 TODO: Write about the purpose of this section, when you finish writing it.
   
 \subsection{Context and Background}
-In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
+	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
+	Whenever there is a problem to be solved, there is many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.  
 		- History of Algorithms.
 		
 		\subsection{Modern Usage, developments}
 		
-		Sorting algorithms are everywhere in day-to-day life in digital world. Everywhere starting from file browser in a computer - you can sort files on any parameters. Galeries in mobile phones - imagees sorted by date, contacts sorted alphabeticaly. Searching for a product in online store will have an option to sort products in many ways. All in all, all any and every kind of list there is has been sorted in some way or another, as it is hard for a human to make use of unsorted data.
+		Sorting algorithms are everywhere in day-to-day life in digital world. Everywhere starting from file browser in a computer - you can sort files on any parameters. Galleries in mobile phones - images sorted by date, contacts sorted alphabetically . Searching for a product in online store will have an option to sort products in many ways. 
+		Commercial computing: government organisations, financial institutions, and commercial enterprises organise much of this information by sorting it. Whether the information is accounts to be sorted by name or number, transactions to be sorted by time or place, mail to be sorted by postal code or address, files to be sorted by name or date, or whatever, processing such data is sure to involve a sorting algorithm somewhere along the way. 
+		Numerical computations: Scientific computing is often concerned with accuracy (how close are we to the true answer?). Accuracy is extremely important when we are performing millions of computations with estimated values such as the floating-point representation of real numbers that we commonly use on computers. Some numerical algorithms use priority queues and sorting to control accuracy in calculations.All in all, all any and every kind of list there is has been sorted in some way or another, as it is hard for a human to make use of unsorted data.[2]
 		
-		- Maybe some discussion on sorting algorithms(if present somewhere and can be quoted).
 \subsection{Sorting algorithm explanations}
-		Bubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). 
+		Bubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). [2]
 
-Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.
+		Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.[2]
 
-Insertionsort is a naive sorting algorithm that belongs to the family of comparison sorting. In general Insertionsort has a time complexity of O(n 2 ) but is known to be efficient on data sets which are already substantially sorted. Its average complexity is n 2/4 and linear in the best case. Furthermore Insertionsort is an in-place algorithm that requires a constant amount O(1) of memory space. 
+		Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. [2]
 
-Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. 
+		Selection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]
 
-Quicksort [11] belongs to the family of exchange sorting. On average, Quicksort makes O(n log n) comparisons to sort n items, but in its worst case it requires O(n 2 ) comparisons. Typically, Quicksort is regarded as one of the most efficient algorithms and is therefore typically used for all sorting tasks. Quicksort’s memory usage depends on factors such as choosing the right Pivot-Element, etc. On average, having a recursion depth of O(log n), the memory complexity of Quicksort is O(log n) as well. 
+		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
 
-Selection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selectionsort typically outperforms Bubblesort but is generally outperformed by Insertionsort.
 \subsection{Hypothesis, Problems and Considerations}
 		- Our Hypothesis that we are going to see a linear growth of the Time Complexity, towards Size of Collection.
 		- What is Time Complexity ?
@@ -79,15 +80,15 @@ Selection sort belongs to the family of in-place comparison sorting. It typicall
 		\subsubsection{Different methods of approaching our Research question.}
 		
 \section{Methodology}
-In order to approve or deny our initial hypothesis, an Emperical Analysis of certain  Sorting Algorithms was conducted. This chapter of the paper describes the process of conducting the experiment and creating the proper experimental enviornment. The subject group of Sorting Algorithms includes: QuickSort, BubbleSort, SelectionSort and HeapSort. The main goal of the analysis is to observe changes of the TIme Complexity, when the same algorithm is given the task to sort a collection of a certain size. Each observation of our experiment includes a task of sorting, performed by one of the sorting algorithms from our subject group, performed on a collection of certain size.\\
-In order to conduct the Emperical Analysis, a custom-made Java application was developed and used in the process. The main purpouse of which is to create a proper experimental enviornment, that is going to allow close observation of each algorithm from our sunject group. \\
-The overall goal is to gain an output, which allows data analysis on the covariation between the Size of Collection, used for the observation, and the time that was required for the algorithm to fully perfrom the sorting task.
-	\subsection{Working Implemntation of our Algorithms.}
-	One requirement of the Empirical Analysis is a working implementation of the Sorting Algorithms,that are going to be used for the experiment. Due to this, the Java programming language was used to create working implementations of each one of the four members of our Subject group. All of the concrete implementations of the Algorithms implement a common interface, towards which the testing is being conducted.
+In order to approve or deny our initial hypothesis, an Empirical Analysis of certain  Sorting Algorithms was conducted. This chapter of the paper describes the process of conducting the experiment and creating the proper experimental environment. The subject group of Sorting Algorithms includes: QuickSort, BubbleSort, SelectionSort and HeapSort. The main goal of the analysis is to observe changes of the Time  Complexity, when the same algorithm is given the task to sort a collection of a certain size. Each observation of our experiment includes a task of sorting, performed by one of the sorting algorithms from our subject group, performed on a collection of certain size.\\
+In order to conduct the Empirical Analysis, a custom-made Java application was developed and used in the process. The main purpose  of which is to create a proper experimental environment , that is going to allow close observation of each algorithm from our subject group. \\
+The overall goal is to gain an output, which allows data analysis on the covariation between the Size of Collection, used for the observation, and the time that was required for the algorithm to fully perform the sorting task.
+	\subsection{Working Implementation of our Algorithms.}
+	One requirement of the Empirical Analysis is a working implementation of the Sorting Algorithms, that are going to be used for the experiment. Due to this, the Java programming language was used to create working implementations of each one of the four members of our Subject group. All of the concrete implementations of the Algorithms implement a common interface, towards which the testing is being conducted.
 	\subsection{Developing and using our experimental environment.}
-	In order to serve the need of a proper experimental enviornment for conducting the Analysis, Petko was developed. Petko is the name of the custom-made  Algorithm Analysis tool, that generates unsorted collections of a fixed size and uses sorters(Sorting Algorithms) to conduct the sorting operation. The latter is being closely monitored and the time required for each sorting is being recorded in an output file, in a format of nanoseconds. \\
+	In order to serve the need of a proper experimental environment  for conducting the Analysis, Petko was developed. Petko is the name of the custom-made  Algorithm Analysis tool, that generates unsorted collections of a fixed size and uses sorters(Sorting Algorithms) to conduct the sorting operation. The latter is being closely monitored and the time required for each sorting is being recorded in an output file, in a format of nanoseconds. \\
 	Each Algorithm is used to perform 18 different observations. Each Observation requires the algorithm to sort an unsorted collection of a fixed size. The size of the unordered collection grows with each following observation. The first observation of each algorithm starts with performing a sorting on a Collection with a number of elements of 2, whereas the last(18th) observation provides the Algorithm with an unsorted collection of 262144 elements. The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. \\
-	Petko actively uses the Java.time integrated libray, in order to measure the Duration of time between the start and end of the sorting process. That is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
+	Petko actively uses the Java.time integrated library, in order to measure the Duration of time between the start and end of the sorting process. That is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
 	\begin{algorithmic}[H]
 		\State $startPoint \gets Instant.now()$
 		\State $sort()$
@@ -98,7 +99,7 @@ The overall goal is to gain an output, which allows data analysis on the covaria
 		\subsection{Data Analysis and Visualisation}
 		Petko's output file provides a great base for conducting Data Analysis on the results of the observations. By doing this, it is possible to identify and study certain patterns in the covariation between Time Complexity and Size of Collection. The same output file was imported into R and the findings were visualised, thanks to the tidyverse library.
 		\section{Results}
-	This section provides a detailed overview of the exprimental results.
+	This section provides a detailed overview of the experimental results.
 \subsection{Experimental Results}
 After conducting the Emperical Analysis, 72 datapoints were generated. The same visualised on a ScatterPlot have the following view:
 
@@ -135,5 +136,10 @@ Since the two sub-groups are vastly contrasting on the Overall view, this may be
 	
 	
 \printbibliography[title=References]
-	
+R. Lafore. Data Structures and Algorithms in Java. SAMS
+Publishing, Indianapolis, Indiana, USA, 2nd edition, 2002.
+
+[2]Bunse, C., Hopfner, H., Mansour, E. and Roychoudhury, S., n.d. Exploring the Energy Consumption of Data Sorting Algorithms in Embedded and Mobile Environments. [online] citeseerx.ist.psu.edu. Available at: <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.543.8109&rep=rep1&type=pdf> [Accessed 14 December 2021].
+
+[1]Sedgewick, R. & Wayne, K. (2011), Algorithms, 4th Edition. , Addison-Wesley .
 \end{document}          
