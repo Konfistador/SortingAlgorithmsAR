@@ -30,8 +30,11 @@
 \maketitle
 
 \begin{abstract}
-This is the abstract. We are going to write this one at the end.
+Sorting  collections of information is one of common usages of computers nowadays. Sorting operations could take place in many of our daily interactions with information systems. There are several different techniques for conducting a sorting operation and choosing the proper one can reap huge savings and even make some problems possible to be solved in general[1]. \\
 
+One of the metrics for measuring Algorithm Performance is the Time Complexity, which corresponds to the Time required for a given algorithm to fully sort a collection. There is a number of factors that can affect the Time Complexity in both negative and positive way. The number of elements for sorting is one such factor, but what is the exact way that it affect the Time Complexity of a Sorting Algorithm? \\
+
+This Paper describes an experiment, under the form of an Empirical analysis of four different Sorting Algorithms(SelectionSort, HeapSort, BubbleSort and Quicksort), that has a goal of studying the relationship between Time Complexity and the Number of elements for sorting. The results show an overall positive relationship between the two variables. However, the experimental results also show us that the exact ratio of growth is not the same for every Sorting technique.
 \pagenumbering{roman}
 
 \end{abstract}
@@ -50,7 +53,6 @@ TODO: Write about the purpose of this section, when you finish writing it.
 \subsection{Context and Background}
 	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
 	Whenever there is a problem to be solved, there is many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.  
-		- History of Algorithms.
 		
 		\subsection{Modern Usage, developments}
 		
@@ -87,7 +89,7 @@ The overall goal is to gain an output, which allows data analysis on the covaria
 	One requirement of the Empirical Analysis is a working implementation of the Sorting Algorithms, that are going to be used for the experiment. Due to this, the Java programming language was used to create working implementations of each one of the four members of our Subject group. All of the concrete implementations of the Algorithms implement a common interface, towards which the testing is being conducted.
 	\subsection{Developing and using our experimental environment.}
 	In order to serve the need of a proper experimental environment  for conducting the Analysis, Petko was developed. Petko is the name of the custom-made  Algorithm Analysis tool, that generates unsorted collections of a fixed size and uses sorters(Sorting Algorithms) to conduct the sorting operation. The latter is being closely monitored and the time required for each sorting is being recorded in an output file, in a format of nanoseconds. \\
-	Each Algorithm is used to perform 18 different observations. Each Observation requires the algorithm to sort an unsorted collection of a fixed size. The size of the unordered collection grows with each following observation. The first observation of each algorithm starts with performing a sorting on a Collection with a number of elements of 2, whereas the last(18th) observation provides the Algorithm with an unsorted collection of 262144 elements. The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. \\
+	Each Algorithm is used to perform 18 different observations. Each Observation requires the algorithm to sort an unsorted collection of a fixed size. The size of the unordered collection grows with each following observation. The first observation of each algorithm starts with performing a sorting on a Collection with a number of elements of 2, whereas the last(18th) observation provides the Algorithm with an unsorted collection of 262144 elements. The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. The values within the unsorted collections were numeral\\
 	Petko actively uses the Java.time integrated library, in order to measure the Duration of time between the start and end of the sorting process. That is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
 	\begin{algorithmic}[H]
 		\State $startPoint \gets Instant.now()$
