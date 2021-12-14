@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,7 +635,12 @@ Package pdftex.def Info: FocusedViewOnBigTimeComplexity.png  used on input line
  128.
 (pdftex.def)             Requested size: 278.23828pt x 170.17328pt.
  [5 <./OverviewOfConstantTimeComplexityAlgorithms.png>] [6 <./FocusedViewOnBigT
-imeComplexity.png>] [7] (./report_template_singleFile.aux)
+imeComplexity.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+[7] (./report_template_singleFile.aux)
 Package logreq Info: Writing requests to 'report_template_singleFile.run.xml'.
 \openout1 = `report_template_singleFile.run.xml'.
 
@@ -656,7 +661,7 @@ r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report_template_singleFile.pdf (11 pages, 256134 bytes).
+Output written on report_template_singleFile.pdf (11 pages, 257309 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
