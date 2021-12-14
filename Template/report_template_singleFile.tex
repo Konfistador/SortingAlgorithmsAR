@@ -53,7 +53,7 @@ The main question of this research is: How does the time complexity of different
 
 \subsection{Context and Background}
 	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
-	Whenever there is a problem to be solved, there is many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.  
+	Whenever there is a problem to be solved, there is many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.
 		
 		\subsection{Modern Usage, developments}
 		
@@ -66,8 +66,6 @@ The main question of this research is: How does the time complexity of different
 
 		Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.[2]
 
-		Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. [2]
-
 		Selection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]
 
 		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
@@ -76,7 +74,7 @@ The main question of this research is: How does the time complexity of different
 Derived from main research question, we can make a hypothesis that we are going to see a growth of the Time Complexity, towards Size of Collection.
 		\subsubsection{Time Complexity and the importance of it.}
 		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can b e said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it ism used to solve larger problems. [7]
-		\subsubsection{Factors, operating on Time Complexity.}
+		\subsubsection{Theoretical explanation of Time Complexity.}
 		Determining the time complexity of an algorithm is important, and is done by few steps:
 			-Breaking algorithm into individual operations.
 			-Calculating big O for each calculation.
@@ -91,6 +89,7 @@ Derived from main research question, we can make a hypothesis that we are going 
 		O(n2) - Bubble sort or Insertion sort.
 		O(n!) - Solving the traveling salesman problem using just brute-force search.
 		\subsubsection{Different methods of approaching our Research question.}
+	There were two ways of approaching our research question - empirical and theoretical analysis. Theoretical analysis could have gave us a quick and easy results, as a lot of research is already existing, but this research paper was written using empirical analysis, as it gives more reliable results, which represent real world applications.
 		
 \section{Methodology}
 In order to approve or deny our initial hypothesis, an Empirical Analysis of certain  Sorting Algorithms was conducted. This chapter of the paper describes the process of conducting the experiment and creating the proper experimental environment. The subject group of Sorting Algorithms includes: QuickSort, BubbleSort, SelectionSort and HeapSort. The main goal of the analysis is to observe changes of the Time  Complexity, when the same algorithm is given the task to sort a collection of a certain size. Each observation of our experiment includes a task of sorting, performed by one of the sorting algorithms from our subject group, performed on a collection of certain size.\\
@@ -156,7 +155,7 @@ It has to be taken into account that the Empirical way of conducting the Analysi
 Furthermore, a certain amount of computing power is required, as this type of analysis requires the Algorithms to be put into action. In order to experiment with bigger Collections, which could be beneficial for revealing (otherwise hidden) patterns, larger amount of computing power is going to be required. 
 
 \subsubsection{Limitations of the Collection Size}
-Because of the nature of Empirical Analysis, described in the last sub section, this experiment used Collections of size, just up to 2$^{18}$ - 262144 elements.This limitation was present, mainly due to the fact that the machine, we used for testing, was not capable of experimenting with bigger collections. Would we have more computing power at our disposal, there could've been more patterns and datapoints to extend the scope of the experiment.
+Because of the nature of Empirical Analysis, described in the last sub section, this experiment used Collections of size, just up to 2$^{18}$ - 262144 elements.This limitation was present, mainly due to the fact that the machine, we used for testing, was not capable of experimenting with bigger collections. Would we have more computing power at our disposal, there could've been more patterns and data-points  to extend the scope of the experiment.
 \subsubsection{Limitations of the Machine, used for the Experiment}
 The described experiment was conducted on a Machine with the following technical specifications : CPU: 2 GHz Quad-Core Intel Core i5, 16 GB 3733 MHz LPDDR4X RAM. In addition to the Collection Size limitation, it is worth considering the fact that our experimental results were somehow influeced by the computational power, available with the above specifications. This means, that there is a high chance of observing different time complexity values, if the same experiment is conducted on another machine.
 \subsection{Evaluations}
