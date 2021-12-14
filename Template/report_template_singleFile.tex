@@ -6,6 +6,7 @@
 \usepackage[margin=1.5in]{geometry} %change page margins 
 \usepackage{sectsty}%section headers
 \usepackage{algpseudocode}
+\usepackage{float}
 \allsectionsfont{\sffamily\large}
 \subsectionfont{\sffamily\normalsize}
 \linespread{1.2}% line distance
@@ -82,10 +83,10 @@ The overall goal is to gain an output, which allows data analysis on the covaria
 	\subsection{Working Implemntation of our Algorithms.}
 	One requirement of the Empirical Analysis is a working implementation of the Sorting Algorithms,that are going to be used for the experiment. Due to this, the Java programming language was used to create working implementations of each one of the four members of our Subject group. All of the concrete implementations of the Algorithms implement a common interface, towards which the testing is being conducted.
 	\subsection{Developing and using our experimental environment.}
-	In order to serve the need of a proper experimental enviornment for conducting the Analysis, Petko was developed. Petko is the name of the custom-made  Algorithm Analysis tool, that generates unsorted collections of a fixed size and uses sorters(Sorting Algorithms) to conduct the sorting operation. The latter is being closely monitored and the time required for each sorting is being recorded in an output file. \\
+	In order to serve the need of a proper experimental enviornment for conducting the Analysis, Petko was developed. Petko is the name of the custom-made  Algorithm Analysis tool, that generates unsorted collections of a fixed size and uses sorters(Sorting Algorithms) to conduct the sorting operation. The latter is being closely monitored and the time required for each sorting is being recorded in an output file, in a format of nanoseconds. \\
 	Each Algorithm is used to perform 18 different observations. Each Observation requires the algorithm to sort an unsorted collection of a fixed size. The size of the unordered collection grows with each following observation. The first observation of each algorithm starts with performing a sorting on a Collection with a number of elements of 2, whereas the last(18th) observation provides the Algorithm with an unsorted collection of 262144 elements. The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. \\
 	Petko actively uses the Java.time integrated libray, in order to measure the Duration of time between the start and end of the sorting process. That is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
-	\begin{algorithmic}
+	\begin{algorithmic}[H]
 		\State $startPoint \gets Instant.now()$
 		\State $sort()$
 		\State $endPoint \gets Instant.now()$
@@ -95,8 +96,28 @@ The overall goal is to gain an output, which allows data analysis on the covaria
 		\subsection{Data Analysis and Visualisation}
 		Petko's output file provides a great base for conducting Data Analysis on the results of the observations. By doing this, it is possible to identify and study certain patterns in the covariation between Time Complexity and Size of Collection. The same output file was imported into R and the findings were visualised, thanks to the tidyverse library.
 		\section{Results}
-- Small intro on the section here
+	This section provides a detailed overview of the exprimental results.
 \subsection{Experimental Results}
+After conducting the Emperical Analysis, 72 datapoints were generated. The same visualised on a ScatterPlot have the following view:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{ResultsOverallView}
+	\caption[Figure 3.1:]{Overall view of the Experimental results.}
+	\label{fig:resultsoverallview}
+\end{figure}
+
+As we can clearly see from the above diagram, the relationship between Time Complexity and Collection Size differes between each one of the Sorters. In addition to this, we can easily identify a sharp growth of BubbleSort and SelectionSort time complexities, when the Collection size becomes more than 20 000 elements. On the other hand, looking at the QuickSort and HeapSort, we can easily observe a relationship, which can be described as similliar to Constant Time Complexity.
+Taking the above into account, we can easily identify 2 sub-groups of sorters - One, where  TimeComplexity appears to be constant and One, where we can clearly see a Time Complexity growth, similliar to a Linear Growth.\\
+Since the two sub-groups are vastly contrasting on the Overall view, this may be a reason why we are missing certain patterns on our visualisation.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{OverviewOfConstantTimeComplexityAlgorithms}
+	\caption[Figure 3.2]{Focused view on the Constant Time Complexity sub-group.}
+	\label{fig:overviewofconstanttimecomplexityalgorithms}
+\end{figure}
+
 \newpage	
 \section{Discussion}
 - Small intro on the purpouse of the section here.
