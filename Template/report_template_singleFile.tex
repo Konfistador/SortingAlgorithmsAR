@@ -45,8 +45,9 @@ This is the abstract. We are going to write this one at the end.
 \pagenumbering{arabic}	
 	
 \section{Introduction}
-TODO: Write about the purpose of this section, when you finish writing it.
-  
+Purpose of Introduction is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
+The main question of this research is: How does the time complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. [1]
+
 \subsection{Context and Background}
 	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.[6]
 	Whenever there is a problem to be solved, there is many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms. 
@@ -69,13 +70,23 @@ TODO: Write about the purpose of this section, when you finish writing it.
 		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
 
 \subsection{Hypothesis, Problems and Considerations}
-		- Our Hypothesis that we are going to see a linear growth of the Time Complexity, towards Size of Collection.
-		- What is Time Complexity ?
-		- Why is Time Complexity important? 
-		-  What could affect the Time Complexity.
-		- External factors that can affect the Time Complexity.
+Derived from main research question, we can make a hypothesis that we are going to see a growth of the Time Complexity, towards Size of Collection.
 		\subsubsection{Time Complexity and the importance of it.}
+		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can b e said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it ism used to solve larger problems. [7]
 		\subsubsection{Factors, operating on Time Complexity.}
+		Determining the time complexity of an algorithm is important, and is done by few steps:
+			-Breaking algorithm into individual operations.
+			-Calculating big O for each calculation.
+			-Adding up big O of each operation.
+			-Removing the constants.
+			-Finding the highest order term.
+		After following these steps algorithms big O is found.
+		
+		There are few common cases of big O:
+		O(1) - determining if number is odd or even.
+		O(log n) - Finding an item in a sorted array using a binary search.
+		O(n2) - Bubble sort or Insertion sort.
+		O(n!) - Solving the traveling salesman problem using just brute-force search.
 		\subsubsection{Different methods of approaching our Research question.}
 		
 \section{Methodology}
@@ -164,4 +175,6 @@ Publishing, Indianapolis, Indiana, USA, 2nd edition, 2002.
 [5]A.  Levitin, Introduction to the Design & Analysis of Algorithms,  Addison–Wesley Longman, 2007, pp 98–100.
 
 [6]https://en.wikipedia.org/wiki/Sorting_algorithm
+
+[7]Mohr, Austin. "Quantum Computing in Complexity Theory and Theory of Computation" (PDF). p. 2. Retrieved 7 June 2014.
 \end{document}          
