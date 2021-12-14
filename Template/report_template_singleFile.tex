@@ -51,7 +51,20 @@ In computer science, a sorting algorithm is an algorithm that takes elements of 
 		- History of Algorithms.
 		
 		- Modern Usage, developments.
+		
 		- Maybe some discussion on sorting algorithms(if present somewhere and can be quoted).
+\subsection{Sorting algorithm explanations}
+		Bubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). 
+
+Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.
+
+Insertionsort is a naive sorting algorithm that belongs to the family of comparison sorting. In general Insertionsort has a time complexity of O(n 2 ) but is known to be efficient on data sets which are already substantially sorted. Its average complexity is n 2/4 and linear in the best case. Furthermore Insertionsort is an in-place algorithm that requires a constant amount O(1) of memory space. 
+
+Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. 
+
+Quicksort [11] belongs to the family of exchange sorting. On average, Quicksort makes O(n log n) comparisons to sort n items, but in its worst case it requires O(n 2 ) comparisons. Typically, Quicksort is regarded as one of the most efficient algorithms and is therefore typically used for all sorting tasks. Quicksort’s memory usage depends on factors such as choosing the right Pivot-Element, etc. On average, having a recursion depth of O(log n), the memory complexity of Quicksort is O(log n) as well. 
+
+Selection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selectionsort typically outperforms Bubblesort but is generally outperformed by Insertionsort.
 \subsection{Hypothesis, Problems and Considerations}
 		- Our Hypothesis that we are going to see a linear growth of the Time Complexity, towards Size of Collection.
 		- What is Time Complexity ?
