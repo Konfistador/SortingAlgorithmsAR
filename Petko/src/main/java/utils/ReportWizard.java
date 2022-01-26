@@ -17,7 +17,7 @@ public class ReportWizard {
         fileWriter = new FileWriter(outputFile);
         csvWriter = new CSVWriter(fileWriter);
 
-        String csvHeader[] = {"Sorter", "TimeComplexity", "CollectionSize"};
+        String csvHeader[] = {"Sorter", "TimeComplexity", "CollectionSize", "CollectionType"};
         csvWriter.writeNext(csvHeader);
     }
     public void saveReport(AnalysisReport reportToBeSaved) throws IOException {
@@ -31,12 +31,13 @@ public class ReportWizard {
     }
 
     public void saveReports(List<AnalysisReport> reports) throws IOException{
-        String[] dataRecord = new String[3];
+        String[] dataRecord = new String[4];
 
         for(AnalysisReport report: reports){
             dataRecord[0] = report.getSorterTested().getSimpleName();
             dataRecord[1] = String.valueOf(report.getTimeComplexity().toNanos());
             dataRecord[2] = String.valueOf(report.getSizeOfCollection());
+            dataRecord[3] = String.valueOf(report.getCollectionType());
 
             csvWriter.writeNext(dataRecord);
         }

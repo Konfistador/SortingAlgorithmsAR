@@ -15,8 +15,8 @@ public class Main {
 
         reports.addAll(testRun(AlgorithmTester.SorterType.QUICKSORT, tester));
         reports.addAll(testRun(AlgorithmTester.SorterType.HEAPSORT, tester));
-        reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));
-        reports.addAll(testRun(AlgorithmTester.SorterType.SELECTIONSORT, tester));
+       // reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));
+       // reports.addAll(testRun(AlgorithmTester.SorterType.SELECTIONSORT, tester));
         // reports.add(tester.executeTest(AlgorithmTester.SorterType.SELECTIONSORT, AlgorithmTester.CollectionSize.SPACIOUS));
         // reports.add(tester.executeTest(AlgorithmTester.SorterType.QUICKSORT, AlgorithmTester.CollectionSize.LARGE));
         reportWizard.saveReports(reports);
@@ -28,7 +28,8 @@ public class Main {
         var allSizeValues = AlgorithmTester.CollectionSize.values();
 
         for (int i = 0; i < allSizeValues.length; i++) {
-            returnableList.add(tester.executeTest(sorterForTesting, allSizeValues[i]));
+            returnableList.add(tester.executeTest(sorterForTesting, allSizeValues[i], int.class));
+            //returnableList.add(tester.executeTest(sorterForTesting, allSizeValues[i], char.class));
         }
         return returnableList;
     }
