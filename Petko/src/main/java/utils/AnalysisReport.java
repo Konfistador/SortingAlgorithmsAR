@@ -9,12 +9,14 @@ public class AnalysisReport {
     private Duration timeComplexity;
     private int sizeOfCollection;
     private Type collectionType;
+    private long RAMUsed;
 
-    public AnalysisReport(Class sorterTested, Duration timeComplexity, int sizeOfCollection, Type collectionType){
+    public AnalysisReport(Class sorterTested, Duration timeComplexity, int sizeOfCollection, Type collectionType, long RAMUsed){
         this.sorterTested = sorterTested;
         this.timeComplexity = timeComplexity;
         this.sizeOfCollection = sizeOfCollection;
         this.collectionType = collectionType;
+        this.RAMUsed = RAMUsed;
     }
 
     @Override
@@ -24,6 +26,7 @@ public class AnalysisReport {
                 ", timeComplexity=" + timeComplexity +
                 ", sizeOfCollection=" + sizeOfCollection +
                 ", collectionType=" + collectionType +
+                ", RAMUsed" + RAMUsed +
                 '}';
     }
 
@@ -42,4 +45,6 @@ public class AnalysisReport {
     public Type getCollectionType() {
         return collectionType;
     }
+
+    public long getRAMUsed() {return RAMUsed;}
 }
