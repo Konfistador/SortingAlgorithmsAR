@@ -7,5 +7,5 @@ public interface Algorithm {
 
     //TODO Make generic.
 
-    void execute(int[] inputCollection);
+    void execute(char[] inputCollection);
 }

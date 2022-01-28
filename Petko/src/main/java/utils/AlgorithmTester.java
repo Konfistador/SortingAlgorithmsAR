@@ -21,15 +21,11 @@ public class AlgorithmTester {
     }
 
 
-    public AnalysisReport executeTest(CollectionSize sizeOfCollection, Type collectionType) {
+    public AnalysisReport executeTest(CollectionSize sizeOfCollection) {
         if (Objects.isNull(sorter))
             throw new IllegalArgumentException("Sorter required, before starting the Experiment.");
 
-        if(collectionType == int.class){
-            this.numericalCollectionForSorting = generator.generateNumericalArray((int) sizeOfCollection.numeralExpression);
-        }else if(collectionType == char.class){
             this.charCollectionForSorting = generator.generateCharacterArray((int)sizeOfCollection.numeralExpression);
-        }
 
 
         if (this.printRequired) {
@@ -38,19 +34,19 @@ public class AlgorithmTester {
         }
 
         Instant startMoment = Instant.now();
-        sorter.execute(numericalCollectionForSorting);
+        sorter.execute(charCollectionForSorting);
         Instant end = Instant.now();
 
         if (this.printRequired) {
             System.out.println("Collection after sorting: ");
             printArr(numericalCollectionForSorting);
         }
-        return createReport(sorter.getClass(), Duration.between(startMoment, end), (int) sizeOfCollection.numeralExpression, numericalCollectionForSorting.getClass().getComponentType());
+        return createReport(sorter.getClass(), Duration.between(startMoment, end), (int) sizeOfCollection.numeralExpression, charCollectionForSorting.getClass().getComponentType());
     }
 
-    public AnalysisReport executeTest(SorterType sorterSelected, CollectionSize collectionSize, Type collectionType) {
+    public AnalysisReport executeTest(SorterType sorterSelected, CollectionSize collectionSize) {
         setSorter(sorterSelected.sorter);
-        return this.executeTest(collectionSize, collectionType);
+        return this.executeTest(collectionSize);
     }
 
     private int[] generateArray(Random randomizer, int sizeOfArray) {
@@ -125,7 +121,7 @@ public class AlgorithmTester {
     }
 
     static class ArrayGenerator {
-        private Random randomizer = new Random();
+        private final Random randomizer = new Random();
 
         int[] generateNumericalArray(int sizeOfArray) {
             int[] inputArray = new int[sizeOfArray];
