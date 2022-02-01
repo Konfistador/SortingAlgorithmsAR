@@ -33,15 +33,22 @@ public class AlgorithmTester {
             printArr(numericalCollectionForSorting);
         }
 
+        Runtime runtime = Runtime.getRuntime();
+        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
+        System.out.println("Used Memory before" + usedMemoryBefore);
+
         Instant startMoment = Instant.now();
         sorter.execute(charCollectionForSorting);
         Instant end = Instant.now();
+
+        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
+        System.out.println("Memory increased:" + (usedMemoryAfter-usedMemoryBefore));
 
         if (this.printRequired) {
             System.out.println("Collection after sorting: ");
             printArr(numericalCollectionForSorting);
         }
-        return createReport(sorter.getClass(), Duration.between(startMoment, end), (int) sizeOfCollection.numeralExpression, charCollectionForSorting.getClass().getComponentType());
+        return createReport(sorter.getClass(), Duration.between(startMoment, end), (int) sizeOfCollection.numeralExpression, charCollectionForSorting.getClass().getComponentType(), usedMemoryAfter);
     }
 
     public AnalysisReport executeTest(SorterType sorterSelected, CollectionSize collectionSize) {
@@ -70,8 +77,8 @@ public class AlgorithmTester {
         this.sorter = sorter;
     }
 
-    public AnalysisReport createReport(Class sorterUsed, Duration timeComplexity, int sizeOfCollection , Type collectionType) {
-        return new AnalysisReport(sorterUsed, timeComplexity, sizeOfCollection, collectionType);
+    public AnalysisReport createReport(Class sorterUsed, Duration timeComplexity, int sizeOfCollection , Type collectionType, long RAMUsed) {
+        return new AnalysisReport(sorterUsed, timeComplexity, sizeOfCollection, collectionType, RAMUsed);
     }
 
     public enum CollectionSize {
