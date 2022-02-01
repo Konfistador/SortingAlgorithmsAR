@@ -2,11 +2,12 @@ package algorithms;
 
 public class SelectionSort implements Algorithm{
     @Override
-    public void execute(int[] inputCollection) {
+    public void execute(char[] inputCollection) {
         sort(inputCollection);
     }
 
-    void sort(int arr[])
+
+    void sort(char[] arr)
     {
         for(int i=0; i<arr.length; i++)
         {
@@ -14,7 +15,7 @@ public class SelectionSort implements Algorithm{
             {
                 if(arr[i] > arr[j])
                 {
-                    int temp = arr[i];
+                    char temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
                 }

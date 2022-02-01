@@ -5,9 +5,13 @@ import java.util.List;
 public class BogoSort implements Algorithm{
 
     @Override
-    public void execute(int[] inputCollection) {
-       bogoSort(inputCollection);
+    public void execute(char[] inputCollection) {
+        System.out.println("Not working.");
     }
+//    @Override
+//    public void execute(int[] inputCollection) {
+//       bogoSort(inputCollection);
+//    }
 
     void bogoSort(int[] a)
     {
