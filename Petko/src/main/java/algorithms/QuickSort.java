@@ -4,17 +4,17 @@ package algorithms;
 public class QuickSort implements Algorithm {
 
     @Override
-    public void execute(char[] inputCollection) {
+    public void execute(int[] inputCollection) {
         quickSort(inputCollection,0,inputCollection.length -1);
     }
 
-    static void swap(char[] arr, int i, int j) {
-        char temp = arr[i];
+    static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
-    static int partition(char[] arr, int low, int high) {
+    static int partition(int[] arr, int low, int high) {
         int pivot = arr[high];
         int i = (low - 1);
 
@@ -33,7 +33,7 @@ public class QuickSort implements Algorithm {
     }
 
 
-    static void quickSort(char[] arr, int low, int high) {
+    static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
 
 

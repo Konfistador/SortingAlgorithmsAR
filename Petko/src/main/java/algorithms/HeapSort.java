@@ -2,17 +2,11 @@ package algorithms;
 
 public class HeapSort implements Algorithm{
     @Override
-    public void execute(char[] inputCollection) {
+    public void execute(int[] inputCollection) {
         sort(inputCollection);
     }
 
-//    @Override
-//    public void execute(char[] inputCollection) {
-//        System.out.println("Not working.");
-//    }
-
-
-    public void sort(char arr[])
+    public void sort(int arr[])
     {
         int n = arr.length;
 
@@ -20,7 +14,7 @@ public class HeapSort implements Algorithm{
             heapify(arr, n, i);
 
         for (int i = n - 1; i > 0; i--) {
-            char temp = arr[0];
+            int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
 
@@ -29,7 +23,7 @@ public class HeapSort implements Algorithm{
     }
 
 
-    void heapify(char[] arr, int n, int i)
+    void heapify(int arr[], int n, int i)
     {
         int largest = i;
         int l = 2 * i + 1;
@@ -45,7 +39,7 @@ public class HeapSort implements Algorithm{
 
 
         if (largest != i) {
-            char swap = arr[i];
+            int swap = arr[i];
             arr[i] = arr[largest];
             arr[largest] = swap;
 

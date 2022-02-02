@@ -26,7 +26,7 @@ public class AlgorithmTester {
             throw new IllegalArgumentException("Sorter required, before starting the Experiment.");
 
         this.charCollectionForSorting = generator.generateCharacterArray((int)sizeOfCollection.numeralExpression);
-
+        this.numericalCollectionForSorting = generator.generateNumericalArray((int)sizeOfCollection.numeralExpression);
 
         if (this.printRequired) {
             System.out.println("Collection prior sorting: ");
@@ -38,7 +38,7 @@ public class AlgorithmTester {
         System.out.println("Used Memory before" + usedMemoryBefore);
 
         Instant startMoment = Instant.now();
-        sorter.execute(charCollectionForSorting);
+        sorter.execute(numericalCollectionForSorting);
         Instant end = Instant.now();
 
         long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
@@ -48,7 +48,7 @@ public class AlgorithmTester {
             System.out.println("Collection after sorting: ");
             printArr(numericalCollectionForSorting);
         }
-        return createReport(sorter.getClass(), Duration.between(startMoment, end), (int) sizeOfCollection.numeralExpression, charCollectionForSorting.getClass().getComponentType(), usedMemoryAfter);
+        return createReport(sorter.getClass(), Duration.between(startMoment, end), (int) sizeOfCollection.numeralExpression, numericalCollectionForSorting.getClass().getComponentType(), usedMemoryAfter);
     }
 
     public AnalysisReport executeTest(SorterType sorterSelected, CollectionSize collectionSize) {
@@ -100,8 +100,7 @@ public class AlgorithmTester {
         HYPER(15, Math.pow(2, 15)),
         JUMBO(16, Math.pow(2, 16)),
         COSMIC(17, Math.pow(2, 17)),
-        ASTRONOMICAL(18, Math.pow(2, 18)),
-        ENORMOUS(19, Math.pow(2, 19));
+        ASTRONOMICAL(18, Math.pow(2, 18));
 
 
         public final int sizeChartPosition;
