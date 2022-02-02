@@ -1,7 +1,7 @@
 package algorithms;
 
 import java.util.List;
-
+@Deprecated
 public class BogoSort implements Algorithm{
 
     @Override

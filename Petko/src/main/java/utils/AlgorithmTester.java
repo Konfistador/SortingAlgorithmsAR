@@ -25,7 +25,7 @@ public class AlgorithmTester {
         if (Objects.isNull(sorter))
             throw new IllegalArgumentException("Sorter required, before starting the Experiment.");
 
-            this.charCollectionForSorting = generator.generateCharacterArray((int)sizeOfCollection.numeralExpression);
+        this.charCollectionForSorting = generator.generateCharacterArray((int)sizeOfCollection.numeralExpression);
 
 
         if (this.printRequired) {
@@ -114,7 +114,6 @@ public class AlgorithmTester {
     }
 
     public enum SorterType {
-        BOGOSORT(new BogoSort()),
         BUBBLESORT(new BubbleSort()),
         HEAPSORT(new HeapSort()),
         QUICKSORT(new QuickSort()),
