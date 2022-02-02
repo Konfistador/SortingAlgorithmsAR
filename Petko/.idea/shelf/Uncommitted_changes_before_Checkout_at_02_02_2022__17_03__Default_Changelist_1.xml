@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1" date="1643817843761" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 02/02/2022, 17:03 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1/AlgorithmTester.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Main.class" />
+    <option name="AFTER_PATH" value="target/classes/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester$SorterType.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester$SorterType.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1/AlgorithmTester$SorterType.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester$CollectionSize.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester$CollectionSize.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1/AlgorithmTester$CollectionSize.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester$ArrayGenerator.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester$ArrayGenerator.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2022,_17_03_[Default_Changelist]1/AlgorithmTester$ArrayGenerator.class" />
+  </binary>
+</changelist>

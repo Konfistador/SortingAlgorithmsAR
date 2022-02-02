@@ -1,0 +1,74 @@
+<changelist name="Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]" date="1643729142667" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 01/02/2022, 16:25 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="../Template/report_template_singleFile.synctex.gz" />
+    <option name="AFTER_PATH" value="../Template/report_template_singleFile.synctex.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/report_template_singleFile.synctex.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithms/HeapSort.class" />
+    <option name="AFTER_PATH" value="target/classes/algorithms/HeapSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/HeapSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithms/Algorithm.class" />
+    <option name="AFTER_PATH" value="target/classes/algorithms/Algorithm.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/Algorithm.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithms/QuickSort.class" />
+    <option name="AFTER_PATH" value="target/classes/algorithms/QuickSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/QuickSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithms/BubbleSort.class" />
+    <option name="AFTER_PATH" value="target/classes/algorithms/BubbleSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/BubbleSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/AlgorithmTester.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/ReportWizard.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/ReportWizard.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/ReportWizard.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithms/SelectionSort.class" />
+    <option name="AFTER_PATH" value="target/classes/algorithms/SelectionSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/SelectionSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Main.class" />
+    <option name="AFTER_PATH" value="target/classes/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester$SorterType.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester$SorterType.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/AlgorithmTester$SorterType.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AlgorithmTester$CollectionSize.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AlgorithmTester$CollectionSize.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/AlgorithmTester$CollectionSize.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/utils/AnalysisReport.class" />
+    <option name="AFTER_PATH" value="target/classes/utils/AnalysisReport.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/AnalysisReport.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/algorithms/BogoSort.class" />
+    <option name="AFTER_PATH" value="target/classes/algorithms/BogoSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/BogoSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../Template/report_template_singleFile.pdf" />
+    <option name="AFTER_PATH" value="../Template/report_template_singleFile.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_02_2022,_16_25_[Default_Changelist]/report_template_singleFile.pdf" />
+  </binary>
+</changelist>

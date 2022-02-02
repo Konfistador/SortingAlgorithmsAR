@@ -1,0 +1,491 @@
+Index: src/main/resources/analysisReport.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"Sorter\",\"TimeComplexity\",\"CollectionSize\",\"CollectionType\"\n\"QuickSort\",\"20000\",\"2\",\"int\"\n\"QuickSort\",\"7000\",\"4\",\"int\"\n\"QuickSort\",\"3000\",\"8\",\"int\"\n\"QuickSort\",\"6000\",\"16\",\"int\"\n\"QuickSort\",\"16000\",\"32\",\"int\"\n\"QuickSort\",\"117000\",\"64\",\"int\"\n\"QuickSort\",\"94000\",\"128\",\"int\"\n\"QuickSort\",\"136000\",\"256\",\"int\"\n\"QuickSort\",\"224000\",\"512\",\"int\"\n\"QuickSort\",\"232000\",\"1024\",\"int\"\n\"QuickSort\",\"1294000\",\"2048\",\"int\"\n\"QuickSort\",\"494000\",\"4096\",\"int\"\n\"QuickSort\",\"1174000\",\"8192\",\"int\"\n\"QuickSort\",\"2360000\",\"16384\",\"int\"\n\"QuickSort\",\"3510000\",\"32768\",\"int\"\n\"QuickSort\",\"6144000\",\"65536\",\"int\"\n\"QuickSort\",\"13114000\",\"131072\",\"int\"\n\"QuickSort\",\"27357000\",\"262144\",\"int\"\n\"QuickSort\",\"54323000\",\"524288\",\"int\"\n\"HeapSort\",\"11000\",\"2\",\"int\"\n\"HeapSort\",\"4000\",\"4\",\"int\"\n\"HeapSort\",\"5000\",\"8\",\"int\"\n\"HeapSort\",\"8000\",\"16\",\"int\"\n\"HeapSort\",\"23000\",\"32\",\"int\"\n\"HeapSort\",\"72000\",\"64\",\"int\"\n\"HeapSort\",\"107000\",\"128\",\"int\"\n\"HeapSort\",\"247000\",\"256\",\"int\"\n\"HeapSort\",\"766000\",\"512\",\"int\"\n\"HeapSort\",\"216000\",\"1024\",\"int\"\n\"HeapSort\",\"421000\",\"2048\",\"int\"\n\"HeapSort\",\"697000\",\"4096\",\"int\"\n\"HeapSort\",\"1554000\",\"8192\",\"int\"\n\"HeapSort\",\"3226000\",\"16384\",\"int\"\n\"HeapSort\",\"5559000\",\"32768\",\"int\"\n\"HeapSort\",\"10613000\",\"65536\",\"int\"\n\"HeapSort\",\"21008000\",\"131072\",\"int\"\n\"HeapSort\",\"43142000\",\"262144\",\"int\"\n\"HeapSort\",\"91135000\",\"524288\",\"int\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/analysisReport.csv b/src/main/resources/analysisReport.csv
+--- a/src/main/resources/analysisReport.csv	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/src/main/resources/analysisReport.csv	(date 1643377915346)
+@@ -1,39 +1,0 @@
+-"Sorter","TimeComplexity","CollectionSize","CollectionType"
+-"QuickSort","20000","2","int"
+-"QuickSort","7000","4","int"
+-"QuickSort","3000","8","int"
+-"QuickSort","6000","16","int"
+-"QuickSort","16000","32","int"
+-"QuickSort","117000","64","int"
+-"QuickSort","94000","128","int"
+-"QuickSort","136000","256","int"
+-"QuickSort","224000","512","int"
+-"QuickSort","232000","1024","int"
+-"QuickSort","1294000","2048","int"
+-"QuickSort","494000","4096","int"
+-"QuickSort","1174000","8192","int"
+-"QuickSort","2360000","16384","int"
+-"QuickSort","3510000","32768","int"
+-"QuickSort","6144000","65536","int"
+-"QuickSort","13114000","131072","int"
+-"QuickSort","27357000","262144","int"
+-"QuickSort","54323000","524288","int"
+-"HeapSort","11000","2","int"
+-"HeapSort","4000","4","int"
+-"HeapSort","5000","8","int"
+-"HeapSort","8000","16","int"
+-"HeapSort","23000","32","int"
+-"HeapSort","72000","64","int"
+-"HeapSort","107000","128","int"
+-"HeapSort","247000","256","int"
+-"HeapSort","766000","512","int"
+-"HeapSort","216000","1024","int"
+-"HeapSort","421000","2048","int"
+-"HeapSort","697000","4096","int"
+-"HeapSort","1554000","8192","int"
+-"HeapSort","3226000","16384","int"
+-"HeapSort","5559000","32768","int"
+-"HeapSort","10613000","65536","int"
+-"HeapSort","21008000","131072","int"
+-"HeapSort","43142000","262144","int"
+-"HeapSort","91135000","524288","int"
+Index: target/classes/analysisReport.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"Sorter\",\"TimeComplexity\",\"CollectionSize\"\n\"QuickSort\",\"19000\",\"2\"\n\"QuickSort\",\"7000\",\"4\"\n\"QuickSort\",\"4000\",\"8\"\n\"QuickSort\",\"7000\",\"16\"\n\"QuickSort\",\"16000\",\"32\"\n\"QuickSort\",\"44000\",\"64\"\n\"QuickSort\",\"81000\",\"128\"\n\"QuickSort\",\"206000\",\"256\"\n\"QuickSort\",\"335000\",\"512\"\n\"QuickSort\",\"166000\",\"1024\"\n\"QuickSort\",\"248000\",\"2048\"\n\"QuickSort\",\"568000\",\"4096\"\n\"QuickSort\",\"1205000\",\"8192\"\n\"QuickSort\",\"2103000\",\"16384\"\n\"QuickSort\",\"2650000\",\"32768\"\n\"QuickSort\",\"5604000\",\"65536\"\n\"QuickSort\",\"13217000\",\"131072\"\n\"QuickSort\",\"28499000\",\"262144\"\n\"HeapSort\",\"11000\",\"2\"\n\"HeapSort\",\"3000\",\"4\"\n\"HeapSort\",\"4000\",\"8\"\n\"HeapSort\",\"8000\",\"16\"\n\"HeapSort\",\"21000\",\"32\"\n\"HeapSort\",\"62000\",\"64\"\n\"HeapSort\",\"107000\",\"128\"\n\"HeapSort\",\"189000\",\"256\"\n\"HeapSort\",\"123000\",\"512\"\n\"HeapSort\",\"232000\",\"1024\"\n\"HeapSort\",\"508000\",\"2048\"\n\"HeapSort\",\"1074000\",\"4096\"\n\"HeapSort\",\"2451000\",\"8192\"\n\"HeapSort\",\"3484000\",\"16384\"\n\"HeapSort\",\"6209000\",\"32768\"\n\"HeapSort\",\"12198000\",\"65536\"\n\"HeapSort\",\"23122000\",\"131072\"\n\"HeapSort\",\"53704000\",\"262144\"\n\"BubbleSort\",\"15000\",\"2\"\n\"BubbleSort\",\"2000\",\"4\"\n\"BubbleSort\",\"2000\",\"8\"\n\"BubbleSort\",\"11000\",\"16\"\n\"BubbleSort\",\"21000\",\"32\"\n\"BubbleSort\",\"89000\",\"64\"\n\"BubbleSort\",\"337000\",\"128\"\n\"BubbleSort\",\"1327000\",\"256\"\n\"BubbleSort\",\"2509000\",\"512\"\n\"BubbleSort\",\"3245000\",\"1024\"\n\"BubbleSort\",\"8919000\",\"2048\"\n\"BubbleSort\",\"20489000\",\"4096\"\n\"BubbleSort\",\"90483000\",\"8192\"\n\"BubbleSort\",\"385177000\",\"16384\"\n\"BubbleSort\",\"1642574000\",\"32768\"\n\"BubbleSort\",\"6270498000\",\"65536\"\n\"BubbleSort\",\"23030460000\",\"131072\"\n\"BubbleSort\",\"105004598000\",\"262144\"\n\"SelectionSort\",\"22000\",\"2\"\n\"SelectionSort\",\"2000\",\"4\"\n\"SelectionSort\",\"3000\",\"8\"\n\"SelectionSort\",\"7000\",\"16\"\n\"SelectionSort\",\"20000\",\"32\"\n\"SelectionSort\",\"80000\",\"64\"\n\"SelectionSort\",\"242000\",\"128\"\n\"SelectionSort\",\"1292000\",\"256\"\n\"SelectionSort\",\"1926000\",\"512\"\n\"SelectionSort\",\"2452000\",\"1024\"\n\"SelectionSort\",\"5090000\",\"2048\"\n\"SelectionSort\",\"10608000\",\"4096\"\n\"SelectionSort\",\"44835000\",\"8192\"\n\"SelectionSort\",\"262094000\",\"16384\"\n\"SelectionSort\",\"1438691000\",\"32768\"\n\"SelectionSort\",\"6315485000\",\"65536\"\n\"SelectionSort\",\"26121691000\",\"131072\"\n\"SelectionSort\",\"112675197000\",\"262144\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/analysisReport.csv b/target/classes/analysisReport.csv
+--- a/target/classes/analysisReport.csv	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/target/classes/analysisReport.csv	(date 1643377758642)
+@@ -1,73 +1,20 @@
+-"Sorter","TimeComplexity","CollectionSize"
+-"QuickSort","19000","2"
+-"QuickSort","7000","4"
+-"QuickSort","4000","8"
+-"QuickSort","7000","16"
+-"QuickSort","16000","32"
+-"QuickSort","44000","64"
+-"QuickSort","81000","128"
+-"QuickSort","206000","256"
+-"QuickSort","335000","512"
+-"QuickSort","166000","1024"
+-"QuickSort","248000","2048"
+-"QuickSort","568000","4096"
+-"QuickSort","1205000","8192"
+-"QuickSort","2103000","16384"
+-"QuickSort","2650000","32768"
+-"QuickSort","5604000","65536"
+-"QuickSort","13217000","131072"
+-"QuickSort","28499000","262144"
+-"HeapSort","11000","2"
+-"HeapSort","3000","4"
+-"HeapSort","4000","8"
+-"HeapSort","8000","16"
+-"HeapSort","21000","32"
+-"HeapSort","62000","64"
+-"HeapSort","107000","128"
+-"HeapSort","189000","256"
+-"HeapSort","123000","512"
+-"HeapSort","232000","1024"
+-"HeapSort","508000","2048"
+-"HeapSort","1074000","4096"
+-"HeapSort","2451000","8192"
+-"HeapSort","3484000","16384"
+-"HeapSort","6209000","32768"
+-"HeapSort","12198000","65536"
+-"HeapSort","23122000","131072"
+-"HeapSort","53704000","262144"
+-"BubbleSort","15000","2"
+-"BubbleSort","2000","4"
+-"BubbleSort","2000","8"
+-"BubbleSort","11000","16"
+-"BubbleSort","21000","32"
+-"BubbleSort","89000","64"
+-"BubbleSort","337000","128"
+-"BubbleSort","1327000","256"
+-"BubbleSort","2509000","512"
+-"BubbleSort","3245000","1024"
+-"BubbleSort","8919000","2048"
+-"BubbleSort","20489000","4096"
+-"BubbleSort","90483000","8192"
+-"BubbleSort","385177000","16384"
+-"BubbleSort","1642574000","32768"
+-"BubbleSort","6270498000","65536"
+-"BubbleSort","23030460000","131072"
+-"BubbleSort","105004598000","262144"
+-"SelectionSort","22000","2"
+-"SelectionSort","2000","4"
+-"SelectionSort","3000","8"
+-"SelectionSort","7000","16"
+-"SelectionSort","20000","32"
+-"SelectionSort","80000","64"
+-"SelectionSort","242000","128"
+-"SelectionSort","1292000","256"
+-"SelectionSort","1926000","512"
+-"SelectionSort","2452000","1024"
+-"SelectionSort","5090000","2048"
+-"SelectionSort","10608000","4096"
+-"SelectionSort","44835000","8192"
+-"SelectionSort","262094000","16384"
+-"SelectionSort","1438691000","32768"
+-"SelectionSort","6315485000","65536"
+-"SelectionSort","26121691000","131072"
+-"SelectionSort","112675197000","262144"
++"Sorter","TimeComplexity","CollectionSize","CollectionType"
++"QuickSort","21000","2","char"
++"QuickSort","8000","4","char"
++"QuickSort","4000","8","char"
++"QuickSort","8000","16","char"
++"QuickSort","12000","32","char"
++"QuickSort","47000","64","char"
++"QuickSort","83000","128","char"
++"QuickSort","271000","256","char"
++"QuickSort","230000","512","char"
++"QuickSort","133000","1024","char"
++"QuickSort","338000","2048","char"
++"QuickSort","701000","4096","char"
++"QuickSort","1166000","8192","char"
++"QuickSort","2451000","16384","char"
++"QuickSort","3322000","32768","char"
++"QuickSort","5975000","65536","char"
++"QuickSort","13398000","131072","char"
++"QuickSort","23653000","262144","char"
++"QuickSort","45241000","524288","char"
+Index: ../Template/report_template_singleFile.aux
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\\relax \n\\bbl@cs{beforestart}\n\\bibstyle{biblatex}\n\\bibdata{report_template_singleFile-blx,report}\n\\citation{biblatex-control}\n\\abx@aux@refcontext{nyt/global//global/global}\n\\@writefile{toc}{\\boolfalse {citerequest}\\boolfalse {citetracker}\\boolfalse {pagetracker}\\boolfalse {backtracker}\\relax }\n\\@writefile{lof}{\\boolfalse {citerequest}\\boolfalse {citetracker}\\boolfalse {pagetracker}\\boolfalse {backtracker}\\relax }\n\\@writefile{lot}{\\boolfalse {citerequest}\\boolfalse {citetracker}\\boolfalse {pagetracker}\\boolfalse {backtracker}\\relax }\n\\babel@aux{english}{}\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {section}{\\numberline {1}Introduction}{1}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {1.1}Context and Background}{1}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {1.2}Modern Usage, developments}{1}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {1.3}Sorting algorithm explanations}{1}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {1.4}Hypothesis, Problems and Considerations}{2}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsubsection}{\\numberline {1.4.1}Time Complexity and the importance of it.}{2}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsubsection}{\\numberline {1.4.2}Factors, operating on Time Complexity.}{2}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsubsection}{\\numberline {1.4.3}Different methods of approaching our Research question.}{2}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {section}{\\numberline {2}Methodology}{2}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {2.1}Working Implementation of our Algorithms.}{2}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {2.2}Developing and using our experimental environment.}{3}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {2.3}Data Analysis and Visualisation}{3}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {section}{\\numberline {3}Results}{3}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {3.1}Experimental Results}{3}\\protected@file@percent }\n\\@writefile{lof}{\\defcounter {refsection}{0}\\relax }\\@writefile{lof}{\\contentsline {figure}{\\numberline {1}{\\ignorespaces Figure 3.1:}}{4}\\protected@file@percent }\n\\providecommand*\\caption@xref[2]{\\@setref\\relax\\@undefined{#1}}\n\\newlabel{fig:resultsoverallview}{{1}{4}}\n\\@writefile{lof}{\\defcounter {refsection}{0}\\relax }\\@writefile{lof}{\\contentsline {figure}{\\numberline {2}{\\ignorespaces Figure 3.2}}{5}\\protected@file@percent }\n\\newlabel{fig:overviewofconstanttimecomplexityalgorithms}{{2}{5}}\n\\@writefile{lof}{\\defcounter {refsection}{0}\\relax }\\@writefile{lof}{\\contentsline {figure}{\\numberline {3}{\\ignorespaces Figure 3.3}}{6}\\protected@file@percent }\n\\newlabel{fig:focusedviewonbigtimecomplexity}{{3}{6}}\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {section}{\\numberline {4}Discussion}{6}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {4.1}Interpretation}{6}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {4.2}Considerations}{6}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsubsection}{\\numberline {4.2.1}Limitations of the Empirical type of Analysis}{7}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsubsection}{\\numberline {4.2.2}Limitations of the Collection Size}{7}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsubsection}{\\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{7}\\protected@file@percent }\n\\@writefile{toc}{\\defcounter {refsection}{0}\\relax }\\@writefile{toc}{\\contentsline {subsection}{\\numberline {4.3}Evaluations}{7}\\protected@file@percent }\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Template/report_template_singleFile.aux b/../Template/report_template_singleFile.aux
+--- a/../Template/report_template_singleFile.aux	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/../Template/report_template_singleFile.aux	(date 1639522315701)
+@@ -11,28 +11,28 @@
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}\protected@file@percent }
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Context and Background}{1}\protected@file@percent }
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Modern Usage, developments}{1}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Sorting algorithm explanations}{1}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Sorting algorithm explanations}{2}\protected@file@percent }
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Hypothesis, Problems and Considerations}{2}\protected@file@percent }
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.1}Time Complexity and the importance of it.}{2}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.2}Factors, operating on Time Complexity.}{2}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.2}Theoretical explanation of Time Complexity.}{2}\protected@file@percent }
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.3}Different methods of approaching our Research question.}{2}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology}{2}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{2}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology}{3}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{3}\protected@file@percent }
+ \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Developing and using our experimental environment.}{3}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{3}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{3}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Experimental Results}{3}\protected@file@percent }
+-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Figure 3.1:}}{4}\protected@file@percent }
++\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Figure 3.1:}}{5}\protected@file@percent }
+ \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+-\newlabel{fig:resultsoverallview}{{1}{4}}
+-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Figure 3.2}}{5}\protected@file@percent }
+-\newlabel{fig:overviewofconstanttimecomplexityalgorithms}{{2}{5}}
+-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Figure 3.3}}{6}\protected@file@percent }
+-\newlabel{fig:focusedviewonbigtimecomplexity}{{3}{6}}
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{6}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Interpretation}{6}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Considerations}{6}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Limitations of the Empirical type of Analysis}{7}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Limitations of the Collection Size}{7}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{7}\protected@file@percent }
+-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluations}{7}\protected@file@percent }
++\newlabel{fig:resultsoverallview}{{1}{5}}
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{5}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{5}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Experimental Results}{5}\protected@file@percent }
++\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Figure 3.2}}{6}\protected@file@percent }
++\newlabel{fig:overviewofconstanttimecomplexityalgorithms}{{2}{6}}
++\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Figure 3.3}}{7}\protected@file@percent }
++\newlabel{fig:focusedviewonbigtimecomplexity}{{3}{7}}
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{8}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Interpretation}{8}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Considerations}{8}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Limitations of the Empirical type of Analysis}{8}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Limitations of the Collection Size}{8}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{9}\protected@file@percent }
++\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluations}{9}\protected@file@percent }
+Index: ../Template/report_template_singleFile.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 23:26\nentering extended mode\n restricted \\write18 enabled.\n %&-line parsing enabled.\n**report_template_singleFile.tex\n(./report_template_singleFile.tex\nLaTeX2e <2020-02-02> patch level 5\nL3 programming layer <2020-03-06>\n(/usr/local/texlive/2020/texmf-dist/tex/latex/base/report.cls\nDocument Class: report 2019/12/20 v1.4l Standard LaTeX document class\n(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo\nFile: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)\n)\n\\c@part=\\count167\n\\c@chapter=\\count168\n\\c@section=\\count169\n\\c@subsection=\\count170\n\\c@subsubsection=\\count171\n\\c@paragraph=\\count172\n\\c@subparagraph=\\count173\n\\c@figure=\\count174\n\\c@table=\\count175\n\\abovecaptionskip=\\skip47\n\\belowcaptionskip=\\skip48\n\\bibindent=\\dimen134\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty\nPackage: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty\nPackage: keyval 2014/10/28 v1.15 key=value parser (DPC)\n\\KV@toks@=\\toks15\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty\nPackage: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty\nPackage: trig 2016/01/03 v1.10 sin cos tan (DPC)\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg\nFile: graphics.cfg 2016/06/04 v1.11 sample graphics configuration\n)\nPackage graphics Info: Driver file: pdftex.def on input line 105.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def\nFile: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex\n))\n\\Gin@req@height=\\dimen135\n\\Gin@req@width=\\dimen136\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty\nPackage: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty\nPackage: array 2019/08/31 v2.4l Tabular extension package (FMi)\n\\col@sep=\\dimen137\n\\ar@mcellbox=\\box45\n\\extrarowheight=\\dimen138\n\\NC@list=\\toks16\n\\extratabsurround=\\skip49\n\\backup@length=\\skip50\n\\ar@cellbox=\\box46\n)\n\\TX@col@width=\\dimen139\n\\TX@old@table=\\dimen140\n\\TX@old@col=\\dimen141\n\\TX@target=\\dimen142\n\\TX@delta=\\dimen143\n\\TX@cols=\\count176\n\\TX@ftn=\\toks17\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty\nPackage: inputenc 2018/08/11 v1.3c Input encoding file\n\\inpenc@prehook=\\toks18\n\\inpenc@posthook=\\toks19\n)\n(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty\nPackage: babel 2020/03/22 3.42 The Babel package\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def\nFile: switch.def 2020/03/22 3.42 Babel switching mechanism\n)\n(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf\nLanguage: english 2017/06/06 v3.3r English support from the babel system\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def\nFile: babel.def 2020/03/22 3.42 Babel common definitions\n\\babel@savecnt=\\count177\n\\U@D=\\dimen144\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)\n\\bbl@readstream=\\read2\n\\bbl@dirlevel=\\count178\n)\nPackage babel Info: \\l@canadian = using hyphenrules for english\n(babel)             (\\language0) on input line 102.\nPackage babel Info: \\l@australian = using hyphenrules for ukenglish\n(babel)             (\\language21) on input line 105.\nPackage babel Info: \\l@newzealand = using hyphenrules for ukenglish\n(babel)             (\\language21) on input line 108.\n))\n(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty\nPackage: geometry 2020/01/02 v5.9 Page Geometry\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty\nPackage: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty\nPackage: iftex 2020/03/06 v1.0d TeX engine tests\n))\n\\Gm@cnth=\\count179\n\\Gm@cntv=\\count180\n\\c@Gm@tempcnt=\\count181\n\\Gm@bindingoffset=\\dimen145\n\\Gm@wd@mp=\\dimen146\n\\Gm@odd@mp=\\dimen147\n\\Gm@even@mp=\\dimen148\n\\Gm@layoutwidth=\\dimen149\n\\Gm@layoutheight=\\dimen150\n\\Gm@layouthoffset=\\dimen151\n\\Gm@layoutvoffset=\\dimen152\n\\Gm@dimlist=\\toks20\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/sectsty/sectsty.sty\nPackage: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty\nles\n\n\nLaTeX Warning: Command \\underbar  has changed.\n               Check if current package is valid.\n\n\nLaTeX Warning: Command \\underline  has changed.\n               Check if current package is valid.\n\n) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty\nPackage: algpseudocode \n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty\nPackage: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty\nPackage: algorithmicx 2005/04/27 v1.2 Algorithmicx\n\nDocument Style algorithmicx 1.2 - a greatly improved `algorithmic' style\n\\c@ALG@line=\\count182\n\\c@ALG@rem=\\count183\n\\c@ALG@nested=\\count184\n\\ALG@tlm=\\skip51\n\\ALG@thistlm=\\skip52\n\\c@ALG@Lnr=\\count185\n\\c@ALG@blocknr=\\count186\n\\c@ALG@storecount=\\count187\n\\c@ALG@tmpcounter=\\count188\n\\ALG@tmplength=\\skip53\n)\nDocument Style - pseudocode environments for use with the `algorithmicx' style\n) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty\nPackage: float 2001/11/08 v1.3d Float enhancements (AL)\n\\c@float@type=\\count189\n\\float@exts=\\toks21\n\\float@box=\\box47\n\\@float@everytoks=\\toks22\n\\@floatcapt=\\box48\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.sty\n(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty\nPackage: expl3 2020-03-06 L3 programming layer (loader) \n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def\nFile: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode\n\\l__kernel_color_stack_int=\\count190\n\\l__pdf_internal_box=\\box49\n)) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty\nPackage: xparse 2020-03-06 L3 Experimental document command parser\n\\l__xparse_current_arg_int=\\count191\n\\g__xparse_grabber_int=\\count192\n\\l__xparse_m_args_int=\\count193\n\\l__xparse_v_nesting_int=\\count194\n)\nPackage: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex\nFile: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text\n))\n(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty\nPackage: caption 2020/01/03 v3.4h Customizing captions (AR)\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty\nPackage: caption3 2020/01/03 v1.8h caption3 kernel (AR)\nPackage caption3 Info: TeX engine: e-TeX on input line 61.\n\\captionmargin=\\dimen153\n\\captionmargin@=\\dimen154\n\\captionwidth=\\dimen155\n\\caption@tempdima=\\dimen156\n\\caption@indent=\\dimen157\n\\caption@parindent=\\dimen158\n\\caption@hangindent=\\dimen159\nPackage caption Info: Standard document class detected.\n)\n\\c@caption@flags=\\count195\n\\c@continuedfloat=\\count196\nPackage caption Info: float package is loaded.\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty\nPackage: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty\nPackage: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO\n)\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty\nPackage: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)\n)\n(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty\nPackage: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)\n)\nPackage pdftexcmds Info: \\pdf@primitive is available.\nPackage pdftexcmds Info: \\pdf@ifprimitive is available.\nPackage pdftexcmds Info: \\pdfdraftmode found.\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty\nPackage: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)\n\\etb@tempcnta=\\count197\n)\n(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty\nPackage: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty\nPackage: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)\n))\n(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty\nPackage: logreq 2010/08/04 v1.0 xml request logger\n\\lrq@indent=\\count198\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def\nFile: logreq.def 2010/08/04 v1.0 logreq spec v1.0\n))\n(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty\n\\Urlmuskip=\\muskip16\nPackage: url 2013/09/16  ver 3.4  Verb mode for urls, etc.\n)\n\\c@tabx@nest=\\count199\n\\c@listtotal=\\count266\n\\c@listcount=\\count267\n\\c@liststart=\\count268\n\\c@liststop=\\count269\n\\c@citecount=\\count270\n\\c@citetotal=\\count271\n\\c@multicitecount=\\count272\n\\c@multicitetotal=\\count273\n\\c@instcount=\\count274\n\\c@maxnames=\\count275\n\\c@minnames=\\count276\n\\c@maxitems=\\count277\n\\c@minitems=\\count278\n\\c@citecounter=\\count279\n\\c@maxcitecounter=\\count280\n\\c@savedcitecounter=\\count281\n\\c@uniquelist=\\count282\n\\c@uniquename=\\count283\n\\c@refsection=\\count284\n\\c@refsegment=\\count285\n\\c@maxextratitle=\\count286\n\\c@maxextratitleyear=\\count287\n\\c@maxextraname=\\count288\n\\c@maxextradate=\\count289\n\\c@maxextraalpha=\\count290\n\\c@abbrvpenalty=\\count291\n\\c@highnamepenalty=\\count292\n\\c@lownamepenalty=\\count293\n\\c@maxparens=\\count294\n\\c@parenlevel=\\count295\n\\blx@tempcnta=\\count296\n\\blx@tempcntb=\\count297\n\\blx@tempcntc=\\count298\n\\blx@maxsection=\\count299\n\\blx@maxsegment@0=\\count300\n\\blx@notetype=\\count301\n\\blx@parenlevel@text=\\count302\n\\blx@parenlevel@foot=\\count303\n\\blx@sectionciteorder@0=\\count304\n\\blx@entrysetcounter=\\count305\n\\labelnumberwidth=\\skip54\n\\labelalphawidth=\\skip55\n\\biblabelsep=\\skip56\n\\bibitemsep=\\skip57\n\\bibnamesep=\\skip58\n\\bibinitsep=\\skip59\n\\bibparsep=\\skip60\n\\bibhang=\\skip61\n\\blx@bcfin=\\read3\n\\blx@bcfout=\\write3\n\\blx@langwohyphens=\\language86\n\\c@mincomprange=\\count306\n\\c@maxcomprange=\\count307\n\\c@mincompwidth=\\count308\nPackage biblatex Info: Trying to load biblatex default data model...\nPackage biblatex Info: ... file 'blx-dm.def' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def\nFile: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)\n)\nPackage biblatex Info: Trying to load biblatex style data model...\nPackage biblatex Info: ... file 'authoryear.dbx' not found.\nPackage biblatex Info: Trying to load biblatex custom data model...\nPackage biblatex Info: ... file 'biblatex-dm.cfg' not found.\n\\c@afterword=\\count309\n\\c@savedafterword=\\count310\n\\c@annotator=\\count311\n\\c@savedannotator=\\count312\n\\c@author=\\count313\n\\c@savedauthor=\\count314\n\\c@bookauthor=\\count315\n\\c@savedbookauthor=\\count316\n\\c@commentator=\\count317\n\\c@savedcommentator=\\count318\n\\c@editor=\\count319\n\\c@savededitor=\\count320\n\\c@editora=\\count321\n\\c@savededitora=\\count322\n\\c@editorb=\\count323\n\\c@savededitorb=\\count324\n\\c@editorc=\\count325\n\\c@savededitorc=\\count326\n\\c@foreword=\\count327\n\\c@savedforeword=\\count328\n\\c@holder=\\count329\n\\c@savedholder=\\count330\n\\c@introduction=\\count331\n\\c@savedintroduction=\\count332\n\\c@namea=\\count333\n\\c@savednamea=\\count334\n\\c@nameb=\\count335\n\\c@savednameb=\\count336\n\\c@namec=\\count337\n\\c@savednamec=\\count338\n\\c@translator=\\count339\n\\c@savedtranslator=\\count340\n\\c@shortauthor=\\count341\n\\c@savedshortauthor=\\count342\n\\c@shorteditor=\\count343\n\\c@savedshorteditor=\\count344\n\\c@labelname=\\count345\n\\c@savedlabelname=\\count346\n\\c@institution=\\count347\n\\c@savedinstitution=\\count348\n\\c@lista=\\count349\n\\c@savedlista=\\count350\n\\c@listb=\\count351\n\\c@savedlistb=\\count352\n\\c@listc=\\count353\n\\c@savedlistc=\\count354\n\\c@listd=\\count355\n\\c@savedlistd=\\count356\n\\c@liste=\\count357\n\\c@savedliste=\\count358\n\\c@listf=\\count359\n\\c@savedlistf=\\count360\n\\c@location=\\count361\n\\c@savedlocation=\\count362\n\\c@organization=\\count363\n\\c@savedorganization=\\count364\n\\c@origlocation=\\count365\n\\c@savedoriglocation=\\count366\n\\c@origpublisher=\\count367\n\\c@savedorigpublisher=\\count368\n\\c@publisher=\\count369\n\\c@savedpublisher=\\count370\n\\c@language=\\count371\n\\c@savedlanguage=\\count372\n\\c@origlanguage=\\count373\n\\c@savedoriglanguage=\\count374\n\\c@pageref=\\count375\n\\c@savedpageref=\\count376\n\\shorthandwidth=\\skip62\n\\shortjournalwidth=\\skip63\n\\shortserieswidth=\\skip64\n\\shorttitlewidth=\\skip65\n\\shortauthorwidth=\\skip66\n\\shorteditorwidth=\\skip67\n\\locallabelnumberwidth=\\skip68\n\\locallabelalphawidth=\\skip69\n\\localshorthandwidth=\\skip70\n\\localshortjournalwidth=\\skip71\n\\localshortserieswidth=\\skip72\n\\localshorttitlewidth=\\skip73\n\\localshortauthorwidth=\\skip74\n\\localshorteditorwidth=\\skip75\nPackage biblatex Info: Trying to load compatibility code...\nPackage biblatex Info: ... file 'blx-compat.def' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def\nFile: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)\n)\nPackage biblatex Info: Trying to load BibTeX backend compatibility...\nPackage biblatex Info: ... file 'blx-bibtex.def' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-bibtex.def\nFile: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)\n\n\nPackage biblatex Warning: Using fall-back BibTeX(8) backend:\n(biblatex)                functionality may be reduced/unavailable.\n\n)\nPackage biblatex Info: Trying to load generic definitions...\nPackage biblatex Info: ... file 'biblatex.def' found.\n (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def\nFile: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)\n\\c@textcitecount=\\count377\n\\c@textcitetotal=\\count378\n\\c@textcitemaxnames=\\count379\n\\c@biburlbigbreakpenalty=\\count380\n\\c@biburlbreakpenalty=\\count381\n\\c@biburlnumpenalty=\\count382\n\\c@biburlucpenalty=\\count383\n\\c@biburllcpenalty=\\count384\n\\biburlbigskip=\\muskip17\n\\biburlnumskip=\\muskip18\n\\biburlucskip=\\muskip19\n\\biburllcskip=\\muskip20\n\\c@smartand=\\count385\n)\nPackage biblatex Info: Trying to load bibliography style 'authoryear'...\nPackage biblatex Info: ... file 'authoryear.bbx' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx\nFile: authoryear.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)\nPackage biblatex Info: Trying to load bibliography style 'standard'...\nPackage biblatex Info: ... file 'standard.bbx' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx\nFile: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)\n\\c@bbx:relatedcount=\\count386\n\\c@bbx:relatedtotal=\\count387\n))\nPackage biblatex Info: Trying to load citation style 'authoryear'...\nPackage biblatex Info: ... file 'authoryear.cbx' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx\nFile: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)\nPackage biblatex Info: Redefining '\\cite'.\nPackage biblatex Info: Redefining '\\parencite'.\nPackage biblatex Info: Redefining '\\footcite'.\nPackage biblatex Info: Redefining '\\footcitetext'.\nPackage biblatex Info: Redefining '\\smartcite'.\nPackage biblatex Info: Redefining '\\textcite'.\nPackage biblatex Info: Redefining '\\textcites'.\n)\nPackage biblatex Info: Trying to load configuration file...\nPackage biblatex Info: ... file 'biblatex.cfg' found.\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg\nFile: biblatex.cfg \n)\n\nPackage biblatex Warning: 'firstinits' option is deprecated.\n(biblatex)                Please use 'giveninits' instead.\n\n) (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty\nPackage: titlesec 2019/10/16 v2.13 Sectioning titles\n\\ttl@box=\\box50\n\\beforetitleunit=\\skip76\n\\aftertitleunit=\\skip77\n\\ttl@plus=\\dimen160\n\\ttl@minus=\\dimen161\n\\ttl@toksa=\\toks23\n\\titlewidth=\\dimen162\n\\titlewidthlast=\\dimen163\n\\titlewidthfirst=\\dimen164\n)\n\nPackage biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.\n(biblatex)                Loading 'csquotes' recommended.\n\n\\@quotelevel=\\count388\n\\@quotereset=\\count389\n\nPackage biblatex Warning: Conflicting options.\n(biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.\n(biblatex)                Setting 'uniquename=init' on input line 28.\n\n(./report_template_singleFile.aux)\n\\openout1 = `report_template_singleFile.aux'.\n\nLaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\nLaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\nLaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\nLaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\nLaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\nLaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\nLaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.\nLaTeX Font Info:    ... okay on input line 28.\n\n(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\n[Loading MPS to PDF converter (version 2006.09.02).]\n\\scratchcounter=\\count390\n\\scratchdimen=\\dimen165\n\\scratchbox=\\box51\n\\nofMPsegments=\\count391\n\\nofMParguments=\\count392\n\\everyMPshowfont=\\toks24\n\\MPscratchCnt=\\count393\n\\MPscratchDim=\\dimen166\n\\MPnumerator=\\count394\n\\makeMPintoPDFobject=\\count395\n\\everyMPtoPDFconversion=\\toks25\n) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\nPackage: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf\n\n(/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty\nPackage: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)\n\n(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty\nPackage: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)\n))\nPackage epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4\n85.\nPackage grfext Info: Graphics extension search list:\n(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE\nG,.JBIG2,.JB2,.eps]\n(grfext)             \\AppendGraphicsExtensions on input line 504.\n(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg\nFile: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv\ne\n))\n*geometry* driver: auto-detecting\n*geometry* detected driver: pdftex\n*geometry* verbose mode - [ preamble ] result:\n* driver: pdftex\n* paper: <default>\n* layout: <same size as paper>\n* layoutoffset:(h,v)=(0.0pt,0.0pt)\n* modes: \n* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)\n* v-part:(T,H,B)=(108.405pt, 578.15999pt, 108.405pt)\n* \\paperwidth=614.295pt\n* \\paperheight=794.96999pt\n* \\textwidth=397.485pt\n* \\textheight=578.15999pt\n* \\oddsidemargin=36.13501pt\n* \\evensidemargin=36.13501pt\n* \\topmargin=-0.86499pt\n* \\headheight=12.0pt\n* \\headsep=25.0pt\n* \\topskip=10.0pt\n* \\footskip=30.0pt\n* \\marginparwidth=65.0pt\n* \\marginparsep=11.0pt\n* \\columnsep=10.0pt\n* \\skip\\footins=9.0pt plus 4.0pt minus 2.0pt\n* \\hoffset=0.0pt\n* \\voffset=0.0pt\n* \\mag=1000\n* \\@twocolumnfalse\n* \\@twosidefalse\n* \\@mparswitchfalse\n* \\@reversemarginfalse\n* (1in=72.27pt=25.4mm, 1cm=28.453pt)\n\nPackage caption Info: Begin \\AtBeginDocument code.\nPackage caption Info: End \\AtBeginDocument code.\nPackage biblatex Info: Trying to load language 'english'...\nPackage biblatex Info: ... file 'english.lbx' found.\n(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx\nFile: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)\n)\nPackage biblatex Info: Input encoding 'utf8' detected.\nPackage biblatex Info: Automatic encoding selection.\n(biblatex)             Assuming data encoding 'utf8'.\nPackage biblatex Info: Input encoding 'utf8' specified.\nPackage biblatex Info: Data encoding 'utf8' specified.\n(biblatex)             No need to reencode data.\n\\openout3 = `report_template_singleFile-blx.bib'.\n\nPackage biblatex Info: Trying to load bibliographic data...\nPackage biblatex Info: ... file 'report_template_singleFile.bbl' found.\n\n(./report_template_singleFile.bbl)\nPackage biblatex Info: Reference section=0 on input line 28.\nPackage biblatex Info: Reference segment=0 on input line 28.\nLaTeX Font Info:    External font `cmex10' loaded for size\n(Font)              <12> on input line 30.\nLaTeX Font Info:    External font `cmex10' loaded for size\n(Font)              <8> on input line 30.\nLaTeX Font Info:    External font `cmex10' loaded for size\n(Font)              <6> on input line 30.\n [1\n\n{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]\nUnderfull \\hbox (badness 10000) in paragraph at lines 33--34\n\n []\n\n\nUnderfull \\hbox (badness 10000) in paragraph at lines 35--36\n\n []\n\n[1] (./report_template_singleFile.toc\nLaTeX Font Info:    External font `cmex10' loaded for size\n(Font)              <7> on input line 4.\nLaTeX Font Info:    External font `cmex10' loaded for size\n(Font)              <5> on input line 4.\n)\n\\tf@toc=\\write4\n\\openout4 = `report_template_singleFile.toc'.\n\n [3\n\n] (./report_template_singleFile.lof)\n\\tf@lof=\\write5\n\\openout5 = `report_template_singleFile.lof'.\n\n\n[4\n\n] [1] [2]\n<ResultsOverallView.png, id=26, 1407.2575pt x 867.24pt>\nFile: ResultsOverallView.png Graphic file (type png)\n<use ResultsOverallView.png>\nPackage pdftex.def Info: ResultsOverallView.png  used on input line 110.\n(pdftex.def)             Requested size: 278.23828pt x 171.45998pt.\n [3]\n<OverviewOfConstantTimeComplexityAlgorithms.png, id=35, 696.6025pt x 430.60875p\nt>\nFile: OverviewOfConstantTimeComplexityAlgorithms.png Graphic file (type png)\n<use OverviewOfConstantTimeComplexityAlgorithms.png>\nPackage pdftex.def Info: OverviewOfConstantTimeComplexityAlgorithms.png  used o\nn input line 121.\n(pdftex.def)             Requested size: 278.23828pt x 171.99075pt.\n [4 <./ResultsOverallView.png>]\n<FocusedViewOnBigTimeComplexity.png, id=40, 692.5875pt x 423.5825pt>\nFile: FocusedViewOnBigTimeComplexity.png Graphic file (type png)\n<use FocusedViewOnBigTimeComplexity.png>\nPackage pdftex.def Info: FocusedViewOnBigTimeComplexity.png  used on input line\n 130.\n(pdftex.def)             Requested size: 278.23828pt x 170.17328pt.\n [5 <./OverviewOfConstantTimeComplexityAlgorithms.png>] [6 <./FocusedViewOnBigT\nimeComplexity.png>]\nUnderfull \\hbox (badness 10000) in paragraph at lines 152--153\n\n []\n\n[7] (./report_template_singleFile.aux)\nPackage logreq Info: Writing requests to 'report_template_singleFile.run.xml'.\n\\openout1 = `report_template_singleFile.run.xml'.\n\n ) \nHere is how much of TeX's memory you used:\n 12265 strings out of 480608\n 224241 string characters out of 5903629\n 780401 words of memory out of 5000000\n 28025 multiletter control sequences out of 15000+600000\n 538375 words of font info for 44 fonts, out of 8000000 for 9000\n 1141 hyphenation exceptions out of 8191\n 41i,6n,42p,1151b,1657s stack positions out of 5000i,500n,10000p,200000b,80000s\n</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb\n></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>\n</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></\nusr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us\nr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/\nlocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc\nal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/lo\ncal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>\nOutput written on report_template_singleFile.pdf (11 pages, 258316 bytes).\nPDF statistics:\n 79 PDF objects out of 1000 (max. 8388607)\n 51 compressed objects within 1 object stream\n 0 named destinations out of 1000 (max. 500000)\n 16 words of extra memory for PDF output out of 10000 (max. 10000000)\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Template/report_template_singleFile.log b/../Template/report_template_singleFile.log
+--- a/../Template/report_template_singleFile.log	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/../Template/report_template_singleFile.log	(date 1639522315739)
+@@ -1,4 +1,4 @@
+-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 23:26
++This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  14 DEC 2021 23:51
+ entering extended mode
+  restricted \write18 enabled.
+  %&-line parsing enabled.
+@@ -622,34 +622,33 @@
+ 
+ [4
+ 
+-] [1] [2]
+-<ResultsOverallView.png, id=26, 1407.2575pt x 867.24pt>
++] [1] [2] [3] [4]
++<ResultsOverallView.png, id=36, 1407.2575pt x 867.24pt>
+ File: ResultsOverallView.png Graphic file (type png)
+ <use ResultsOverallView.png>
+-Package pdftex.def Info: ResultsOverallView.png  used on input line 110.
++Package pdftex.def Info: ResultsOverallView.png  used on input line 125.
+ (pdftex.def)             Requested size: 278.23828pt x 171.45998pt.
+- [3]
+-<OverviewOfConstantTimeComplexityAlgorithms.png, id=35, 696.6025pt x 430.60875p
++ [5 <./ResultsOverallView.png>]
++<OverviewOfConstantTimeComplexityAlgorithms.png, id=42, 696.6025pt x 430.60875p
+ t>
+ File: OverviewOfConstantTimeComplexityAlgorithms.png Graphic file (type png)
+ <use OverviewOfConstantTimeComplexityAlgorithms.png>
+ Package pdftex.def Info: OverviewOfConstantTimeComplexityAlgorithms.png  used o
+-n input line 121.
++n input line 136.
+ (pdftex.def)             Requested size: 278.23828pt x 171.99075pt.
+- [4 <./ResultsOverallView.png>]
+-<FocusedViewOnBigTimeComplexity.png, id=40, 692.5875pt x 423.5825pt>
++ [6 <./OverviewOfConstantTimeComplexityAlgorithms.png>]
++<FocusedViewOnBigTimeComplexity.png, id=47, 692.5875pt x 423.5825pt>
+ File: FocusedViewOnBigTimeComplexity.png Graphic file (type png)
+ <use FocusedViewOnBigTimeComplexity.png>
+ Package pdftex.def Info: FocusedViewOnBigTimeComplexity.png  used on input line
+- 130.
++ 145.
+ (pdftex.def)             Requested size: 278.23828pt x 170.17328pt.
+- [5 <./OverviewOfConstantTimeComplexityAlgorithms.png>] [6 <./FocusedViewOnBigT
+-imeComplexity.png>]
+-Underfull \hbox (badness 10000) in paragraph at lines 152--153
++ [7 <./FocusedViewOnBigTimeComplexity.png>] [8]
++Underfull \hbox (badness 10000) in paragraph at lines 167--168
+ 
+  []
+ 
+-[7] (./report_template_singleFile.aux)
++[9] (./report_template_singleFile.aux)
+ Package logreq Info: Writing requests to 'report_template_singleFile.run.xml'.
+ \openout1 = `report_template_singleFile.run.xml'.
+ 
+@@ -657,7 +656,7 @@
+ Here is how much of TeX's memory you used:
+  12265 strings out of 480608
+  224241 string characters out of 5903629
+- 780401 words of memory out of 5000000
++ 781401 words of memory out of 5000000
+  28025 multiletter control sequences out of 15000+600000
+  538375 words of font info for 44 fonts, out of 8000000 for 9000
+  1141 hyphenation exceptions out of 8191
+@@ -670,10 +669,10 @@
+ local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+ al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/lo
+ cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+-Output written on report_template_singleFile.pdf (11 pages, 258316 bytes).
++Output written on report_template_singleFile.pdf (13 pages, 260986 bytes).
+ PDF statistics:
+- 79 PDF objects out of 1000 (max. 8388607)
+- 51 compressed objects within 1 object stream
++ 86 PDF objects out of 1000 (max. 8388607)
++ 56 compressed objects within 1 object stream
+  0 named destinations out of 1000 (max. 500000)
+  16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 
+Index: ../Template/report_template_singleFile.tex
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\\documentclass[]{report}\n\\renewcommand\\thesection{\\arabic{section}}%for page numbering in arabics\n\\usepackage{graphicx,tabularx}%for figures and tables\n\\usepackage[utf8]{inputenc} %allows special characters such as ä, ö, ỳ\n\\usepackage[english]{babel}  %set the language to English\n\\usepackage[margin=1.5in]{geometry} %change page margins \n\\usepackage{sectsty}%section headers\n\\usepackage{algpseudocode}\n\\usepackage{float}\n\\allsectionsfont{\\sffamily\\large}\n\\subsectionfont{\\sffamily\\normalsize}\n\\linespread{1.2}% line distance\n\\usepackage{lipsum}% http://ctan.org/pkg/lipsum\n\\usepackage{caption}%use for captions on tables\n%use this exact command. The style and bibliographystyle has to be authoryear (Havard). The sorting is nyt: name, year, title so that the bibliography is sorted alphabetically. firstinits=true shortens the names: Albert Einstein -> A. Einstein\n\\usepackage[backend=bibtex,style=authoryear,bibstyle=authoryear,sorting=nyt,firstinits=true]{biblatex}\n\\setlength\\parindent{0pt}%include this so that your paragraphs don't indent automatically\n\\addbibresource{report.bib} %this attaches your bib-file, your bibliography (must be in the same folder)\n\\usepackage[compact]{titlesec}%include title formatting package\n\\setcounter{secnumdepth}{5}\n\n% Title Page\n\\title{Relationship between Time Complexity and Number of Elements, within different Sorting Algorithms.}\n\\author{Mino Karadzhov and Kestutis Dikinis}\n\\date{December 10th 2021 \\\\Module: SEAR \\\\Venlo, Limburg, Netherlands}\n\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nSorting  collections of information is one of common usages of computers nowadays. Sorting operations could take place in many of our daily interactions with information systems. There are several different techniques for conducting a sorting operation and choosing the proper one can reap huge savings and even make some problems possible to be solved in general[1]. \\\\\n\nOne of the metrics for measuring Algorithm Performance is the Time Complexity, which corresponds to the Time required for a given algorithm to fully complete it's task. In our case, this means fully sorting a collection.There is a number of factors that can affect the Time Complexity in both negative and positive way. The number of elements for sorting is one such factor, but what is the exact way that it affect the Time Complexity of a Sorting Algorithm? \\\\\n\nThis Paper describes an experiment, under the form of an Empirical analysis of four different Sorting Algorithms(SelectionSort, HeapSort, BubbleSort and Quicksort), that has a goal of studying the relationship between Time Complexity and the Number of elements for sorting. The results show an overall positive relationship between the two variables. However, the experimental results also show us that the exact ratio of growth is not the same for every Sorting technique.\n\\pagenumbering{roman}\n\n\\end{abstract}\n\n\\tableofcontents\n\\setcounter{page}{3}\n\\listoffigures %UNCOMMENT IF YOU HAVE FIGURES\n%\\listoftables %UNCOMMENT IF YOU HAVE TABLES\n\\pagebreak\n\n\\pagenumbering{arabic}\t\n\t\n\\section{Introduction}\nThe Purpouse of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.\nThe main question of this research is: How does the time complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. [1]\n\n\\subsection{Context and Background}\n\tIn computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.\n\tWhenever there is a problem to be solved, there are many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.  \n\t\t\n\t\t\\subsection{Modern Usage, developments}\n\t\t\n\t\tSorting algorithms are everywhere in day-to-day life in digital world. Everywhere starting from file browser in a computer - you can sort files on any parameters. Galleries in mobile phones - images sorted by date, contacts sorted alphabetically . Searching for a product in online store will have an option to sort products in many ways. \n\t\tCommercial computing: government organisations, financial institutions, and commercial enterprises organise much of this information by sorting it. Whether the information is accounts to be sorted by name or number, transactions to be sorted by time or place, mail to be sorted by postal code or address, files to be sorted by name or date, or whatever, processing such data is sure to involve a sorting algorithm somewhere along the way. [2]\n\t\tNumerical computations: Scientific computing is often concerned with accuracy (how close are we to the true answer?). Accuracy is extremely important when we are performing millions of computations with estimated values such as the floating-point representation of real numbers that we commonly use on computers. Some numerical algorithms use priority queues and sorting to control accuracy in calculations.All in all, all any and every kind of list there is has been sorted in some way or another, as it is hard for a human to make use of unsorted data.[2]\n\t\t\n\\subsection{Sorting algorithm explanations}\n\t\tBubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). [2]\n\n\t\tHeapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.[2]\n\n\t\tMergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. [2]\n\n\t\tSelection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]\n\n\t\tOn the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).\n\n\\subsection{Hypothesis, Problems and Considerations}\nDerived from main research question, we can make a hypothesis that we are going to see a growth of the Time Complexity, towards Size of Collection.\n\t\t\\subsubsection{Time Complexity and the importance of it.}\n\t\tTime complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can b e said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it ism used to solve larger problems. [7]\n\t\t\\subsubsection{Factors, operating on Time Complexity.}\n\t\tDetermining the time complexity of an algorithm is important, and is done by few steps:\n\t\t\t-Breaking algorithm into individual operations.\n\t\t\t-Calculating big O for each calculation.\n\t\t\t-Adding up big O of each operation.\n\t\t\t-Removing the constants.\n\t\t\t-Finding the highest order term.\n\t\tAfter following these steps algorithms big O is found.\n\t\t\n\t\tThere are few common cases of big O:\n\t\tO(1) - determining if number is odd or even.\n\t\tO(log n) - Finding an item in a sorted array using a binary search.\n\t\tO(n2) - Bubble sort or Insertion sort.\n\t\tO(n!) - Solving the traveling salesman problem using just brute-force search.\n\t\t\\subsubsection{Different methods of approaching our Research question.}\n\t\t\n\\section{Methodology}\nIn order to approve or deny our initial hypothesis, an Empirical Analysis of certain  Sorting Algorithms was conducted. This chapter of the paper describes the process of conducting the experiment and creating the proper experimental environment. The subject group of Sorting Algorithms includes: QuickSort, BubbleSort, SelectionSort and HeapSort. The main goal of the analysis is to observe changes of the Time  Complexity, when the same algorithm is given the task to sort a collection of a certain size. Each observation of our experiment includes a task of sorting, performed by one of the sorting algorithms from our subject group, performed on a collection of certain size.\\\\\nIn order to conduct the Empirical Analysis, a custom-made Java application was developed and used in the process. The main purpose  of which is to create a proper experimental environment , that is going to allow close observation of each algorithm from our subject group. \\\\\nThe overall goal is to gain an output, which allows data analysis on the covariation between the Size of Collection, used for the observation, and the time that was required for the algorithm to fully perform the sorting task.\n\t\\subsection{Working Implementation of our Algorithms.}\n\tOne requirement of the Empirical Analysis is a working implementation of the Sorting Algorithms, that are going to be used for the experiment. Due to this, the Java programming language was used to create working implementations of each one of the four members of our Subject group. All of the concrete implementations of the Algorithms implement a common interface, towards which the testing is being conducted.\n\t\\subsection{Developing and using our experimental environment.}\n\tIn order to serve the need of a proper experimental environment  for conducting the Analysis, Petko was developed. Petko is the name of the custom-made  Algorithm Analysis tool, that generates unsorted collections of a fixed size and uses sorters(Sorting Algorithms) to conduct the sorting operation. The latter is being closely monitored and the time required for each sorting is being recorded in an output file, in a format of nanoseconds. \\\\\n\tEach Algorithm is used to perform 18 different observations. Each Observation requires the algorithm to sort an unsorted collection of a fixed size. The size of the unordered collection grows with each following observation. The first observation of each algorithm starts with performing a sorting on a Collection with a number of elements of 2, whereas the last(18th) observation provides the Algorithm with an unsorted collection of 262144 elements. The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. The values within the unsorted collections were numeral\\\\\n\tPetko actively uses the Java.time integrated library, in order to measure the Duration of time between the start and end of the sorting process. That is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:\n\t\\begin{algorithmic}[H]\n\t\t\\State $startPoint \\gets Instant.now()$\n\t\t\\State $sort()$\n\t\t\\State $endPoint \\gets Instant.now()$\n\t\t\\State $timeComplexity \\gets Duration.between(startPoint, endPoint)$\n\t\t\\end{algorithmic} \n\t\\newpage\n\t\t Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. \n\t\t\\subsection{Data Analysis and Visualisation}\n\t\tPetko's output file provides a great base for conducting Data Analysis on the results of the observations. By doing this, it is possible to identify and study certain patterns in the covariation between Time Complexity and Size of Collection. The same output file was imported into R and the findings were visualised, thanks to the tidyverse library.\n\t\t\\section{Results}\n\tThis section provides a detailed overview of the experimental results.\n\\subsection{Experimental Results}\nAfter conducting the Emperical Analysis, 72 datapoints were generated. The same visualised on a ScatterPlot have the following view:\n\n\\begin{figure}\n\t\\centering\n\t\\includegraphics[width=0.7\\linewidth]{ResultsOverallView}\n\t\\caption[Figure 3.1:]{Overall view of the Experimental results.}\n\t\\label{fig:resultsoverallview}\n\\end{figure}\n\\newpage\nAs we can clearly see from the above diagram, the relationship between Time Complexity and Collection Size differes between each one of the Sorters. In addition to this, we can easily identify a sharp growth of BubbleSort and SelectionSort time complexities, when the Collection size becomes more than 20 000 elements. On the other hand, looking at the QuickSort and HeapSort, we can easily observe a relationship, which can be described as similliar to Constant Time Complexity.\nTaking the above into account, we can easily identify 2 sub-groups of sorters - One, where  TimeComplexity appears to be constant and One, where we can clearly see a Time Complexity growth, similliar to a Linear Growth.\\\\\nSince the two sub-groups are vastly contrasting on the Overall view, this may be a reason why we are missing certain patterns on our visualisation.\n\n\\begin{figure}\n\t\\centering\n\t\\includegraphics[width=0.7\\linewidth]{OverviewOfConstantTimeComplexityAlgorithms}\n\t\\caption[Figure 3.2]{Focused view on the sub-group with lower time complexity.}\n\t\\label{fig:overviewofconstanttimecomplexityalgorithms}\n\\end{figure}\n\\newpage\t\nAfter creating a separate visualisation for the sub-group with lower Time Complexity, we can see more regarding the growth of Time Complexity, as the overlapping on the overal view did not provide a high level of detail. From the focuesed view, we clearly see that the Sorter with the lowest Time Complexity is the QuickSort, which is being followed by the other member of the sub-group - HeapSort. In addition to this, we can spot a rapid growth in the TImeComplexity, where the CollectionSize is between 0 and 10 000. The same growth appears to be substantially bigger in the observations, that include HeapSort.\n\n\\begin{figure}\n\t\\centering\n\t\\includegraphics[width=0.7\\linewidth]{FocusedViewOnBigTimeComplexity}\n\t\\caption[Figure 3.3]{Focused view on the sub-group with higher time complexity}\n\t\\label{fig:focusedviewonbigtimecomplexity}\n\\end{figure}\n\\newpage\nTaking a focused look at the sub-group with higher time complexity, we can see that both of the sorters have a similar growth of Time Complexity, that leaves BubbleSort with slightly higher value of Complexity. The Growth here is similliar to a linear one and closer to the one that can be viewed on the Overall results view.\n\\section{Discussion}\nIn the following section we are going to discuss our results, give answer to our research question and provide a conclusion if our hypothesis was validated or not.\n\\subsection{Interpretation}\nThe Experimental results, clearly display a relationship, that can be described as a  positive correlation between Time Complexity and Collection Size. This validates our initial hypothesis, as the increased number of elements for sorting clearly results in an increase of the time required for completing the sorting operation. In addition to this, we gained knowledge, that shows that different Sorting techniques (Algorithms) are not being affected in the same way by the increased number of elements for sorting. For instance, on the Overall view of our Experimental results, we can see that BubbleSort and SelectionSort are experiencing a drastic increase of their TimeComplexity, whereas the other two Sorters - QuickSort and HeapSort are not following the same pattern.\\\\\nBased on this, we can conclude that the latter group of Sorters can be a better choice for executing sorting tasks, which are placing their focus on the Time Resource being spend.\n\\subsection{Considerations}\nThis subsection describes the Considerations made during the Experiment, as well as reasoning for some of the decisions described in the Methodology section.\n\\subsubsection{Limitations of the Empirical type of Analysis}\nIt has to be taken into account that the Empirical way of conducting the Analysis is not the best, in terms of time efficiency. That is due to the fact that this type of analysis, requires a working implementation of the subjects(Sorting Algorithms) that are going to be analysed. \\\\\nFurthermore, a certain amount of computing power is required, as this type of analysis requires the Algorithms to be put into action. In order to experiment with bigger Collections, which could be beneficial for revealing (otherwise hidden) patterns, larger amount of computing power is going to be required. \n\n\\subsubsection{Limitations of the Collection Size}\nBecause of the nature of Empirical Analysis, described in the last sub section, this experiment used Collections of size, just up to 2$^{18}$ - 262144 elements.This limitation was present, mainly due to the fact that the machine, we used for testing, was not capable of experimenting with bigger collections. Would we have more computing power at our disposal, there could've been more patterns and datapoints to extend the scope of the experiment.\n\\subsubsection{Limitations of the Machine, used for the Experiment}\nThe described experiment was conducted on a Machine with the following technical specifications : CPU: 2 GHz Quad-Core Intel Core i5, 16 GB 3733 MHz LPDDR4X RAM. In addition to the Collection Size limitation, it is worth considering the fact that our experimental results were somehow influeced by the computational power, available with the above specifications. This means, that there is a high chance of observing different time complexity values, if the same experiment is conducted on another machine.\n\\subsection{Evaluations}\n\tAs this experiment is being conducted in a relatively small scope, taking into account the limited size of collections used, there could be an argument that this limits us from seeing how the Relationship between Time Complexity and Size of Collection changes with having bigger collections for sorting. This argument can be taken as a valid one, as the described experiment does not take into account Collections of much larger size. \\\\\n\t\n\tTaking this argument into account, we can evaluate that this study can serve as the base idea of conducting further experiments, that will provide insights based on a larger scope of Collection sizes. The same will make possible to study the patterns and changes in the relationship of Time Complexity and number of elements for sorting, within bigger collections.\n \\end{document}\n\t\n\t\n\\printbibliography[title=References]\nR. Lafore. Data Structures and Algorithms in Java. SAMS\nPublishing, Indianapolis, Indiana, USA, 2nd edition, 2002.\n\n[2]Bunse, C., Hopfner, H., Mansour, E. and Roychoudhury, S., n.d. Exploring the Energy Consumption of Data Sorting Algorithms in Embedded and Mobile Environments. [online] citeseerx.ist.psu.edu. Available at: <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.543.8109&rep=rep1&type=pdf> [Accessed 14 December 2021].\n\n[1]Sedgewick, R. & Wayne, K. (2011), Algorithms, 4th Edition. , Addison-Wesley .\n\n[4]R. Sedgewick, Algorithms in C++, Addison–Wesley Longman,1998,pp 273–274.\n\n[5]A.  Levitin, Introduction to the Design & Analysis of Algorithms,  Addison–Wesley Longman, 2007, pp 98–100.\n\n[6]https://en.wikipedia.org/wiki/Sorting_algorithm\n\n[7]Mohr, Austin. \"Quantum Computing in Complexity Theory and Theory of Computation\" (PDF). p. 2. Retrieved 7 June 2014.\n\\end{document}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Template/report_template_singleFile.tex b/../Template/report_template_singleFile.tex
+--- a/../Template/report_template_singleFile.tex	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/../Template/report_template_singleFile.tex	(date 1643218760584)
+@@ -48,12 +48,12 @@
+ \pagenumbering{arabic}	
+ 	
+ \section{Introduction}
+-The Purpouse of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
++Purpose of Introduction is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
+ The main question of this research is: How does the time complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. [1]
+ 
+ \subsection{Context and Background}
+ 	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
+-	Whenever there is a problem to be solved, there are many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.  
++	Whenever there is a problem to be solved, there is many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.
+ 		
+ 		\subsection{Modern Usage, developments}
+ 		
+@@ -66,17 +66,15 @@
+ 
+ 		Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.[2]
+ 
+-		Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. [2]
+-
+ 		Selection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]
+ 
+-		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
++		On the other side of the sorting algorithm spectrum there is Bogo Sort. It was designed as a joke about how not to design sorting algorithms. Bogo Sort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of Bogo Sort algorithm is O((n+1)!).
+ 
+ \subsection{Hypothesis, Problems and Considerations}
+ Derived from main research question, we can make a hypothesis that we are going to see a growth of the Time Complexity, towards Size of Collection.
+ 		\subsubsection{Time Complexity and the importance of it.}
+ 		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can b e said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it ism used to solve larger problems. [7]
+-		\subsubsection{Factors, operating on Time Complexity.}
++		\subsubsection{Theoretical explanation of Time Complexity.}
+ 		Determining the time complexity of an algorithm is important, and is done by few steps:
+ 			-Breaking algorithm into individual operations.
+ 			-Calculating big O for each calculation.
+@@ -91,6 +89,7 @@
+ 		O(n2) - Bubble sort or Insertion sort.
+ 		O(n!) - Solving the traveling salesman problem using just brute-force search.
+ 		\subsubsection{Different methods of approaching our Research question.}
++	There were two ways of approaching our research question - empirical and theoretical analysis. Theoretical analysis could have gave us a quick and easy results, as a lot of research is already existing, but this research paper was written using empirical analysis, as it gives more reliable results, which represent real world applications.
+ 		
+ \section{Methodology}
+ In order to approve or deny our initial hypothesis, an Empirical Analysis of certain  Sorting Algorithms was conducted. This chapter of the paper describes the process of conducting the experiment and creating the proper experimental environment. The subject group of Sorting Algorithms includes: QuickSort, BubbleSort, SelectionSort and HeapSort. The main goal of the analysis is to observe changes of the Time  Complexity, when the same algorithm is given the task to sort a collection of a certain size. Each observation of our experiment includes a task of sorting, performed by one of the sorting algorithms from our subject group, performed on a collection of certain size.\\
+@@ -108,14 +107,13 @@
+ 		\State $endPoint \gets Instant.now()$
+ 		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
+ 		\end{algorithmic} 
+-	\newpage
+ 		 Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
+ 		\subsection{Data Analysis and Visualisation}
+ 		Petko's output file provides a great base for conducting Data Analysis on the results of the observations. By doing this, it is possible to identify and study certain patterns in the covariation between Time Complexity and Size of Collection. The same output file was imported into R and the findings were visualised, thanks to the tidyverse library.
+ 		\section{Results}
+ 	This section provides a detailed overview of the experimental results.
+ \subsection{Experimental Results}
+-After conducting the Emperical Analysis, 72 datapoints were generated. The same visualised on a ScatterPlot have the following view:
++After conducting the Empirical Analysis, 72 data-points were generated. The same visualised on a ScatterPlot have the following view:
+ 
+ \begin{figure}
+ 	\centering
+@@ -124,8 +122,8 @@
+ 	\label{fig:resultsoverallview}
+ \end{figure}
+ \newpage
+-As we can clearly see from the above diagram, the relationship between Time Complexity and Collection Size differes between each one of the Sorters. In addition to this, we can easily identify a sharp growth of BubbleSort and SelectionSort time complexities, when the Collection size becomes more than 20 000 elements. On the other hand, looking at the QuickSort and HeapSort, we can easily observe a relationship, which can be described as similliar to Constant Time Complexity.
+-Taking the above into account, we can easily identify 2 sub-groups of sorters - One, where  TimeComplexity appears to be constant and One, where we can clearly see a Time Complexity growth, similliar to a Linear Growth.\\
++As we can clearly see from the above diagram, the relationship between Time Complexity and Collection Size differs between each one of the Sorters. In addition to this, we can easily identify a sharp growth of BubbleSort and SelectionSort time complexities, when the Collection size becomes more than 20 000 elements. On the other hand, looking at the QuickSort and HeapSort, we can easily observe a relationship, which can be described as similar to Constant Time Complexity.
++Taking the above into account, we can easily identify 2 sub-groups of sorters - One, where  TimeComplexity appears to be constant and One, where we can clearly see a Time Complexity growth, similar to a Linear Growth.\\
+ Since the two sub-groups are vastly contrasting on the Overall view, this may be a reason why we are missing certain patterns on our visualisation.
+ 
+ \begin{figure}
+@@ -135,7 +133,7 @@
+ 	\label{fig:overviewofconstanttimecomplexityalgorithms}
+ \end{figure}
+ \newpage	
+-After creating a separate visualisation for the sub-group with lower Time Complexity, we can see more regarding the growth of Time Complexity, as the overlapping on the overal view did not provide a high level of detail. From the focuesed view, we clearly see that the Sorter with the lowest Time Complexity is the QuickSort, which is being followed by the other member of the sub-group - HeapSort. In addition to this, we can spot a rapid growth in the TImeComplexity, where the CollectionSize is between 0 and 10 000. The same growth appears to be substantially bigger in the observations, that include HeapSort.
++After creating a separate visualisation for the sub-group with lower Time Complexity, we can see more regarding the growth of Time Complexity, as the overlapping on the overall view did not provide a high level of detail. From the focused view, we clearly see that the Sorter with the lowest Time Complexity is the QuickSort, which is being followed by the other member of the sub-group - HeapSort. In addition to this, we can spot a rapid growth in the Time Complexity, where the CollectionSize is between 0 and 10 000. The same growth appears to be substantially bigger in the observations, that include HeapSort.
+ 
+ \begin{figure}
+ 	\centering
+@@ -144,7 +142,7 @@
+ 	\label{fig:focusedviewonbigtimecomplexity}
+ \end{figure}
+ \newpage
+-Taking a focused look at the sub-group with higher time complexity, we can see that both of the sorters have a similar growth of Time Complexity, that leaves BubbleSort with slightly higher value of Complexity. The Growth here is similliar to a linear one and closer to the one that can be viewed on the Overall results view.
++Taking a focused look at the sub-group with higher time complexity, we can see that both of the sorters have a similar growth of Time Complexity, that leaves BubbleSort with slightly higher value of Complexity. The Growth here is similar to a linear one and closer to the one that can be viewed on the Overall results view.
+ \section{Discussion}
+ In the following section we are going to discuss our results, give answer to our research question and provide a conclusion if our hypothesis was validated or not.
+ \subsection{Interpretation}
+@@ -157,7 +155,7 @@
+ Furthermore, a certain amount of computing power is required, as this type of analysis requires the Algorithms to be put into action. In order to experiment with bigger Collections, which could be beneficial for revealing (otherwise hidden) patterns, larger amount of computing power is going to be required. 
+ 
+ \subsubsection{Limitations of the Collection Size}
+-Because of the nature of Empirical Analysis, described in the last sub section, this experiment used Collections of size, just up to 2$^{18}$ - 262144 elements.This limitation was present, mainly due to the fact that the machine, we used for testing, was not capable of experimenting with bigger collections. Would we have more computing power at our disposal, there could've been more patterns and datapoints to extend the scope of the experiment.
++Because of the nature of Empirical Analysis, described in the last sub section, this experiment used Collections of size, just up to 2$^{18}$ - 262144 elements.This limitation was present, mainly due to the fact that the machine, we used for testing, was not capable of experimenting with bigger collections. Would we have more computing power at our disposal, there could've been more patterns and data-points  to extend the scope of the experiment.
+ \subsubsection{Limitations of the Machine, used for the Experiment}
+ The described experiment was conducted on a Machine with the following technical specifications : CPU: 2 GHz Quad-Core Intel Core i5, 16 GB 3733 MHz LPDDR4X RAM. In addition to the Collection Size limitation, it is worth considering the fact that our experimental results were somehow influeced by the computational power, available with the above specifications. This means, that there is a high chance of observing different time complexity values, if the same experiment is conducted on another machine.
+ \subsection{Evaluations}
+Index: ../Template/report_template_singleFile.lof
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\\boolfalse {citerequest}\\boolfalse {citetracker}\\boolfalse {pagetracker}\\boolfalse {backtracker}\\relax \n\\babel@toc {english}{}\n\\defcounter {refsection}{0}\\relax \n\\contentsline {figure}{\\numberline {1}{\\ignorespaces Figure 3.1:}}{4}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {figure}{\\numberline {2}{\\ignorespaces Figure 3.2}}{5}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {figure}{\\numberline {3}{\\ignorespaces Figure 3.3}}{6}%\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Template/report_template_singleFile.lof b/../Template/report_template_singleFile.lof
+--- a/../Template/report_template_singleFile.lof	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/../Template/report_template_singleFile.lof	(date 1639522315706)
+@@ -1,8 +1,8 @@
+ \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+ \babel@toc {english}{}
+ \defcounter {refsection}{0}\relax 
+-\contentsline {figure}{\numberline {1}{\ignorespaces Figure 3.1:}}{4}%
++\contentsline {figure}{\numberline {1}{\ignorespaces Figure 3.1:}}{5}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {figure}{\numberline {2}{\ignorespaces Figure 3.2}}{5}%
++\contentsline {figure}{\numberline {2}{\ignorespaces Figure 3.2}}{6}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {figure}{\numberline {3}{\ignorespaces Figure 3.3}}{6}%
++\contentsline {figure}{\numberline {3}{\ignorespaces Figure 3.3}}{7}%
+Index: ../Template/report_template_singleFile.toc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\\boolfalse {citerequest}\\boolfalse {citetracker}\\boolfalse {pagetracker}\\boolfalse {backtracker}\\relax \n\\babel@toc {english}{}\n\\defcounter {refsection}{0}\\relax \n\\contentsline {section}{\\numberline {1}Introduction}{1}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {1.1}Context and Background}{1}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {1.2}Modern Usage, developments}{1}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {1.3}Sorting algorithm explanations}{1}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {1.4}Hypothesis, Problems and Considerations}{2}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsubsection}{\\numberline {1.4.1}Time Complexity and the importance of it.}{2}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsubsection}{\\numberline {1.4.2}Factors, operating on Time Complexity.}{2}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsubsection}{\\numberline {1.4.3}Different methods of approaching our Research question.}{2}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {section}{\\numberline {2}Methodology}{2}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {2.1}Working Implementation of our Algorithms.}{2}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {2.2}Developing and using our experimental environment.}{3}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {2.3}Data Analysis and Visualisation}{3}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {section}{\\numberline {3}Results}{3}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {3.1}Experimental Results}{3}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {section}{\\numberline {4}Discussion}{6}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {4.1}Interpretation}{6}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {4.2}Considerations}{6}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsubsection}{\\numberline {4.2.1}Limitations of the Empirical type of Analysis}{7}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsubsection}{\\numberline {4.2.2}Limitations of the Collection Size}{7}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsubsection}{\\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{7}%\n\\defcounter {refsection}{0}\\relax \n\\contentsline {subsection}{\\numberline {4.3}Evaluations}{7}%\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Template/report_template_singleFile.toc b/../Template/report_template_singleFile.toc
+--- a/../Template/report_template_singleFile.toc	(revision 0a08aaa306d37ae6e9cc677d587b8f0deeec4c4d)
++++ b/../Template/report_template_singleFile.toc	(date 1639522315706)
+@@ -7,38 +7,38 @@
+ \defcounter {refsection}{0}\relax 
+ \contentsline {subsection}{\numberline {1.2}Modern Usage, developments}{1}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {1.3}Sorting algorithm explanations}{1}%
++\contentsline {subsection}{\numberline {1.3}Sorting algorithm explanations}{2}%
+ \defcounter {refsection}{0}\relax 
+ \contentsline {subsection}{\numberline {1.4}Hypothesis, Problems and Considerations}{2}%
+ \defcounter {refsection}{0}\relax 
+ \contentsline {subsubsection}{\numberline {1.4.1}Time Complexity and the importance of it.}{2}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsubsection}{\numberline {1.4.2}Factors, operating on Time Complexity.}{2}%
++\contentsline {subsubsection}{\numberline {1.4.2}Theoretical explanation of Time Complexity.}{2}%
+ \defcounter {refsection}{0}\relax 
+ \contentsline {subsubsection}{\numberline {1.4.3}Different methods of approaching our Research question.}{2}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {section}{\numberline {2}Methodology}{2}%
++\contentsline {section}{\numberline {2}Methodology}{3}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{2}%
++\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{3}%
+ \defcounter {refsection}{0}\relax 
+ \contentsline {subsection}{\numberline {2.2}Developing and using our experimental environment.}{3}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{3}%
++\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{5}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {section}{\numberline {3}Results}{3}%
++\contentsline {section}{\numberline {3}Results}{5}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {3.1}Experimental Results}{3}%
++\contentsline {subsection}{\numberline {3.1}Experimental Results}{5}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {section}{\numberline {4}Discussion}{6}%
++\contentsline {section}{\numberline {4}Discussion}{8}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {4.1}Interpretation}{6}%
++\contentsline {subsection}{\numberline {4.1}Interpretation}{8}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {4.2}Considerations}{6}%
++\contentsline {subsection}{\numberline {4.2}Considerations}{8}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsubsection}{\numberline {4.2.1}Limitations of the Empirical type of Analysis}{7}%
++\contentsline {subsubsection}{\numberline {4.2.1}Limitations of the Empirical type of Analysis}{8}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsubsection}{\numberline {4.2.2}Limitations of the Collection Size}{7}%
++\contentsline {subsubsection}{\numberline {4.2.2}Limitations of the Collection Size}{8}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{7}%
++\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{9}%
+ \defcounter {refsection}{0}\relax 
+-\contentsline {subsection}{\numberline {4.3}Evaluations}{7}%
++\contentsline {subsection}{\numberline {4.3}Evaluations}{9}%

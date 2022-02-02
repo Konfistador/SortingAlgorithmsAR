@@ -1,0 +1,192 @@
+Index: src/main/resources/analysisReport.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"Sorter\",\"TimeComplexity\",\"CollectionSize\",\"CollectionType\",\"RAMUsed\"\n\"QuickSort\",\"21000\",\"2\",\"int\",\"3894504\"\n\"QuickSort\",\"8000\",\"4\",\"int\",\"3894504\"\n\"QuickSort\",\"5000\",\"8\",\"int\",\"3894504\"\n\"QuickSort\",\"15000\",\"16\",\"int\",\"3894504\"\n\"QuickSort\",\"25000\",\"32\",\"int\",\"3894504\"\n\"QuickSort\",\"60000\",\"64\",\"int\",\"3894504\"\n\"QuickSort\",\"114000\",\"128\",\"int\",\"3894504\"\n\"QuickSort\",\"177000\",\"256\",\"int\",\"3894504\"\n\"QuickSort\",\"196000\",\"512\",\"int\",\"3894504\"\n\"QuickSort\",\"173000\",\"1024\",\"int\",\"3894504\"\n\"QuickSort\",\"349000\",\"2048\",\"int\",\"3894504\"\n\"QuickSort\",\"2079000\",\"4096\",\"int\",\"3894504\"\n\"QuickSort\",\"1887000\",\"8192\",\"int\",\"3894504\"\n\"QuickSort\",\"4620000\",\"16384\",\"int\",\"3894504\"\n\"QuickSort\",\"4651000\",\"32768\",\"int\",\"3894504\"\n\"QuickSort\",\"8258000\",\"65536\",\"int\",\"4156664\"\n\"QuickSort\",\"19694000\",\"131072\",\"int\",\"5205240\"\n\"QuickSort\",\"59830000\",\"262144\",\"int\",\"7302392\"\n\"QuickSort\",\"73807000\",\"524288\",\"int\",\"10448120\"\n\"HeapSort\",\"82000\",\"2\",\"int\",\"10448120\"\n\"HeapSort\",\"20000\",\"4\",\"int\",\"10448120\"\n\"HeapSort\",\"13000\",\"8\",\"int\",\"10448120\"\n\"HeapSort\",\"22000\",\"16\",\"int\",\"10448120\"\n\"HeapSort\",\"40000\",\"32\",\"int\",\"10448120\"\n\"HeapSort\",\"98000\",\"64\",\"int\",\"10448120\"\n\"HeapSort\",\"212000\",\"128\",\"int\",\"10448120\"\n\"HeapSort\",\"186000\",\"256\",\"int\",\"10448120\"\n\"HeapSort\",\"124000\",\"512\",\"int\",\"10448120\"\n\"HeapSort\",\"300000\",\"1024\",\"int\",\"10448120\"\n\"HeapSort\",\"588000\",\"2048\",\"int\",\"10448120\"\n\"HeapSort\",\"1268000\",\"4096\",\"int\",\"10448120\"\n\"HeapSort\",\"2809000\",\"8192\",\"int\",\"10481680\"\n\"HeapSort\",\"5123000\",\"16384\",\"int\",\"10985032\"\n\"HeapSort\",\"7900000\",\"32768\",\"int\",\"10985032\"\n\"HeapSort\",\"17832000\",\"65536\",\"int\",\"10985032\"\n\"HeapSort\",\"37022000\",\"131072\",\"int\",\"12033608\"\n\"HeapSort\",\"92823000\",\"262144\",\"int\",\"14130760\"\n\"HeapSort\",\"217393000\",\"524288\",\"int\",\"17276488\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/analysisReport.csv b/src/main/resources/analysisReport.csv
+--- a/src/main/resources/analysisReport.csv	
++++ b/src/main/resources/analysisReport.csv	
+@@ -1,39 +1,73 @@
+ "Sorter","TimeComplexity","CollectionSize","CollectionType","RAMUsed"
+-"QuickSort","21000","2","int","3894504"
+-"QuickSort","8000","4","int","3894504"
+-"QuickSort","5000","8","int","3894504"
+-"QuickSort","15000","16","int","3894504"
+-"QuickSort","25000","32","int","3894504"
+-"QuickSort","60000","64","int","3894504"
+-"QuickSort","114000","128","int","3894504"
+-"QuickSort","177000","256","int","3894504"
+-"QuickSort","196000","512","int","3894504"
+-"QuickSort","173000","1024","int","3894504"
+-"QuickSort","349000","2048","int","3894504"
+-"QuickSort","2079000","4096","int","3894504"
+-"QuickSort","1887000","8192","int","3894504"
+-"QuickSort","4620000","16384","int","3894504"
+-"QuickSort","4651000","32768","int","3894504"
+-"QuickSort","8258000","65536","int","4156664"
+-"QuickSort","19694000","131072","int","5205240"
+-"QuickSort","59830000","262144","int","7302392"
+-"QuickSort","73807000","524288","int","10448120"
+-"HeapSort","82000","2","int","10448120"
+-"HeapSort","20000","4","int","10448120"
+-"HeapSort","13000","8","int","10448120"
+-"HeapSort","22000","16","int","10448120"
+-"HeapSort","40000","32","int","10448120"
+-"HeapSort","98000","64","int","10448120"
+-"HeapSort","212000","128","int","10448120"
+-"HeapSort","186000","256","int","10448120"
+-"HeapSort","124000","512","int","10448120"
+-"HeapSort","300000","1024","int","10448120"
+-"HeapSort","588000","2048","int","10448120"
+-"HeapSort","1268000","4096","int","10448120"
+-"HeapSort","2809000","8192","int","10481680"
+-"HeapSort","5123000","16384","int","10985032"
+-"HeapSort","7900000","32768","int","10985032"
+-"HeapSort","17832000","65536","int","10985032"
+-"HeapSort","37022000","131072","int","12033608"
+-"HeapSort","92823000","262144","int","14130760"
+-"HeapSort","217393000","524288","int","17276488"
++"QuickSort","16000","2","char","3899472"
++"QuickSort","7000","4","char","3899472"
++"QuickSort","5000","8","char","3899472"
++"QuickSort","9000","16","char","3899472"
++"QuickSort","19000","32","char","3899472"
++"QuickSort","44000","64","char","3899472"
++"QuickSort","83000","128","char","3899472"
++"QuickSort","169000","256","char","3899472"
++"QuickSort","170000","512","char","3899472"
++"QuickSort","3118000","1024","char","3899472"
++"QuickSort","277000","2048","char","3899472"
++"QuickSort","538000","4096","char","3899472"
++"QuickSort","3924000","8192","char","3899472"
++"QuickSort","4188000","16384","char","3899472"
++"QuickSort","2874000","32768","char","4030560"
++"QuickSort","10241000","65536","char","4423808"
++"QuickSort","16112000","131072","char","5734544"
++"QuickSort","25255000","262144","char","8880272"
++"HeapSort","34000","2","char","8880272"
++"HeapSort","11000","4","char","8880272"
++"HeapSort","10000","8","char","8880272"
++"HeapSort","14000","16","char","8880272"
++"HeapSort","36000","32","char","8880272"
++"HeapSort","104000","64","char","8880272"
++"HeapSort","151000","128","char","8880272"
++"HeapSort","359000","256","char","8880272"
++"HeapSort","635000","512","char","8880272"
++"HeapSort","383000","1024","char","8880272"
++"HeapSort","476000","2048","char","8880272"
++"HeapSort","1296000","4096","char","8896672"
++"HeapSort","1926000","8192","char","8945856"
++"HeapSort","3074000","16384","char","9044192"
++"HeapSort","5451000","32768","char","9257120"
++"HeapSort","10037000","65536","char","9650368"
++"HeapSort","23393000","131072","char","10961104"
++"HeapSort","59093000","262144","char","14106832"
++"BubbleSort","40000","2","char","14106832"
++"BubbleSort","8000","4","char","14106832"
++"BubbleSort","6000","8","char","14106832"
++"BubbleSort","46000","16","char","14106832"
++"BubbleSort","54000","32","char","14106832"
++"BubbleSort","108000","64","char","14106832"
++"BubbleSort","368000","128","char","14106832"
++"BubbleSort","1277000","256","char","14106832"
++"BubbleSort","3137000","512","char","14106832"
++"BubbleSort","5033000","1024","char","14155840"
++"BubbleSort","4701000","2048","char","14155840"
++"BubbleSort","17457000","4096","char","14155840"
++"BubbleSort","71108000","8192","char","14417920"
++"BubbleSort","360488000","16384","char","14417920"
++"BubbleSort","1550304000","32768","char","15971888"
++"BubbleSort","6866182000","65536","char","16365136"
++"BubbleSort","27211639000","131072","char","17675872"
++"BubbleSort","109245375000","262144","char","20821600"
++"SelectionSort","14000","2","char","20821600"
++"SelectionSort","2000","4","char","20821600"
++"SelectionSort","3000","8","char","20821600"
++"SelectionSort","6000","16","char","20821600"
++"SelectionSort","16000","32","char","20821600"
++"SelectionSort","56000","64","char","20821600"
++"SelectionSort","223000","128","char","20821600"
++"SelectionSort","881000","256","char","20821600"
++"SelectionSort","1715000","512","char","20821600"
++"SelectionSort","3042000","1024","char","20821600"
++"SelectionSort","9473000","2048","char","20821600"
++"SelectionSort","30458000","4096","char","20838000"
++"SelectionSort","119653000","8192","char","20887184"
++"SelectionSort","481114000","16384","char","21037088"
++"SelectionSort","2020447000","32768","char","21233728"
++"SelectionSort","8035153000","65536","char","21626976"
++"SelectionSort","29714654000","131072","char","22937712"
++"SelectionSort","93932609000","262144","char","26083440"
+Index: target/classes/analysisReport.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"Sorter\",\"TimeComplexity\",\"CollectionSize\",\"CollectionType\",\"RAMUsed\"\n\"QuickSort\",\"12000\",\"2\",\"int\",\"3894360\"\n\"QuickSort\",\"7000\",\"4\",\"int\",\"3894360\"\n\"QuickSort\",\"5000\",\"8\",\"int\",\"3894360\"\n\"QuickSort\",\"8000\",\"16\",\"int\",\"3894360\"\n\"QuickSort\",\"15000\",\"32\",\"int\",\"3894360\"\n\"QuickSort\",\"35000\",\"64\",\"int\",\"3894360\"\n\"QuickSort\",\"63000\",\"128\",\"int\",\"3894360\"\n\"QuickSort\",\"215000\",\"256\",\"int\",\"3894360\"\n\"QuickSort\",\"166000\",\"512\",\"int\",\"3894360\"\n\"QuickSort\",\"154000\",\"1024\",\"int\",\"3894360\"\n\"QuickSort\",\"197000\",\"2048\",\"int\",\"3894360\"\n\"QuickSort\",\"443000\",\"4096\",\"int\",\"3894360\"\n\"QuickSort\",\"948000\",\"8192\",\"int\",\"3894360\"\n\"QuickSort\",\"1604000\",\"16384\",\"int\",\"3894360\"\n\"QuickSort\",\"2463000\",\"32768\",\"int\",\"3894360\"\n\"QuickSort\",\"6066000\",\"65536\",\"int\",\"4156520\"\n\"QuickSort\",\"13177000\",\"131072\",\"int\",\"5205096\"\n\"QuickSort\",\"29260000\",\"262144\",\"int\",\"7302248\"\n\"QuickSort\",\"64511000\",\"524288\",\"int\",\"10447976\"\n\"HeapSort\",\"32000\",\"2\",\"int\",\"10447976\"\n\"HeapSort\",\"5000\",\"4\",\"int\",\"10447976\"\n\"HeapSort\",\"9000\",\"8\",\"int\",\"10447976\"\n\"HeapSort\",\"20000\",\"16\",\"int\",\"10447976\"\n\"HeapSort\",\"75000\",\"32\",\"int\",\"10447976\"\n\"HeapSort\",\"106000\",\"64\",\"int\",\"10447976\"\n\"HeapSort\",\"160000\",\"128\",\"int\",\"10447976\"\n\"HeapSort\",\"354000\",\"256\",\"int\",\"10447976\"\n\"HeapSort\",\"133000\",\"512\",\"int\",\"10447976\"\n\"HeapSort\",\"206000\",\"1024\",\"int\",\"10447976\"\n\"HeapSort\",\"429000\",\"2048\",\"int\",\"10447976\"\n\"HeapSort\",\"978000\",\"4096\",\"int\",\"10447976\"\n\"HeapSort\",\"2763000\",\"8192\",\"int\",\"10481680\"\n\"HeapSort\",\"3173000\",\"16384\",\"int\",\"11005968\"\n\"HeapSort\",\"6884000\",\"32768\",\"int\",\"11005968\"\n\"HeapSort\",\"11250000\",\"65536\",\"int\",\"11005968\"\n\"HeapSort\",\"21090000\",\"131072\",\"int\",\"12054544\"\n\"HeapSort\",\"41374000\",\"262144\",\"int\",\"14151696\"\n\"HeapSort\",\"77805000\",\"524288\",\"int\",\"17297424\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/analysisReport.csv b/target/classes/analysisReport.csv
+--- a/target/classes/analysisReport.csv	
++++ b/target/classes/analysisReport.csv	
+@@ -1,39 +1,0 @@
+-"Sorter","TimeComplexity","CollectionSize","CollectionType","RAMUsed"
+-"QuickSort","12000","2","int","3894360"
+-"QuickSort","7000","4","int","3894360"
+-"QuickSort","5000","8","int","3894360"
+-"QuickSort","8000","16","int","3894360"
+-"QuickSort","15000","32","int","3894360"
+-"QuickSort","35000","64","int","3894360"
+-"QuickSort","63000","128","int","3894360"
+-"QuickSort","215000","256","int","3894360"
+-"QuickSort","166000","512","int","3894360"
+-"QuickSort","154000","1024","int","3894360"
+-"QuickSort","197000","2048","int","3894360"
+-"QuickSort","443000","4096","int","3894360"
+-"QuickSort","948000","8192","int","3894360"
+-"QuickSort","1604000","16384","int","3894360"
+-"QuickSort","2463000","32768","int","3894360"
+-"QuickSort","6066000","65536","int","4156520"
+-"QuickSort","13177000","131072","int","5205096"
+-"QuickSort","29260000","262144","int","7302248"
+-"QuickSort","64511000","524288","int","10447976"
+-"HeapSort","32000","2","int","10447976"
+-"HeapSort","5000","4","int","10447976"
+-"HeapSort","9000","8","int","10447976"
+-"HeapSort","20000","16","int","10447976"
+-"HeapSort","75000","32","int","10447976"
+-"HeapSort","106000","64","int","10447976"
+-"HeapSort","160000","128","int","10447976"
+-"HeapSort","354000","256","int","10447976"
+-"HeapSort","133000","512","int","10447976"
+-"HeapSort","206000","1024","int","10447976"
+-"HeapSort","429000","2048","int","10447976"
+-"HeapSort","978000","4096","int","10447976"
+-"HeapSort","2763000","8192","int","10481680"
+-"HeapSort","3173000","16384","int","11005968"
+-"HeapSort","6884000","32768","int","11005968"
+-"HeapSort","11250000","65536","int","11005968"
+-"HeapSort","21090000","131072","int","12054544"
+-"HeapSort","41374000","262144","int","14151696"
+-"HeapSort","77805000","524288","int","17297424"
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\n  <component name=\"MavenProjectsManager\">\n    <option name=\"originalFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" project-jdk-name=\"13\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="13" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="azul-13" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file

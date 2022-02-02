@@ -1,0 +1,110 @@
+---
+title: "ExtendedExperimentDataAnalysis"
+author: "Mino Karadzhov, Kestutis Dikinis"
+date: "2/2/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+options(scipen=999)
+experimentData <- read.csv("../ExperimentResults/extendedResults.csv")
+```
+
+```{r}
+summary(experimentData)
+```
+
+##How does Memory usage grow, as the collectionSize grows?
+```{r}
+experimentData %>%
+  ggplot(mapping = aes(x= CollectionSize, y = RAMUsed)) +
+  geom_point() + 
+  geom_smooth(method = lm)
+```
+##How does Time grow, as the collectionSize grows?
+```{r}
+experimentData %>%
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+### Comparing the different types of arrays in the context.
+```{r}
+experimentData %>%
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = CollectionType)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+### Comparing time required by different Sorting Algorithms per each CollectionType
+#### Integer type arrays
+```{r}
+experimentData %>%
+  filter(CollectionType == "int") %>%
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+##### Closer look on the two separate group of sorters
+```{r}
+experimentData %>%
+  filter(CollectionType == "int") %>%
+  filter(Sorter == "QuickSort" | Sorter == "HeapSort") %>% 
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+```{r}
+experimentData %>%
+  filter(CollectionType == "int") %>%
+  filter(Sorter == "BubbleSort" | Sorter == "SelectionSort") %>% 
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+
+#### Char type arrays
+```{r}
+experimentData %>%
+  filter(CollectionType == "char") %>%
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+##### Closer look on the two separate group of sorters
+```{r}
+experimentData %>%
+  filter(CollectionType == "char") %>%
+  filter(Sorter == "QuickSort" | Sorter == "HeapSort") %>% 
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+```{r}
+experimentData %>%
+  filter(CollectionType == "char") %>%
+  filter(Sorter == "BubbleSort" | Sorter == "SelectionSort") %>% 
+  ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+
+### Comparing memory used by different Sorting Algorithm per collectionType
+#### int-type arrays
+```{r}
+experimentData %>%
+  filter(CollectionType == "int") %>%
+  ggplot(mapping = aes(x= CollectionSize, y= RAMUsed, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+#### char-type arrays
+```{r}
+experimentData %>%
+  filter(CollectionType == "char") %>%
+  ggplot(mapping = aes(x= CollectionSize, y= RAMUsed, color = Sorter)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+
+
