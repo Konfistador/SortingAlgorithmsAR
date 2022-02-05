@@ -13,9 +13,9 @@ public class Main {
         ReportWizard reportWizard = new ReportWizard();
         List<AnalysisReport> reports = new ArrayList<>();
 
-        reports.addAll(testRun(AlgorithmTester.SorterType.QUICKSORT, tester));
-        reports.addAll(testRun(AlgorithmTester.SorterType.HEAPSORT, tester));
-        reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));
+        //  reports.addAll(testRun(AlgorithmTester.SorterType.QUICKSORT, tester));
+        // reports.addAll(testRun(AlgorithmTester.SorterType.HEAPSORT, tester));
+        // reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));
         reports.addAll(testRun(AlgorithmTester.SorterType.SELECTIONSORT, tester));
         // reports.add(tester.executeTest(AlgorithmTester.SorterType.SELECTIONSORT, AlgorithmTester.CollectionSize.SPACIOUS));
         // reports.add(tester.executeTest(AlgorithmTester.SorterType.QUICKSORT, AlgorithmTester.CollectionSize.LARGE));

@@ -1,0 +1,161 @@
+Index: src/main/resources/analysisReport.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"Sorter\",\"TimeComplexity\",\"CollectionSize\",\"CollectionType\",\"RAMUsed\"\n\"QuickSort\",\"21000\",\"2\",\"int\",\"3894504\"\n\"QuickSort\",\"8000\",\"4\",\"int\",\"3894504\"\n\"QuickSort\",\"5000\",\"8\",\"int\",\"3894504\"\n\"QuickSort\",\"15000\",\"16\",\"int\",\"3894504\"\n\"QuickSort\",\"25000\",\"32\",\"int\",\"3894504\"\n\"QuickSort\",\"60000\",\"64\",\"int\",\"3894504\"\n\"QuickSort\",\"114000\",\"128\",\"int\",\"3894504\"\n\"QuickSort\",\"177000\",\"256\",\"int\",\"3894504\"\n\"QuickSort\",\"196000\",\"512\",\"int\",\"3894504\"\n\"QuickSort\",\"173000\",\"1024\",\"int\",\"3894504\"\n\"QuickSort\",\"349000\",\"2048\",\"int\",\"3894504\"\n\"QuickSort\",\"2079000\",\"4096\",\"int\",\"3894504\"\n\"QuickSort\",\"1887000\",\"8192\",\"int\",\"3894504\"\n\"QuickSort\",\"4620000\",\"16384\",\"int\",\"3894504\"\n\"QuickSort\",\"4651000\",\"32768\",\"int\",\"3894504\"\n\"QuickSort\",\"8258000\",\"65536\",\"int\",\"4156664\"\n\"QuickSort\",\"19694000\",\"131072\",\"int\",\"5205240\"\n\"QuickSort\",\"59830000\",\"262144\",\"int\",\"7302392\"\n\"QuickSort\",\"73807000\",\"524288\",\"int\",\"10448120\"\n\"HeapSort\",\"82000\",\"2\",\"int\",\"10448120\"\n\"HeapSort\",\"20000\",\"4\",\"int\",\"10448120\"\n\"HeapSort\",\"13000\",\"8\",\"int\",\"10448120\"\n\"HeapSort\",\"22000\",\"16\",\"int\",\"10448120\"\n\"HeapSort\",\"40000\",\"32\",\"int\",\"10448120\"\n\"HeapSort\",\"98000\",\"64\",\"int\",\"10448120\"\n\"HeapSort\",\"212000\",\"128\",\"int\",\"10448120\"\n\"HeapSort\",\"186000\",\"256\",\"int\",\"10448120\"\n\"HeapSort\",\"124000\",\"512\",\"int\",\"10448120\"\n\"HeapSort\",\"300000\",\"1024\",\"int\",\"10448120\"\n\"HeapSort\",\"588000\",\"2048\",\"int\",\"10448120\"\n\"HeapSort\",\"1268000\",\"4096\",\"int\",\"10448120\"\n\"HeapSort\",\"2809000\",\"8192\",\"int\",\"10481680\"\n\"HeapSort\",\"5123000\",\"16384\",\"int\",\"10985032\"\n\"HeapSort\",\"7900000\",\"32768\",\"int\",\"10985032\"\n\"HeapSort\",\"17832000\",\"65536\",\"int\",\"10985032\"\n\"HeapSort\",\"37022000\",\"131072\",\"int\",\"12033608\"\n\"HeapSort\",\"92823000\",\"262144\",\"int\",\"14130760\"\n\"HeapSort\",\"217393000\",\"524288\",\"int\",\"17276488\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/analysisReport.csv b/src/main/resources/analysisReport.csv
+--- a/src/main/resources/analysisReport.csv	
++++ b/src/main/resources/analysisReport.csv	
+@@ -1,39 +1,20 @@
+ "Sorter","TimeComplexity","CollectionSize","CollectionType","RAMUsed"
+-"QuickSort","21000","2","int","3894504"
+-"QuickSort","8000","4","int","3894504"
+-"QuickSort","5000","8","int","3894504"
+-"QuickSort","15000","16","int","3894504"
+-"QuickSort","25000","32","int","3894504"
+-"QuickSort","60000","64","int","3894504"
+-"QuickSort","114000","128","int","3894504"
+-"QuickSort","177000","256","int","3894504"
+-"QuickSort","196000","512","int","3894504"
+-"QuickSort","173000","1024","int","3894504"
+-"QuickSort","349000","2048","int","3894504"
+-"QuickSort","2079000","4096","int","3894504"
+-"QuickSort","1887000","8192","int","3894504"
+-"QuickSort","4620000","16384","int","3894504"
+-"QuickSort","4651000","32768","int","3894504"
+-"QuickSort","8258000","65536","int","4156664"
+-"QuickSort","19694000","131072","int","5205240"
+-"QuickSort","59830000","262144","int","7302392"
+-"QuickSort","73807000","524288","int","10448120"
+-"HeapSort","82000","2","int","10448120"
+-"HeapSort","20000","4","int","10448120"
+-"HeapSort","13000","8","int","10448120"
+-"HeapSort","22000","16","int","10448120"
+-"HeapSort","40000","32","int","10448120"
+-"HeapSort","98000","64","int","10448120"
+-"HeapSort","212000","128","int","10448120"
+-"HeapSort","186000","256","int","10448120"
+-"HeapSort","124000","512","int","10448120"
+-"HeapSort","300000","1024","int","10448120"
+-"HeapSort","588000","2048","int","10448120"
+-"HeapSort","1268000","4096","int","10448120"
+-"HeapSort","2809000","8192","int","10481680"
+-"HeapSort","5123000","16384","int","10985032"
+-"HeapSort","7900000","32768","int","10985032"
+-"HeapSort","17832000","65536","int","10985032"
+-"HeapSort","37022000","131072","int","12033608"
+-"HeapSort","92823000","262144","int","14130760"
+-"HeapSort","217393000","524288","int","17276488"
++"SelectionSort","16000","2","char","3898456"
++"SelectionSort","6000","4","char","3898456"
++"SelectionSort","4000","8","char","3898456"
++"SelectionSort","8000","16","char","3898456"
++"SelectionSort","20000","32","char","3898456"
++"SelectionSort","75000","64","char","3898456"
++"SelectionSort","281000","128","char","3898456"
++"SelectionSort","1119000","256","char","3898456"
++"SelectionSort","2694000","512","char","3898456"
++"SelectionSort","4232000","1024","char","3898456"
++"SelectionSort","13422000","2048","char","3898456"
++"SelectionSort","38896000","4096","char","3898456"
++"SelectionSort","156371000","8192","char","3898456"
++"SelectionSort","531832000","16384","char","3898456"
++"SelectionSort","2019123000","32768","char","4949056"
++"SelectionSort","8117324000","65536","char","4949056"
++"SelectionSort","29291609000","131072","char","5211216"
++"SelectionSort","91320131000","262144","char","6259792"
++"SelectionSort","275234101000","524288","char","8356944"
+Index: src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import algorithms.*;\nimport utils.*;\n\nimport java.io.IOException;\nimport java.util.ArrayList;\nimport java.util.Collection;\nimport java.util.List;\n\npublic class Main {\n\n    public static void main(String[] args) throws IOException {\n        AlgorithmTester tester = new AlgorithmTester(false);\n        ReportWizard reportWizard = new ReportWizard();\n        List<AnalysisReport> reports = new ArrayList<>();\n\n        reports.addAll(testRun(AlgorithmTester.SorterType.QUICKSORT, tester));\n        reports.addAll(testRun(AlgorithmTester.SorterType.HEAPSORT, tester));\n        reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));\n        reports.addAll(testRun(AlgorithmTester.SorterType.SELECTIONSORT, tester));\n        // reports.add(tester.executeTest(AlgorithmTester.SorterType.SELECTIONSORT, AlgorithmTester.CollectionSize.SPACIOUS));\n        // reports.add(tester.executeTest(AlgorithmTester.SorterType.QUICKSORT, AlgorithmTester.CollectionSize.LARGE));\n        reportWizard.saveReports(reports);\n\n    }\n\n    public static List<AnalysisReport> testRun(AlgorithmTester.SorterType sorterForTesting, AlgorithmTester tester) {\n        var returnableList = new ArrayList<AnalysisReport>();\n        var allSizeValues = AlgorithmTester.CollectionSize.values();\n\n        for (AlgorithmTester.CollectionSize allSizeValue : allSizeValues) {\n            returnableList.add(tester.executeTest(sorterForTesting, allSizeValue));\n            //returnableList.add(tester.executeTest(sorterForTesting, allSizeValues[i], char.class));\n        }\n        return returnableList;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Main.java b/src/main/java/Main.java
+--- a/src/main/java/Main.java	
++++ b/src/main/java/Main.java	
+@@ -13,9 +13,9 @@
+         ReportWizard reportWizard = new ReportWizard();
+         List<AnalysisReport> reports = new ArrayList<>();
+ 
+-        reports.addAll(testRun(AlgorithmTester.SorterType.QUICKSORT, tester));
+-        reports.addAll(testRun(AlgorithmTester.SorterType.HEAPSORT, tester));
+-        reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));
++        //  reports.addAll(testRun(AlgorithmTester.SorterType.QUICKSORT, tester));
++        // reports.addAll(testRun(AlgorithmTester.SorterType.HEAPSORT, tester));
++        // reports.addAll(testRun(AlgorithmTester.SorterType.BUBBLESORT, tester));
+         reports.addAll(testRun(AlgorithmTester.SorterType.SELECTIONSORT, tester));
+         // reports.add(tester.executeTest(AlgorithmTester.SorterType.SELECTIONSORT, AlgorithmTester.CollectionSize.SPACIOUS));
+         // reports.add(tester.executeTest(AlgorithmTester.SorterType.QUICKSORT, AlgorithmTester.CollectionSize.LARGE));
+Index: target/classes/analysisReport.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"Sorter\",\"TimeComplexity\",\"CollectionSize\",\"CollectionType\",\"RAMUsed\"\n\"QuickSort\",\"12000\",\"2\",\"int\",\"3894360\"\n\"QuickSort\",\"7000\",\"4\",\"int\",\"3894360\"\n\"QuickSort\",\"5000\",\"8\",\"int\",\"3894360\"\n\"QuickSort\",\"8000\",\"16\",\"int\",\"3894360\"\n\"QuickSort\",\"15000\",\"32\",\"int\",\"3894360\"\n\"QuickSort\",\"35000\",\"64\",\"int\",\"3894360\"\n\"QuickSort\",\"63000\",\"128\",\"int\",\"3894360\"\n\"QuickSort\",\"215000\",\"256\",\"int\",\"3894360\"\n\"QuickSort\",\"166000\",\"512\",\"int\",\"3894360\"\n\"QuickSort\",\"154000\",\"1024\",\"int\",\"3894360\"\n\"QuickSort\",\"197000\",\"2048\",\"int\",\"3894360\"\n\"QuickSort\",\"443000\",\"4096\",\"int\",\"3894360\"\n\"QuickSort\",\"948000\",\"8192\",\"int\",\"3894360\"\n\"QuickSort\",\"1604000\",\"16384\",\"int\",\"3894360\"\n\"QuickSort\",\"2463000\",\"32768\",\"int\",\"3894360\"\n\"QuickSort\",\"6066000\",\"65536\",\"int\",\"4156520\"\n\"QuickSort\",\"13177000\",\"131072\",\"int\",\"5205096\"\n\"QuickSort\",\"29260000\",\"262144\",\"int\",\"7302248\"\n\"QuickSort\",\"64511000\",\"524288\",\"int\",\"10447976\"\n\"HeapSort\",\"32000\",\"2\",\"int\",\"10447976\"\n\"HeapSort\",\"5000\",\"4\",\"int\",\"10447976\"\n\"HeapSort\",\"9000\",\"8\",\"int\",\"10447976\"\n\"HeapSort\",\"20000\",\"16\",\"int\",\"10447976\"\n\"HeapSort\",\"75000\",\"32\",\"int\",\"10447976\"\n\"HeapSort\",\"106000\",\"64\",\"int\",\"10447976\"\n\"HeapSort\",\"160000\",\"128\",\"int\",\"10447976\"\n\"HeapSort\",\"354000\",\"256\",\"int\",\"10447976\"\n\"HeapSort\",\"133000\",\"512\",\"int\",\"10447976\"\n\"HeapSort\",\"206000\",\"1024\",\"int\",\"10447976\"\n\"HeapSort\",\"429000\",\"2048\",\"int\",\"10447976\"\n\"HeapSort\",\"978000\",\"4096\",\"int\",\"10447976\"\n\"HeapSort\",\"2763000\",\"8192\",\"int\",\"10481680\"\n\"HeapSort\",\"3173000\",\"16384\",\"int\",\"11005968\"\n\"HeapSort\",\"6884000\",\"32768\",\"int\",\"11005968\"\n\"HeapSort\",\"11250000\",\"65536\",\"int\",\"11005968\"\n\"HeapSort\",\"21090000\",\"131072\",\"int\",\"12054544\"\n\"HeapSort\",\"41374000\",\"262144\",\"int\",\"14151696\"\n\"HeapSort\",\"77805000\",\"524288\",\"int\",\"17297424\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/analysisReport.csv b/target/classes/analysisReport.csv
+--- a/target/classes/analysisReport.csv	
++++ b/target/classes/analysisReport.csv	
+@@ -1,39 +1,20 @@
+ "Sorter","TimeComplexity","CollectionSize","CollectionType","RAMUsed"
+-"QuickSort","12000","2","int","3894360"
+-"QuickSort","7000","4","int","3894360"
+-"QuickSort","5000","8","int","3894360"
+-"QuickSort","8000","16","int","3894360"
+-"QuickSort","15000","32","int","3894360"
+-"QuickSort","35000","64","int","3894360"
+-"QuickSort","63000","128","int","3894360"
+-"QuickSort","215000","256","int","3894360"
+-"QuickSort","166000","512","int","3894360"
+-"QuickSort","154000","1024","int","3894360"
+-"QuickSort","197000","2048","int","3894360"
+-"QuickSort","443000","4096","int","3894360"
+-"QuickSort","948000","8192","int","3894360"
+-"QuickSort","1604000","16384","int","3894360"
+-"QuickSort","2463000","32768","int","3894360"
+-"QuickSort","6066000","65536","int","4156520"
+-"QuickSort","13177000","131072","int","5205096"
+-"QuickSort","29260000","262144","int","7302248"
+-"QuickSort","64511000","524288","int","10447976"
+-"HeapSort","32000","2","int","10447976"
+-"HeapSort","5000","4","int","10447976"
+-"HeapSort","9000","8","int","10447976"
+-"HeapSort","20000","16","int","10447976"
+-"HeapSort","75000","32","int","10447976"
+-"HeapSort","106000","64","int","10447976"
+-"HeapSort","160000","128","int","10447976"
+-"HeapSort","354000","256","int","10447976"
+-"HeapSort","133000","512","int","10447976"
+-"HeapSort","206000","1024","int","10447976"
+-"HeapSort","429000","2048","int","10447976"
+-"HeapSort","978000","4096","int","10447976"
+-"HeapSort","2763000","8192","int","10481680"
+-"HeapSort","3173000","16384","int","11005968"
+-"HeapSort","6884000","32768","int","11005968"
+-"HeapSort","11250000","65536","int","11005968"
+-"HeapSort","21090000","131072","int","12054544"
+-"HeapSort","41374000","262144","int","14151696"
+-"HeapSort","77805000","524288","int","17297424"
++"BubbleSort","17000","2","char","3898456"
++"BubbleSort","7000","4","char","3898456"
++"BubbleSort","4000","8","char","3898456"
++"BubbleSort","7000","16","char","3898456"
++"BubbleSort","27000","32","char","3898456"
++"BubbleSort","92000","64","char","3898456"
++"BubbleSort","354000","128","char","3898456"
++"BubbleSort","1383000","256","char","3898456"
++"BubbleSort","3184000","512","char","3898456"
++"BubbleSort","3027000","1024","char","3898456"
++"BubbleSort","9617000","2048","char","3898456"
++"BubbleSort","18868000","4096","char","3898456"
++"BubbleSort","92252000","8192","char","3898456"
++"BubbleSort","395760000","16384","char","3898456"
++"BubbleSort","1683408000","32768","char","4949056"
++"BubbleSort","6657746000","65536","char","4949056"
++"BubbleSort","27601144000","131072","char","5211216"
++"BubbleSort","105013070000","262144","char","6259792"
++"BubbleSort","425981720000","524288","char","8356944"
