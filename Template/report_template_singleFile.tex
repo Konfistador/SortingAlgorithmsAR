@@ -165,15 +165,15 @@ In order to get a record of the used memory, Petko is using the Runtime java lib
 		
 		Taking a more focused look at the numerical collections, we can easily see that the growth of TimeComplexity is different for each algorithm. This means that the sorting operation takes a different amount of time, depending on the algorithm, used for the operation. In addition to this, we can see that the BubbleSort and SelectionSort take significantly more time, compared to HeapSort and QuickSort. The latter group is overlaping on the diagram, as their time complexity is in a big contrast, compared to the other one. From the above, we can identify two groups of algorithms - group of efficent algorithms and a group of less-efficent algorithms
 		
-		
-			\begin{figure}[h]
+		\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.7\linewidth]{ramUsageSize}
 		\caption[Figure 3.4]{Overall view of correlation between RAMUsed and SizeOfCollection}
 	\end{figure}
 	
 	From the above diagram, we can see that there is a similiar positive relationship between RAMUsed and SizeOfCollection. This means that more memory is being used, when trying to sort bigger collections. We can see that the growth is sharper, compared to the one of the TimeComplexity.
-In the following section we are going to discuss our results, give answer to our research question and provide a conclusion if our hypothesis was validated or not.
+	\section{Discussion}
+	In the following section we are going to discuss our results, give answer to our research question and provide a conclusion if our hypothesis was validated or not.
 \subsection{Interpretation}
 The Experimental results, clearly display a relationship, that can be described as a  positive correlation between Time Complexity and Collection Size. This validates our initial hypothesis, as the increased number of elements for sorting clearly results in an increase of the time required for completing the sorting operation. In addition to this, we gained knowledge, that shows that different Sorting techniques (Algorithms) are not being affected in the same way by the increased number of elements for sorting. For instance, on the Overall view of our Experimental results, we can see that BubbleSort and SelectionSort are experiencing a drastic increase of their TimeComplexity, whereas the other two Sorters - QuickSort and HeapSort are not following the same pattern.\\
 Based on this, we can conclude that the latter group of Sorters can be a better choice for executing sorting tasks, which are placing their focus on the Time Resource being spend.
