@@ -17,28 +17,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.3}Different methods of approaching our Research question.}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Methodology}{2}%
+\contentsline {section}{\numberline {2}Methodology}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{2}%
+\contentsline {subsection}{\numberline {2.1}Working Implementation of our Algorithms.}{3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Developing and using our experimental environment.}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{3}%
+\contentsline {subsection}{\numberline {2.3}Data Analysis and Visualisation}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Results}{3}%
+\contentsline {section}{\numberline {3}Results}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Experimental Results}{3}%
+\contentsline {subsection}{\numberline {3.1}Experimental Results}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Discussion}{6}%
+\contentsline {section}{\numberline {4}Discussion}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Interpretation}{6}%
+\contentsline {subsection}{\numberline {4.1}Interpretation}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Considerations}{6}%
+\contentsline {subsection}{\numberline {4.2}Considerations}{7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.1}Limitations of the Empirical type of Analysis}{7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2}Limitations of the Collection Size}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{7}%
+\contentsline {subsubsection}{\numberline {4.2.3}Limitations of the Machine, used for the Experiment}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Evaluations}{7}%
+\contentsline {subsection}{\numberline {4.3}Evaluations}{8}%
