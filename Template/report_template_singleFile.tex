@@ -109,12 +109,32 @@ The overall goal is to gain an output, which allows data analysis on the behavio
 	Capturing the time complexity is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
 	
 	\begin{algorithmic}[H]
-		\caption{Hi}
 		\State $startPoint \gets Instant.now()$
 		\State $sort()$
 		\State $endPoint \gets Instant.now()$
 		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
 	\end{algorithmic} 
+
+\begin{algorithm}
+	\caption{An algorithm with caption}\label{alg:cap}
+	\begin{algorithmic}
+		\Require $n \geq 0$
+		\Ensure $y = x^n$
+		\State $y \gets 1$
+		\State $X \gets x$
+		\State $N \gets n$
+		\While{$N \neq 0$}
+		\If{$N$ is even}
+		\State $X \gets X \times X$
+		\State $N \gets \frac{N}{2}$  \Comment{This is a comment}
+		\ElsIf{$N$ is odd}
+		\State $y \gets y \times X$
+		\State $N \gets N - 1$
+		\EndIf
+		\EndWhile
+	\end{algorithmic}
+\end{algorithm}
+
 	\newpage
 		 Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
 		\subsection{Data Analysis and Visualisation}
