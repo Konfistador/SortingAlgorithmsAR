@@ -112,7 +112,7 @@ The overall goal is to gain an output, which allows data analysis on the behavio
 \begin{algorithm}
 	\caption{Capturing time complexity within Petko}\label{alg:cap}
 	\begin{algorithmic}
-	\State $startPoint \gets Instant.now()$   \Comment{Placing a start point, right before the start of the sorting}
+	\State $startPoint \gets Instant.now()$ \Comment{Placing a start point, right before the start of the sorting}
 	\State $sort()$ 
 	\State $endPoint \gets Instant.now()$ \Comment{Placing an end point, right after sorting}
 	\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
