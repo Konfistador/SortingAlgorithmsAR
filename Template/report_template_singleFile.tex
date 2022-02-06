@@ -156,6 +156,13 @@ In order to get a record of the used memory, Petko is using the Runtime java lib
 		
 		The above diagram provide us with the possibility to take a closer look at how the relationship between TimeComplexity and CollectionSize changes, when the sorting is applied on numerical and charecter type of elements. Looking at the graph, we can easily see that the growth is slightly bigger, when charecter elements are being sorted. Furthermore, this means that more time is required for sorting the same amount of charecter elements, compared to such of numerical type. We can also identify two outliners, which requried significantly more time to be sorted. Both of these observations are being conducted on charecter type of collection.
 		
+				
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{overallInts}
+			\caption[Figure 3.3]{Overall view of correlation between TimeComplexity and SizeOfCollection, when using different sorting algorithms.}
+		\end{figure}
+		
 		Taking a more focused look at the numerical collections, we can easily see that the growth of TimeComplexity is different for each algorithm. This means that the sorting operation takes a different amount of time, depending on the algorithm, used for the operation. In addition to this, we can see that the BubbleSort and SelectionSort take significantly more time, compared to HeapSort and QuickSort. The latter group is overlaping on the diagram, as their time complexity is in a big contrast, compared to the other one. From the above, we can identify two groups of algorithms - group of efficent algorithms and a group of less-efficent algorithms
 		
 		
