@@ -32,9 +32,9 @@
 \begin{abstract}
 Sorting  collections of information is one of common usages of computers nowadays. Sorting operations could take place in many of our daily interactions with information systems. There are several different techniques for conducting a sorting operation and choosing the proper one can reap huge savings and even make some problems possible to be solved in general[1]. \\
 
-One of the metrics for measuring Algorithm Performance is the Time Complexity, which corresponds to the Time required for a given algorithm to fully complete it's task. In our case, this means fully sorting a collection.There is a number of factors that can affect the Time Complexity in both negative and positive way. The number of elements for sorting is one such factor, but what is the exact way that it affect the Time Complexity of a Sorting Algorithm? \\
+The metrics for measuring algorithm performance is the time and space complexity, which corresponds to the time and space required for a given algorithm to fully complete it's task. In our case, this means fully sorting a collection.There is a number of factors that can affect the time and space complexity in both negative and positive way. The number of elements for sorting is one such factor, but what is the exact way that it affect the time and space complexity of a sorting algorithm? \\
 
-This Paper describes an experiment, under the form of an Empirical analysis of four different Sorting Algorithms(SelectionSort, HeapSort, BubbleSort and Quicksort), that has a goal of studying the relationship between Time Complexity and the Number of elements for sorting. The results show an overall positive relationship between the two variables. However, the experimental results also show us that the exact ratio of growth is not the same for every Sorting technique.
+This paper describes an experiment, under the form of an empirical analysis of four different sorting algorithms(SelectionSort, HeapSort, BubbleSort and Quicksort), that has a goal of studying the relationship between time complexity, space complexity and the number and type of elements for sorting. The results show an overall positive relationship between the variables. However, the experimental results also show us that the exact ratio of growth is not the same for every sorting technique.
 \pagenumbering{roman}
 
 \end{abstract}
@@ -48,36 +48,38 @@ This Paper describes an experiment, under the form of an Empirical analysis of f
 \pagenumbering{arabic}	
 	
 \section{Introduction}
-The Purpose of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
+The purpose of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
 The main question of this research is: How does the time and space complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time and space complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. [1]
 
 \subsection{Context and Background}
-	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
+	In Computer Science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
 	Whenever there is a problem to be solved, there are many ways to approach it. Even though all those approaches end up with the same result, the time it takes for each approach can be vastly different. And the best example of that is sorting algorithms.  
-		
 		\subsection{Modern Usage, developments}
 		
 		Sorting algorithms are everywhere in day-to-day life in digital world. Everywhere starting from file browser in a computer - you can sort files on any parameters. Galleries in mobile phones - images sorted by date, contacts sorted alphabetically . Searching for a product in online store will have an option to sort products in many ways. 
 		Commercial computing: government organisations, financial institutions, and commercial enterprises organise much of this information by sorting it. Whether the information is accounts to be sorted by name or number, transactions to be sorted by time or place, mail to be sorted by postal code or address, files to be sorted by name or date, or whatever, processing such data is sure to involve a sorting algorithm somewhere along the way. [2]
-		Numerical computations: Scientific computing is often concerned with accuracy (how close are we to the true answer?). Accuracy is extremely important when we are performing millions of computations with estimated values such as the floating-point representation of real numbers that we commonly use on computers. Some numerical algorithms use priority queues and sorting to control accuracy in calculations.All in all, all any and every kind of list there is has been sorted in some way or another, as it is hard for a human to make use of unsorted data.[2]
+		Numerical computations: scientific computing is often concerned with accuracy (how close are we to the true answer?). Accuracy is extremely important when we are performing millions of computations with estimated values such as the floating-point representation of real numbers that we commonly use on computers. Some numerical algorithms use priority queues and sorting to control accuracy in calculations. All in all, all any and every kind of list there is has been sorted in some way or another, as it is hard for a human to make use of unsorted data.[2]
 		
 \subsection{Sorting algorithm explanations}
+		\subsubsection{Big O}
+		Big O in computer science, is used to classify algorithms according to how their run time or space requirements grow as the input size grows.[7]
+		\subsubsection{Bubblesort}
 		Bubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). [2]
-
+		\subsubsection{Heapsort}
 		Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.[2]
-
+		\subsubsection{Mergesort}
 		Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. [2]
-
-		Selection sort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]
-
+		\subsubsection{Selectionsort}
+		Selectionsort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]
+		\subsubsection{BogoSort}
 		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
 
 \subsection{Hypothesis, Problems and Considerations}
-Derived from main research question, we can make a hypothesis that we are going to see a growth of the Time and Space Complexity, towards Size of Collection.
+Derived from main research question, we can make a hypothesis that we are going to see a growth of the time and space Complexity, towards size of collection.
 		\subsubsection{Time Complexity and the importance of it.}
-		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can b e said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it ism used to solve larger problems. [7]
+		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can be said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it is used to solve larger problems. [7]
 		\subsubsection{Space Complexity and the importance of it.}
-		Space complexity of an algorithm is a amount of memory space required to solve an instance of computational problem. Similarly to Time complexity, Space complexity also uses big O notation. Space complexity is important, because when working in a limited environment, there is a chance that process or a function can exceed the amount of space that system has.
+		Space complexity of an algorithm is a amount of memory space required to solve an instance of computational problem. Similarly to time complexity, space complexity also uses big O notation. Space complexity is important, because when working in a limited environment, there is a chance that process or a function can exceed the amount of space that system has.
 		\subsubsection{Factors, operating on Time Complexity.}
 		Determining the time complexity of an algorithm is important, and is done by few steps:
 			-Breaking algorithm into individual operations.
