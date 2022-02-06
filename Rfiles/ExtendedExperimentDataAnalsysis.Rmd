@@ -19,7 +19,7 @@ summary(experimentData)
 experimentData %>%
   ggplot(mapping = aes(x= TimeComplexity, y = RAMUsed)) +
   geom_point() +
-  geom_smooth(method = "lm")
+  ggtitle("")
 ```
 
 
@@ -29,22 +29,26 @@ experimentData %>%
 experimentData %>%
   ggplot(mapping = aes(x= CollectionSize, y = RAMUsed)) +
   geom_point() + 
-  geom_smooth(method = lm)
+  geom_smooth(method = "lm") +
+  ggtitle("Changes in RAMUsed, as the size of collection grows")
 ```
 ##How does Time grow, as the collectionSize grows?
 ```{r}
 experimentData %>%
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Changes in TimeComplexity, as the size of collection grows")
 ```
 ### Comparing the different types of arrays in the context.
 ```{r}
 experimentData %>%
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = CollectionType)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Changes in TimeComplexity, when sorting different type of collections.")
 ```
+
 ### Comparing time required by different Sorting Algorithms per each CollectionType
 #### Integer type arrays
 ```{r}
@@ -52,7 +56,8 @@ experimentData %>%
   filter(CollectionType == "int") %>%
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Sorting an Integer collections, by using multiple different algorithms.")
 ```
 ##### Closer look on the two separate group of sorters
 ```{r}
@@ -61,7 +66,8 @@ experimentData %>%
   filter(Sorter == "QuickSort" | Sorter == "HeapSort") %>% 
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Sorting an Integer collections, by using the more efficient algorithms.")
 ```
 ```{r}
 experimentData %>%
@@ -69,7 +75,8 @@ experimentData %>%
   filter(Sorter == "BubbleSort" | Sorter == "SelectionSort") %>% 
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Sorting an integer collections by using the less-efficient algorithms.")
 ```
 
 #### Char type arrays
@@ -78,7 +85,8 @@ experimentData %>%
   filter(CollectionType == "char") %>%
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Sorting a charecter collections, by using multiple different Algorithms.")
 ```
 ##### Closer look on the two separate group of sorters
 ```{r}
@@ -87,7 +95,8 @@ experimentData %>%
   filter(Sorter == "QuickSort" | Sorter == "HeapSort") %>% 
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Sorting a charecter collections, by using the more efficient algorithms.")
 ```
 ```{r}
 experimentData %>%
@@ -95,17 +104,28 @@ experimentData %>%
   filter(Sorter == "BubbleSort" | Sorter == "SelectionSort") %>% 
   ggplot(mapping = aes(x= CollectionSize, y= TimeComplexity, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) + 
+  ggtitle("Sorting a charecter collections, by using the less-efficient algorithms.")
 ```
 
 ### Comparing memory used by different Sorting Algorithm per collectionType
+#### Comparing the different types of collections 
+```{r}
+experimentData %>%
+  ggplot(mapping = aes(x=CollectionSize, y = RAMUsed, color = CollectionType)) +
+  geom_point() +
+  geom_smooth() +
+  ggtitle("Changes of memory usage, when sorting collections of different type.")
+```
+
 #### int-type arrays
 ```{r}
 experimentData %>%
   filter(CollectionType == "int") %>%
   ggplot(mapping = aes(x= CollectionSize, y= RAMUsed, color = Sorter)) +
   geom_point() +
-  geom_smooth(method = lm)
+  geom_smooth(method = lm) +
+  ggtitle("Sorting integer collections with multiple different sorting algorithms.")
 ```
 #### char-type arrays
 ```{r}
@@ -115,17 +135,4 @@ experimentData %>%
   geom_point() +
   geom_smooth(method = lm)
 ```
-
-#is RAM changing if we are executing separately ?
-```{r}
-separatedRuns <- read.csv("../ExperimentResults/separatedRuns.csv")
-view(separatedRuns)
-```
-```{r}
-separatedRuns %>%
-  ggplot(mapping = aes(x= CollectionSize, y= RAMUsed, color = Sorter)) +
-  geom_point() +
-  geom_smooth(method = lm)
-```
-
 
