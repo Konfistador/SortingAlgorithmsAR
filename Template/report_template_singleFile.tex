@@ -108,12 +108,6 @@ The overall goal is to gain an output, which allows data analysis on the behavio
 	Petko actively uses the Java.time and Java.Runtime integrated libraries, in order to measure the Duration of time and memory used, between the start and end of the sorting process. \\
 	Capturing the time complexity is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
 	
-	\begin{algorithmic}[H]
-		\State $startPoint \gets Instant.now()$
-		\State $sort()$
-		\State $endPoint \gets Instant.now()$
-		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
-	\end{algorithmic} 
 
 \begin{algorithm}
 	\caption{Capturing time complexity within Petko}\label{alg:cap}
