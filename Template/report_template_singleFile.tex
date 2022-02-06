@@ -125,7 +125,7 @@ In order to get a record of the used memory, Petko is using the Runtime java lib
 \begin{algorithm}
 	\caption{Capturing memory complexity within Petko}\label{alg:cap}
 	\begin{algorithmic}
-		\State $usedMemoryBefore \gets Runtime.totalMemory() - Runtime.freeMemory$       \Comment{Measuring the prior memory usage }
+		\State $usedMemoryBefore \gets Runtime.totalMemory() - Runtime.freeMemory$    \Comment{Measuring the prior memory usage }
 		\State $sort()$ 
 		\State $endPoint \gets Instant.now()$  \Comment{Placing an end point, right after sorting}
 		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
