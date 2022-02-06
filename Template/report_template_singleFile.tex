@@ -112,12 +112,14 @@ The overall goal is to gain an output, which allows data analysis on the behavio
 \begin{algorithm}
 	\caption{Capturing time complexity within Petko}\label{alg:cap}
 	\begin{algorithmic}
-	\State $startPoint \gets Instant.now()$
+	\State $startPoint \gets Instant.now()$   \Comment{Placing a start point, right before the start of a sorting operation}
 	\State $sort()$
 	\State $endPoint \gets Instant.now()$
 	\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
 	\end{algorithmic}
 \end{algorithm}
+
+In order to get a record of the used memory, Petko is using 
 
 	\newpage
 		 Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
