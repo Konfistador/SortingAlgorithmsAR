@@ -119,7 +119,18 @@ The overall goal is to gain an output, which allows data analysis on the behavio
 	\end{algorithmic}
 \end{algorithm}
 
-In order to get a record of the used memory, Petko is using 
+In order to get a record of the used memory, Petko is using the Runtime java library. This allows us to interact with the application enviornment, where Petko is running. This is the same environment, where the sorting is taking place. The amount of used memory before the sorting is being recorded, as well as the amount of used memory after the sorting is being done. The following pseudocode gives a description on the technique.
+
+
+\begin{algorithm}
+	\caption{Capturing memory complexity within Petko}\label{alg:cap}
+	\begin{algorithmic}
+		\State $startPoint \gets Instant.now()$       \Comment{Placing a start point, right before the start of the sorting}
+		\State $sort()$ 
+		\State $endPoint \gets Instant.now()$  \Comment{Placing an end point, right after sorting}
+		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
+	\end{algorithmic}
+\end{algorithm}
 
 	\newpage
 		 Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
