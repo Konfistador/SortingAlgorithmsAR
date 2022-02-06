@@ -107,14 +107,13 @@ The overall goal is to gain an output, which allows data analysis on the behavio
 	 The growth of Collection Size is Logarithmic with base 2. Respectively, this means that the first collection for sorting is with size 2$^{1}$, whereas the collection for the last observation has a size equal to 2$^{18}$. The values within the unsorted collections were numeral\\
 	Petko actively uses the Java.time and Java.Runtime integrated libraries, in order to measure the Duration of time and memory used, between the start and end of the sorting process. \\
 	Capturing the time complexity is made possible, by placing an Instant at the Start and End point of each Algorithm execution. The following PseudoCode provides a brief description of the technique:
-	\begin{(algorithm}
-	\caption{Capturing the time complexity within Petko}\label{alg:cap}
+	
 	\begin{algorithmic}[H]
+		\caption{Hi}
 		\State $startPoint \gets Instant.now()$
 		\State $sort()$
 		\State $endPoint \gets Instant.now()$
 		\State $timeComplexity \gets Duration.between(startPoint, endPoint)$
-		\end{algorithm}
 	\end{algorithmic} 
 	\newpage
 		 Each Observation records the Sorting Algorithm that is being used, the TimeComplexity of the observation and the Size of Collection. This output is being gathered and recored into an external File under the .csv extension. 
