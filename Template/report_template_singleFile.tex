@@ -49,7 +49,7 @@ This paper describes an experiment, under the form of an empirical analysis of f
 	
 \section{Introduction}
 The purpose of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. In addition, sorting algorithms used in research are incroduced to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
-The main question of this research is: How does the time and space complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time and space complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. \cite{book1}
+The main question of this research is: How does the time and space complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time and space complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible[1]. 
 
 \subsection{Context and Background}
 	In Computer Science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
@@ -62,22 +62,22 @@ The main question of this research is: How does the time and space complexity of
 		
 \subsection{Sorting algorithm explanations}
 		\subsubsection{Big O}
-		Big O in computer science, is used to classify algorithms according to how their run time or space requirements grow as the input size grows.\cite{book7}
+		Big O in computer science, is used to classify algorithms according to how their run time or space requirements grow as the input size grows.[7]
 		\subsubsection{Bubblesort}
-		Bubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). \cite{book2}
+		Bubblesort is a simple sorting algorithm that belongs to the family of comparison sorting. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. Bubblesort has a worst-case complexity O(n 2 ) and in the best case O(n). Its memory complexity is O(1). [2]
 		\subsubsection{Heapsort}
-		Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.\cite{book2}
+		Heapsort is a comparison-based sorting algorithm, and is part of the Selection sort family. Although somewhat slower in practice on most machines than a good implementation of Quicksort, it has the advantage of a worst-case O(n log n) runtime.[2]
 		\subsubsection{Mergesort}
-		Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. \cite{book2}
+		Mergesort belongs to the family of comparison-based sorting. It has an average and worst-case performance of O(n log n). Unfortunately, Mergesort requires three times the memory of in-place algorithms such as Insertionsort. [2]
 		\subsubsection{Selectionsort}
-		Selectionsort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.\cite{book2}
+		Selectionsort belongs to the family of in-place comparison sorting. It typically searches for the minimum value, exchanges it with the value in the first position and repeats the first two steps for the remaining list. On average Selection sort has a O(n 2 ) complexity that makes it inefficient on large lists. Selection sort typically outperforms Bubblesort but is generally outperformed by Insertionsort.[2]
 		\subsubsection{BogoSort}
 		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
 
 \subsection{Hypothesis, Problems and Considerations}
 Derived from main research question, we can make a hypothesis that we are going to see a growth of the time and space Complexity, towards size of collection.
 		\subsubsection{Time Complexity and the importance of it.}
-		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can be said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it is used to solve larger problems.\cite{book7}
+		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can be said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it is used to solve larger problems.[7]
 		\subsubsection{Space Complexity and the importance of it.}
 		Space complexity of an algorithm is a amount of memory space required to solve an instance of computational problem. Similarly to time complexity, space complexity also uses big O notation. Space complexity is important, because when working in a limited environment, there is a chance that process or a function can exceed the amount of space that system has.
 		\subsubsection{Factors, operating on Time Complexity.}
@@ -173,24 +173,26 @@ The described experiment was conducted on a Machine with the following technical
 \subsection{Evaluations}
 	As this experiment is being conducted in a relatively small scope, taking into account the limited size of collections used, there could be an argument that this limits us from seeing how the Relationship between Time Complexity and Size of Collection changes with having bigger collections for sorting. This argument can be taken as a valid one, as the described experiment does not take into account Collections of much larger size. \\
 	
-	Taking this argument into account, we can evaluate that this study can serve as the base idea of conducting further experiments, that will provide insights based on a larger scope of Collection sizes. The same will make possible to study the patterns and changes in the relationship of Time Complexity and number of elements for sorting, within bigger collections.	
+	Taking this argument into account, we can evaluate that this study can serve as the base idea of conducting further experiments, that will provide insights based on a larger scope of Collection sizes. The same will make possible to study the patterns and changes in the relationship of Time Complexity and number of elements for sorting, within bigger collections.
+ \end{document}
+	
 	
 \printbibliography[title=References]
 \begin{thebibliography}{9}
 \bibitem{book3}
-R. Lafore (2002) \emph{Data Structures and Algorithms in Java}. SAMS
+R. Lafore (2002) Data Structures and Algorithms in Java. SAMS
 Publishing, Indianapolis, Indiana, USA, 2nd edition.
 \bibitem{book2}
-Bunse, C., Hopfner, H., Mansour, E. and Roychoudhury, S., n.d. \emph{Exploring the Energy Consumption of Data Sorting Algorithms in Embedded and Mobile Environments.} [online] citeseerx.ist.psu.edu. Available at: <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.543.8109&rep=rep1&type=pdf> [Accessed 14 December 2021].
+Bunse, C., Hopfner, H., Mansour, E. and Roychoudhury, S., n.d. Exploring the Energy Consumption of Data Sorting Algorithms in Embedded and Mobile Environments. [online] citeseerx.ist.psu.edu. Available at: <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.543.8109&rep=rep1&type=pdf> [Accessed 14 December 2021].
 \bibitem{book1}
-Sedgewick, R. & Wayne, K. (2011), \emph{Algorithms}, 4th Edition. , Addison-Wesley .
+Sedgewick, R. & Wayne, K. (2011), Algorithms, 4th Edition. , Addison-Wesley .
 \bibitem{book4}
-R. Sedgewick (1998) \emph{Algorithms in C++}, Addison–Wesley Longman.
+R. Sedgewick (1998) Algorithms in C++, Addison–Wesley Longman.
 \bibitem{book5}
-A.  Levitin (2007) \emph{Introduction to the Design & Analysis of Algorithms},  Addison–Wesley Longman.
+A.  Levitin (2007) Introduction to the Design & Analysis of Algorithms,  Addison–Wesley Longman.
 \bibitem{book6}
 https://en.wikipedia.org/wiki/Sorting_algorithm
 \bibitem{book7}
-Mohr, Austin. \emph{Quantum Computing in Complexity Theory and Theory of Computation} (PDF). p. 2. Retrieved 7 June 2014.
+Mohr, Austin. "Quantum Computing in Complexity Theory and Theory of Computation" (PDF). p. 2. Retrieved 7 June 2014.
 \end{thebibliography}
 \end{document}
