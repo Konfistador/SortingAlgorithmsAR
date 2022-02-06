@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  6 FEB 2022 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.20)  6 FEB 2022 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -639,28 +639,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
  []
 
 [4]
-<OverviewOfConstantTimeComplexityAlgorithms.png, id=36, 696.6025pt x 430.60875p
-t>
-File: OverviewOfConstantTimeComplexityAlgorithms.png Graphic file (type png)
-<use OverviewOfConstantTimeComplexityAlgorithms.png>
-Package pdftex.def Info: OverviewOfConstantTimeComplexityAlgorithms.png  used o
-n input line 148.
-(pdftex.def)             Requested size: 278.23828pt x 171.99075pt.
+<timeComplexityoverall.png, id=36, 756.8275pt x 465.74pt>
+File: timeComplexityoverall.png Graphic file (type png)
+<use timeComplexityoverall.png>
+Package pdftex.def Info: timeComplexityoverall.png  used on input line 145.
+(pdftex.def)             Requested size: 278.23828pt x 171.21957pt.
+<ResultsOverallView.png, id=38, 1407.2575pt x 867.24pt>
+File: ResultsOverallView.png Graphic file (type png)
+<use ResultsOverallView.png>
+Package pdftex.def Info: ResultsOverallView.png  used on input line 153.
+(pdftex.def)             Requested size: 278.23828pt x 171.45998pt.
  [5
 
- <./OverviewOfConstantTimeComplexityAlgorithms.png>]
-<FocusedViewOnBigTimeComplexity.png, id=42, 692.5875pt x 423.5825pt>
-File: FocusedViewOnBigTimeComplexity.png Graphic file (type png)
-<use FocusedViewOnBigTimeComplexity.png>
-Package pdftex.def Info: FocusedViewOnBigTimeComplexity.png  used on input line
- 157.
-(pdftex.def)             Requested size: 278.23828pt x 170.17328pt.
- [6 <./FocusedViewOnBigTimeComplexity.png>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+ <./timeComplexityoverall.png> <./ResultsOverallView.png>]
+<overallInts.png, id=44, 758.835pt x 460.72125pt>
+File: overallInts.png Graphic file (type png)
+<use overallInts.png>
+Package pdftex.def Info: overallInts.png  used on input line 162.
+(pdftex.def)             Requested size: 278.23828pt x 168.93164pt.
+<ramUsageSize.png, id=45, 754.82pt x 466.74374pt>
+File: ramUsageSize.png Graphic file (type png)
+<use ramUsageSize.png>
+Package pdftex.def Info: ramUsageSize.png  used on input line 170.
+(pdftex.def)             Requested size: 278.23828pt x 172.04437pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<differentAlgorithmsRAM.png, id=46, 755.82375pt x 462.72874pt>
+File: differentAlgorithmsRAM.png Graphic file (type png)
+<use differentAlgorithmsRAM.png>
+Package pdftex.def Info: differentAlgorithmsRAM.png  used on input line 177.
+(pdftex.def)             Requested size: 278.23828pt x 170.33849pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./overallInts.png>] [7 <./ramUsageSize.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-[8] (./report_template_singleFile.aux)
+[8 <./differentAlgorithmsRAM.png>] [9] (./report_template_singleFile.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -669,10 +688,10 @@ Package logreq Info: Writing requests to 'report_template_singleFile.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12303 strings out of 480608
- 224805 string characters out of 5903629
- 782769 words of memory out of 5000000
- 28059 multiletter control sequences out of 15000+600000
+ 12321 strings out of 480608
+ 224922 string characters out of 5903629
+ 782745 words of memory out of 5000000
+ 28077 multiletter control sequences out of 15000+600000
  538375 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,42p,1151b,1657s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -684,10 +703,10 @@ r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report_template_singleFile.pdf (12 pages, 184531 bytes).
+Output written on report_template_singleFile.pdf (13 pages, 407525 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
