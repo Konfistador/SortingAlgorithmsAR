@@ -48,8 +48,8 @@ This Paper describes an experiment, under the form of an Empirical analysis of f
 \pagenumbering{arabic}	
 	
 \section{Introduction}
-The Purpouse of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
-The main question of this research is: How does the time complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. [1]
+The Purpose of this section is to introduce what is sorting algorithms and history of them, so there is general understanding about what is sorting algorithm. Introduce sorting algorithms used in research to get principle of working of different algorithms. And most importantly introduce the main research question. Also, this section will discuss problems, considerations and the hypothesis.
+The main question of this research is: How does the time and space complexity of different sorting algorithms changes with increasing number of elements? It is important to learn about time and space complexity of sorting algorithms as this discipline gives us the potential to reap huge savings, even to the point of enabling us to do tasks that would otherwise be impossible. [1]
 
 \subsection{Context and Background}
 	In computer science, a sorting algorithm is an algorithm that takes elements of a list and puts them into an order - ascending or descending. The most popular values used are numerical and lexicographical order. It is important to have efficient sorting for optimising other algorithms, such as merge and search algorithms, as they require data to be in sorted list.
@@ -73,9 +73,11 @@ The main question of this research is: How does the time complexity of different
 		On the other side of the sorting algorithm spectrum there is BogoSort. It was designed as a joke about how not to design sorting algorithms. BogoSort takes and randomly swaps places all elements of the list and repeats it until the list is sorted. Complexity of BogoSort algorithm is O((n+1)!).
 
 \subsection{Hypothesis, Problems and Considerations}
-Derived from main research question, we can make a hypothesis that we are going to see a growth of the Time Complexity, towards Size of Collection.
+Derived from main research question, we can make a hypothesis that we are going to see a growth of the Time and Space Complexity, towards Size of Collection.
 		\subsubsection{Time Complexity and the importance of it.}
 		Time complexity or more known as big O notation is a equation that describes how the runtime scales in respect to input variables. As time complexity describes the relationship between runtime and input variables it can b e said, that big O notation is used to have a rough approximation of how the program will react to being scaled and when it ism used to solve larger problems. [7]
+		\subsubsection{Space Complexity and the importance of it.}
+		Space complexity of an algorithm is a amount of memory space required to solve an instance of computational problem. Similarly to Time complexity, Space complexity also uses big O notation. Space complexity is important, because when working in a limited environment, there is a chance that process or a function can exceed the amount of space that system has.
 		\subsubsection{Factors, operating on Time Complexity.}
 		Determining the time complexity of an algorithm is important, and is done by few steps:
 			-Breaking algorithm into individual operations.
@@ -90,6 +92,12 @@ Derived from main research question, we can make a hypothesis that we are going 
 		O(log n) - Finding an item in a sorted array using a binary search.
 		O(n2) - Bubble sort or Insertion sort.
 		O(n!) - Solving the traveling salesman problem using just brute-force search.
+		\subsubsection{Factors, operating on Space Complexity.}\
+		To determine algorithms space complexity, it is enough to calculate the space occupied by the variables used in an algorithm.
+		
+		There are few common. cases of big O:
+		 O(1) - Bubble Sort, Selection Sort, Insertion Sort.
+		 O(n) - Merge Sort, Quick Sort.
 		\subsubsection{Different methods of approaching our Research question.}
 		
 \section{Methodology}
